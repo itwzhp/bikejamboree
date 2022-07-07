@@ -1,0 +1,28 @@
+@mixin bike-link {
+  text-decoration: none;
+  color: $brand-red;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.1s ease-in-out;
+  font-size: 16px;
+  &:hover {
+    color: lighten($brand-red, 10);
+  }
+}
+
+@mixin bike-link--small {
+  font-size: 14px;
+}
+
+@mixin bike-link__icon {
+  color: $brand-yellow;
+  display: inline-flex;
+}
+
+@mixin bike-link__content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}

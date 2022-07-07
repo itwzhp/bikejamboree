@@ -12,23 +12,31 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:js && npm run lint:style && npm run lint:prettier",
     "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix && npm run lint:style -- --fix",
-    "test": "jest"
+    "test": "jest",
+    "deploy:staging": "rsync -ave ssh --delete .nuxt/* hufiec:~/websites/coco-jumbo/.nuxt",
+    "deploy:staging:full": "rsync -ave ssh --delete --include '.*' --exclude='.git' --exclude='node_modules' --exclude='dist' --exclude='.nuxt' * hufiec:~/websites/coco-jumbo",
+    "restart:staging": "ssh hufiec 'touch ~/websites/coco-jumbo/tmp/restart.txt'"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/style-resources": "^1.2.1",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "nuxt-leaflet": "^0.0.27",
     "vue": "^2.6.14",
+    "vue-screen": "^1.5.6",
     "vue-server-renderer": "^2.6.14",
+    "vue-snap": "^0.7.1",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "webpack": "^4.46.0",
+    "wp-nuxt": "^1.0.30"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
+    "@nuxtclub/feathericons": "^1.0.0",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/stylelint-module": "^4.1.0",
     "@vue/test-utils": "^1.3.0",
     "babel-core": "7.0.0-bridge.0",
