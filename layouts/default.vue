@@ -11,20 +11,24 @@
 <script>
 export default {
   name: 'DefaultLayout',
-  head () {
+  head() {
     return {
       meta: [
-        { hid: 'og:image', property: 'og:image', content: `${this.$config.HOSTNAME}/og-image.jpg` }
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: `${this.$config.HOSTNAME}/og-image.jpg`,
+        },
       ],
       script: [
         {
-          'data-goatcounter': "https://bikejamboree.goatcounter.com/count",
+          'data-goatcounter': 'https://bikejamboree.goatcounter.com/count',
           async: true,
-          src: "//gc.zgo.at/count.js"
-        }
-      ]
+          src: '//gc.zgo.at/count.js',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 

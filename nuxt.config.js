@@ -54,7 +54,7 @@ export default {
     [
       'wp-nuxt',
       {
-        endpoint: `${process.env.WORDPRESS_URL}/wp-json`
+        endpoint: `${process.env.WORDPRESS_URL}/wp-json`,
       },
     ],
     [
