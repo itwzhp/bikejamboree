@@ -57,7 +57,9 @@ export default {
       ]
     },
     inlineStyle() {
-      return this.backgroundImage ? `background-image: url(${this.backgroundImage})` : ''
+      return this.backgroundImage
+        ? `background-image: url(${this.backgroundImage})`
+        : ''
     },
   },
 }

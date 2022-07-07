@@ -7,7 +7,7 @@
         :center="[45, 35]"
         :options="{
           attributionControl: false,
-          scrollWheelZoom: false
+          scrollWheelZoom: false,
         }"
         class="bike-map"
       >
