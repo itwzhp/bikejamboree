@@ -18,6 +18,7 @@
     "restart:staging": "ssh hufiec 'touch ~/websites/coco-jumbo/tmp/restart.txt'"
   },
   "dependencies": {
+    "@nuxtclub/feathericons": "^1.0.0",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/style-resources": "^1.2.1",
     "@nuxtjs/pwa": "^3.3.5",
@@ -34,7 +35,6 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
-    "@nuxtclub/feathericons": "^1.0.0",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/stylelint-module": "^4.1.0",
