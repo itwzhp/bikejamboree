@@ -2,11 +2,12 @@ FROM node:14.15.0-alpine as build
 
 WORKDIR /usr/src/app
 COPY package.json /usr/src/app/package.json
-RUN npm install
+COPY package-lock.json /usr/src/app/package-lock.json
+RUN npm ci
 
 COPY . /usr/src/app/
 RUN npm run build
-RUN npm install
+RUN npm ci --only=production
 
 FROM node:14.15.0-alpine as run
 
