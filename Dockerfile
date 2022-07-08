@@ -17,7 +17,7 @@ COPY --from=build /usr/src/app/static static
 COPY --from=build /usr/src/app/node_modules node_modules
 COPY --from=build /usr/src/app/package.json .
 COPY --from=build /usr/src/app/nuxt.config.js .
-COPY --from=build /usr/src/app/.env* .
+COPY --from=build /usr/src/app/.env* ./
 COPY --from=build /usr/src/app/.nuxt .nuxt
 
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
