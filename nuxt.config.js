@@ -54,7 +54,9 @@ export default {
     [
       'wp-nuxt',
       {
-        endpoint: `${process.env.WORDPRESS_URL}/wp-json`,
+        // TODO: use env variable as wordpress Url
+        // endpoint: `${process.env.WORDPRESS_URL}/wp-json`,
+        endpoint: `https://bikejamboree.pl/wp-json`,
       },
     ],
     [
