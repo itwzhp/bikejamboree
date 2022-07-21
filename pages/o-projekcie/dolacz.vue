@@ -3,7 +3,7 @@
     <BikeSection width="narrow" class="mb-30">
       <BikeHeading> Dołącz do nas </BikeHeading>
       <BikeParagraph>
-        W "jednoŚladami Andersa" można wziąć udział na kilka sposobów:
+        W "JednoŚladami Andersa" można wziąć udział na kilka sposobów:
       </BikeParagraph>
       <BikeUnorderedList class="mb-75">
         <li>Pojedź w sztafecie</li>

@@ -4,7 +4,7 @@
       <BikeHeading> O projekcie </BikeHeading>
 
       <BikeParagraph>
-        "jednoŚladami Andersa" to projekt podróżniczy polegający na przejechaniu
+        "JednoŚladami Andersa" to projekt podróżniczy polegający na przejechaniu
         w sztafecie rowerowej szlaku armii gen. Andersa, która formowała się na
         terenie obwodu orenburskiego w środkowym biegu Wołgi od 1941 roku.
       </BikeParagraph>
@@ -64,7 +64,7 @@
       </BikeHeading>
       <BikeParagraph>
         Projekt rozpoczyna się w roku 2022 serią akcji upamiętniających
-        wydarzenia sprzed 80 lat, ale zobaczycie nas już pod koniec 2021roku w
+        wydarzenia sprzed 80 lat, ale zobaczycie nas już pod koniec 2021 roku w
         kilku ważnych dla ZHP miejscach.
       </BikeParagraph>
       <BikeParagraph>

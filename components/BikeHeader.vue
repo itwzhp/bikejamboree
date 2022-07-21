@@ -44,7 +44,7 @@ export default {
   top: 0;
   z-index: 9999;
   background: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   &__container {
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,7 @@ export default {
 
 @include screen-size('tablet') {
   .bike-header {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     &__container {
       height: 100px;
     }

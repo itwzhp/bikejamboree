@@ -2,7 +2,7 @@
   <BikeSection columns-desktop="2" class="bike-introduction mb-75">
     <article class="bike-introduction__article">
       <BikeHeading>
-        Harcerska sztafeta rowerowa "jednoŚladami Andersa"
+        Harcerska sztafeta rowerowa "JednoŚladami Andersa"
       </BikeHeading>
       <BikeParagraph class="bike-introduction__paragraph">
         "JednoŚladami Andersa" to projekt podróżniczy polegający na przejechaniu
@@ -43,7 +43,7 @@
     </article>
     <BikeVideo
       youtube-url="https://youtu.be/uykmuqvMVLw"
-      heading="Dlaczego jadę jednoŚladami Andersa?"
+      heading="Dlaczego jadę JednoŚladami Andersa?"
     />
   </BikeSection>
 </template>
