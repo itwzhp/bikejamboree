@@ -56,7 +56,7 @@ export default {
       {
         // TODO: use env variable as wordpress Url
         // endpoint: `${process.env.WORDPRESS_URL}/wp-json`,
-        endpoint: `https://bikejamboree.pl/wp-json`,
+        endpoint: `https://work.bikejamboree.pl/wp-json`,
       },
     ],
     [
