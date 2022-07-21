@@ -3,7 +3,7 @@
     <BikeSection width="narrow" class="mb-30">
       <BikeHeading> Ludzie </BikeHeading>
       <BikeParagraph>
-        W organizację projektu jednoŚladami Andersa zaangażowanych jest wiele
+        W organizację projektu JednoŚladami Andersa zaangażowanych jest wiele
         osób cenionych w środowisku podróżniczym i harcerskim. Trzon zespołu
         stanowią:
       </BikeParagraph>
@@ -83,7 +83,7 @@
         małych i dużych. Niezmiennie zakochany mąż Beaty, tata Halszki i
         Szymona. Czynny harcerz. Lubi czytać książki przede wszystkim
         historyczne, kiedyś o przygodach Tomka Wilmowskiego. W projekcie
-        jednoŚladami Andersa odpowiedzialny za archiwizację materiałów
+        JednoŚladami Andersa odpowiedzialny za archiwizację materiałów
         fotograficznych oraz filmowych.
       </BikeParagraph>
     </BikeBiography>
@@ -100,7 +100,7 @@
         najbardziej na świecie lubi spędzać czas. Zaangażowana w działalność
         Hufca ZHP Trzcianka, jako członek Kręgu Instruktorskiego “Ogień” i w
         różne społeczne aktywności. Uczestniczka XVII etapu Bike Jamboree z
-        Homer do Fairbanks na Alasce. W projekcie jednoŚladami Andersa
+        Homer do Fairbanks na Alasce. W projekcie JednoŚladami Andersa
         odpowiedzialna za pracę wirtualnego biura.
       </BikeParagraph>
     </BikeBiography>
@@ -113,7 +113,7 @@
     >
       <BikeParagraph>
         Na co dzień handlowiec i laborant w firmie zajmującej się produkcją
-        przyrządów pomiarowych. Instruktor harcerski od ponad 35 lat. Pełniłem
+        przyrządów pomiarowych. Instruktor harcerski od ponad 35 lat. Pełnił
         różne funkcje m.in. drużynowego, komendanta hufca Zielona Góra,
         skarbnika Chorągwi Ziemi Lubuskiej, członka Rady Naczelnej ZHP.
         Wieloletni kształceniowiec liderów zespołów. Oficer rezerwy Wojska
@@ -141,7 +141,7 @@
         komendantki hufca, a ostatnio zastępczyni komendanta chorągwi.
         Harcerstwo to wyzwania, które przekłada na wszystkie dziedziny swojego
         życia. Nie umie siedzieć w miejscu, uwielbia podróże te dalekie, ale
-        bardziej docenia te bliskie, gdzie poznaje swój ukochany region- Warmia.
+        bardziej docenia te bliskie, gdzie poznaje swój ukochany region - Warmię.
         W wolnych chwilach biega, ćwicząc przed maratonem, jeździ na rowerze
         szukając ciągle to nowych ciekawych miejsc, morsuje hartując swoje
         ciało. Najlepiej czuje się w bliskim kontakcie z naturą, jest
@@ -169,7 +169,7 @@
         jest członkinią Rady Chorągwi Łódzkiej oraz przewodniczącą Hufcowej
         Komisji Rewizyjnej i szefową chorągwianego programu #lodzkadbaozdrowie.
         Wyznawca praktykujący EKO i FIT. Uwielbia gotować, jeść zdrowo i jest
-        turbo aktywna sportowo. Tańczy, żegluje po morzu, nurkuje wspina się,
+        turbo aktywna sportowo. Tańczy, żegluje po morzu, nurkuje, wspina się,
         wchodzi na góry wysokie i bardzo wysokie, trenuje (m.in. kalistenikę) i
         trenuje innych, stara się czasem jogować i rollować, biega, w tym
         przeszkodowo. Absolutnie kocha podróże! W wolnych chwilach - działacz i
@@ -189,9 +189,9 @@
         Jechała w etapie 34 BJ - z Barcelony do Genewy, przez Pireneje i Alpy.
       </BikeParagraph>
       <BikeParagraph>
-        W projekcie “jednoŚladami Andersa” odpowiada za obszar promocji i
+        W projekcie “JednoŚladami Andersa” odpowiada za obszar promocji i
         informacji, czyli komunikację z mediami, produkcję filmową, wsparcie
-        graficzne dla pozostałych obszarów, za sołszale oraz www.
+        graficzne dla pozostałych obszarów, za sołszjale oraz www.
       </BikeParagraph>
     </BikeBiography>
 

@@ -9,7 +9,7 @@
         >
       </NuxtLink>
       <BikeParagraph no-margin>
-        Harcerska sztafeta rowerowa "jednoŚladami Andersa"
+        Harcerska sztafeta rowerowa "JednoŚladami Andersa"
       </BikeParagraph>
     </section>
     <section class="bike-footer__section bike-footer__section--lower">

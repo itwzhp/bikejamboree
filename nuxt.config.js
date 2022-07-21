@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'jednoŚladami Andersa - harcerska sztafeta rowerowa',
+    title: 'JednoŚladami Andersa - harcerska sztafeta rowerowa',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -81,8 +81,8 @@ export default {
   pwa: {
     manifest: {
       lang: 'pl',
-      name: 'jednoŚladami Andersa',
-      short_name: 'jednoŚladami Andersa',
+      name: 'JednoŚladami Andersa',
+      short_name: 'JednoŚladami Andersa',
       description: 'Harcerska sztafeta rowerowa szlakiem Armii Andersa',
       display: 'browser',
       theme_color: '#ca161aff',

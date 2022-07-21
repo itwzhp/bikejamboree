@@ -61,7 +61,7 @@
           Afryka Nowaka 2009-2011
         </BikeHeading>
         <BikeParagraph> Sztafeta śladami Kazimierza Nowaka. </BikeParagraph>
-        <BikeExternalLink :with-icon="false" to="https://afrykanowaka.pl/">
+        <BikeExternalLink :with-icon="false" to="http://afrykanowaka.pl/">
           Strona wyprawy
         </BikeExternalLink>
       </article>
