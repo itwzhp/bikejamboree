@@ -85,7 +85,7 @@ export default {
   build: {},
 
   publicRuntimeConfig: {
-    HOSTNAME: process.env.HOSTNAME,
+    APP_URL: process.env.APP_URL,
     MAPBOX_KEY: process.env.MAPBOX_KEY,
   },
 }
