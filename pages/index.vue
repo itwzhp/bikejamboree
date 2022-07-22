@@ -16,8 +16,12 @@
 <script>
 export default {
   name: 'IndexPage',
-  async asyncData({ app, store, params }) {
-    return { articles: await app.$wp.posts().perPage(3) }
+  async asyncData({ $axios }) {
+    let articles = []
+    articles = await $axios
+      .$get('https://work.bikejamboree.pl/wp-json/wp/v2/posts?per_page=3')
+      .catch((e) => console.error(e))
+    return { articles }
   },
 }
 </script>

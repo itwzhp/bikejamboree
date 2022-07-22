@@ -1,10 +1,10 @@
 <template>
-  <BikeSection width="narrow">
+  <BikeSection v-if="postData && postData[0]" width="narrow">
     <BikeHeading>
       <span v-html="postData[0].title.rendered" />
     </BikeHeading>
     <div
-      v-if="postData[0] && postData[0].content"
+      v-if="postData[0].content"
       class="bike-post"
       v-html="postData[0].content.rendered"
     />
@@ -14,8 +14,13 @@
 <script>
 export default {
   name: 'BlogPage',
-  async asyncData({ app, route }) {
-    return { postData: await app.$wp.posts().slug(route.params.slug) }
+
+  async asyncData({ $axios, route }) {
+    let postData = []
+    postData = await $axios
+      .$get(`https://work.bikejamboree.pl/wp-json/wp/v2/posts?slug=${route.params.slug}`)
+      .catch((e) => console.error(e))
+    return { postData }
   },
 }
 </script>
