@@ -10,8 +10,13 @@
 <script>
 export default {
   name: 'NewsPage',
-  async asyncData({ app, store, params }) {
-    return { articles: await app.$wp.posts().perPage(9) }
+
+  async asyncData({ $axios }) {
+    let articles = []
+    articles = await $axios
+      .$get('https://work.bikejamboree.pl/wp-json/wp/v2/posts?per_page=9')
+      .catch((e) => console.error(e))
+    return { articles }
   },
 }
 </script>

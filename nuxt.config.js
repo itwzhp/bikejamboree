@@ -52,14 +52,6 @@ export default {
     '@nuxtjs/pwa',
     'nuxt-leaflet',
     [
-      'wp-nuxt',
-      {
-        // TODO: use env variable as wordpress Url
-        // endpoint: `${process.env.WORDPRESS_URL}/wp-json`,
-        endpoint: `https://work.bikejamboree.pl/wp-json`,
-      },
-    ],
-    [
       'vue-screen/nuxt',
       {
         sm: 0,
