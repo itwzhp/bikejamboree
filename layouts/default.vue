@@ -17,7 +17,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `${this.$config.HOSTNAME}/og-image.jpg`,
+          content: `${this.$config.APP_URL}/og-image.jpg`,
         },
       ],
       script: [
