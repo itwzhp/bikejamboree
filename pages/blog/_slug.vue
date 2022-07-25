@@ -32,5 +32,23 @@ export default {
   p {
     @extend .bike-paragraph !optional;
   }
+
+  .wp-block-embed {
+    margin: 16px 0;
+    max-width: 100%
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+
+  figure {
+    margin: 16px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 </style>
