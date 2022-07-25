@@ -15,7 +15,7 @@
     >
       <img
         class="bike-partners__logo"
-        :src="require(`~/assets/images/${partner.imageFilename}`)"
+        :src="require(`~/assets/images/partners/${partner.imageFilename}`)"
         :alt="partner.imageAlt"
       >
     </a>
@@ -56,6 +56,11 @@ export default {
           websiteUrl: 'https://namioty.marabut.com/',
           imageFilename: 'marabut-logo.webp',
           imageAlt: 'Marabut logo',
+        },
+        {
+          websiteUrl: 'https://rp.pl/',
+          imageFilename: 'rzeczpospolita-logo.webp',
+          imageAlt: 'Rzeczpospolita logo',
         },
       ],
     }
