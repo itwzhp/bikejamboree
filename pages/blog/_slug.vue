@@ -1,5 +1,6 @@
 <template>
   <BikeSection v-if="postData && postData[0]" width="narrow">
+    <BikeBreadcrumbs :breadcrumbs-list="breadcrumbs" />
     <BikeHeading no-bottom-margin>
       <span v-html="postData[0].title.rendered" />
     </BikeHeading>
@@ -26,6 +27,18 @@ export default {
   computed: {
     postDate() {
       return new Date(this.postData[0].date).toLocaleDateString()
+    },
+
+    breadcrumbs() {
+      return [
+        {
+          label: 'Blog',
+          href: '/blog'
+        },
+        {
+          label: this.postData[0].title.rendered
+        }
+      ]
     }
   }
 }
