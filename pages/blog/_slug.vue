@@ -1,8 +1,9 @@
 <template>
   <BikeSection v-if="postData && postData[0]" width="narrow">
-    <BikeHeading>
+    <BikeHeading no-bottom-margin>
       <span v-html="postData[0].title.rendered" />
     </BikeHeading>
+    <span class="bike-post__date">{{ postDate }}</span>
     <div
       v-if="postData[0].content"
       class="bike-post"
@@ -22,6 +23,11 @@ export default {
       .catch((e) => console.error(e))
     return { postData }
   },
+  computed: {
+    postDate() {
+      return new Date(this.postData[0].date).toLocaleDateString()
+    }
+  }
 }
 </script>
 
@@ -29,6 +35,12 @@ export default {
 .bike-post {
   color: $text-color;
   line-height: 1.5;
+
+  &__date {
+    font-size: 12px;
+    color: $text-color;
+  }
+
   p {
     @extend .bike-paragraph !optional;
   }
