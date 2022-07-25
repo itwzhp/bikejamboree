@@ -6,12 +6,8 @@
       </NuxtLink>
     </li>
     <li v-for="(breadcrumb, i) in breadcrumbsList" :key="`breadcrumb-${i}`" class="bike-breadcrumbs__item">
-      <NuxtLink v-if="breadcrumb.href" :to="breadcrumb.href" class="bike-breadcrumbs__link">
-        {{ breadcrumb.label }}
-      </NuxtLink>
-      <template v-else>
-        {{ breadcrumb.label }}
-      </template>
+      <NuxtLink v-if="breadcrumb.href" :to="breadcrumb.href" class="bike-breadcrumbs__link" v-html="breadcrumb.label" />
+      <span v-else v-html="breadcrumb.label" />
     </li>
   </ul>
 </template>
