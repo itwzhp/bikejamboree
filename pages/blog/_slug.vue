@@ -20,7 +20,9 @@ export default {
   async asyncData({ $axios, route }) {
     let postData = []
     postData = await $axios
-      .$get(`https://work.bikejamboree.pl/wp-json/wp/v2/posts?slug=${route.params.slug}`)
+      .$get(
+        `https://work.bikejamboree.pl/wp-json/wp/v2/posts?slug=${route.params.slug}`
+      )
       .catch((e) => console.error(e))
     return { postData }
   },
@@ -33,14 +35,14 @@ export default {
       return [
         {
           label: 'Blog',
-          href: '/blog'
+          href: '/blog',
         },
         {
-          label: this.postData[0].title.rendered
-        }
+          label: this.postData[0].title.rendered,
+        },
       ]
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -60,7 +62,7 @@ export default {
 
   .wp-block-embed {
     margin: 16px 0;
-    max-width: 100%
+    max-width: 100%;
   }
 
   iframe {
