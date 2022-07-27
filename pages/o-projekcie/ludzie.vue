@@ -141,10 +141,10 @@
         komendantki hufca, a ostatnio zastępczyni komendanta chorągwi.
         Harcerstwo to wyzwania, które przekłada na wszystkie dziedziny swojego
         życia. Nie umie siedzieć w miejscu, uwielbia podróże te dalekie, ale
-        bardziej docenia te bliskie, gdzie poznaje swój ukochany region - Warmię.
-        W wolnych chwilach biega, ćwicząc przed maratonem, jeździ na rowerze
-        szukając ciągle to nowych ciekawych miejsc, morsuje hartując swoje
-        ciało. Najlepiej czuje się w bliskim kontakcie z naturą, jest
+        bardziej docenia te bliskie, gdzie poznaje swój ukochany region -
+        Warmię. W wolnych chwilach biega, ćwicząc przed maratonem, jeździ na
+        rowerze szukając ciągle to nowych ciekawych miejsc, morsuje hartując
+        swoje ciało. Najlepiej czuje się w bliskim kontakcie z naturą, jest
         kolekcjonerką zachodów słońca, dużo spaceruje i wędruje po lesie. Nie
         wyobraża sobie wakacji bez obozu, wieczoru bez ogniska z gitarą,
         weekendu bez wycieczki pod namiot czy wypadu na żagle. Umysł wycisza
@@ -223,6 +223,25 @@
       <BikeParagraph>
         W projekcie odpowiedzialna za inspirujące, wiele wnoszące, radosne i
         niczym nieograniczone – zasoby ludzkie &lt;3.
+      </BikeParagraph>
+    </BikeBiography>
+
+    <BikeBiography
+      class="mb-75"
+      name="Adam Zawadzki"
+      :photo-path="require('~/assets/images/people/adam-zawadzki.webp')"
+    >
+      <BikeParagraph>
+        Dla niego „nie możliwe staje się możliwym”. W ZHP przeszedł drogę od
+        zucha do rzecznika prasowego organizacji (2007-2010).
+      </BikeParagraph>
+      <BikeParagraph>
+        Zawodowo związany z mediami (od papieru, fal eteru i telewizji do
+        elektronicznych). Kocha góry i historię. Miłośnik jednośladów (ostrego
+        koła i rowerów elektrycznych). Prezes działającej od 2016 r. Fundacji
+        „Dziękujemy za Wolność", obecnie realizującej projekt
+        #ApteczkadlaUkrainy. W projekcie JednoŚladami Andersa pełni funkcję
+        rzecznika prasowego.
       </BikeParagraph>
     </BikeBiography>
   </main>
