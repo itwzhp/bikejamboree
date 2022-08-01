@@ -1,6 +1,14 @@
 <template>
   <BikeCard class="bike-news-card">
-    <div class="bike-news-card__image-placeholder" />
+    <div class="bike-news-card__image-container">
+      <BikeImage
+        v-if="image"
+        :img-src="image"
+        img-alt="Loader"
+        class="bike-news-card__image"
+      />
+      <div v-else class="bike-news-card__image-placeholder" />
+    </div>
     <footer class="bike-news-card__footer">
       <div class="bike-news-card__date">
         {{ date }}
@@ -37,6 +45,10 @@ export default {
       type: String,
       default: null,
     },
+    image: {
+      type: String,
+      default: null,
+    },
   },
 }
 </script>
@@ -45,6 +57,15 @@ export default {
 .bike-news-card {
   display: flex;
   flex-direction: column;
+  &__image-container {
+    width: 100%;
+    aspect-ratio: 1.78;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+  }
+  &__image {
+    width: 100%;
+  }
   &__image-placeholder {
     width: 100%;
     aspect-ratio: 1.78;

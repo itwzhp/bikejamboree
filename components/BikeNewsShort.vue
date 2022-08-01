@@ -10,6 +10,7 @@
           :heading-content="article.title.rendered"
           :date="formatDate(article.date)"
           :href="`blog/${article.slug}`"
+          :image="article.rest_media"
           class="bike-news-short__card"
         />
       </slide>
@@ -21,6 +22,7 @@
         :heading-content="article.title.rendered"
         :date="formatDate(article.date)"
         :href="`blog/${article.slug}`"
+        :image="article.rest_media"
         class="bike-news-short__card"
       />
     </BikeSection>
