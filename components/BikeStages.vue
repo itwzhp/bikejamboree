@@ -334,7 +334,7 @@ export default {
           startPoint: this.stops[13],
           startDate: new Date(2023, 5, 16),
           finishPoint: this.stops[14],
-          finishDate: new Date(2023, 5, 28),
+          finishDate: new Date(2023, 5, 26),
           distance: '800 km',
           previousStages: [12],
           nextStages: [14],
@@ -342,7 +342,7 @@ export default {
         {
           name: 'Etap XII East',
           startPoint: this.stops[14],
-          startDate: new Date(2023, 5, 29),
+          startDate: new Date(2023, 5, 27),
           finishPoint: this.stops[15],
           finishDate: new Date(2023, 6, 8),
           distance: '650 km',
