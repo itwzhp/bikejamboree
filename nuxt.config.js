@@ -86,6 +86,7 @@ export default {
 
   publicRuntimeConfig: {
     APP_URL: process.env.APP_URL,
+    WORDPRESS_URL: process.env.WORDPRESS_URL,
     MAPBOX_KEY: process.env.MAPBOX_KEY,
   },
 }
