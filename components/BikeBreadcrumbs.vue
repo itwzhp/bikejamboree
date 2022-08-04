@@ -5,8 +5,17 @@
         <BikeIcon class="bike-breadcrumbs__icon" icon="home" />
       </NuxtLink>
     </li>
-    <li v-for="(breadcrumb, i) in breadcrumbsList" :key="`breadcrumb-${i}`" class="bike-breadcrumbs__item">
-      <NuxtLink v-if="breadcrumb.href" :to="breadcrumb.href" class="bike-breadcrumbs__link" v-html="breadcrumb.label" />
+    <li
+      v-for="(breadcrumb, i) in breadcrumbsList"
+      :key="`breadcrumb-${i}`"
+      class="bike-breadcrumbs__item"
+    >
+      <NuxtLink
+        v-if="breadcrumb.href"
+        :to="breadcrumb.href"
+        class="bike-breadcrumbs__link"
+        v-html="breadcrumb.label"
+      />
       <span v-else v-html="breadcrumb.label" />
     </li>
   </ul>
@@ -14,14 +23,14 @@
 
 <script>
 export default {
-  name: "BikeBreadcrumbs",
+  name: 'BikeBreadcrumbs',
 
   props: {
     breadcrumbsList: {
       type: Array,
-      default: () => []
-    }
-  }
+      default: () => [],
+    },
+  },
 }
 </script>
 
@@ -61,7 +70,7 @@ export default {
       overflow: hidden;
       text-overflow: ellipsis;
       &:after {
-        content: none
+        content: none;
       }
     }
   }
