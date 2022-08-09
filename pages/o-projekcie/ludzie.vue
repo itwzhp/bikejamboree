@@ -39,6 +39,7 @@
     <BikeBiography
       class="mb-75"
       name="Zbigniew Sas"
+      :photo-path="require('~/assets/images/people/zbigniew-sas.webp')"
       email="zbigniew.sas@zhp.net.pl"
     >
       <BikeParagraph>
