@@ -32,12 +32,12 @@
 </template>
 
 <script>
-import {stopsData, stagesData} from '@/helpers/stages.js'
+import { stopsData, stagesData } from '@/helpers/stages.js'
 
 export default {
   data() {
     return {
-      currentStageIndex: -1
+      currentStageIndex: -1,
     }
   },
   computed: {
@@ -46,7 +46,7 @@ export default {
     },
     stages() {
       return stagesData
-    }
+    },
   },
   methods: {
     selectStage(i) {

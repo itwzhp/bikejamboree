@@ -1,4 +1,4 @@
-export const stopsData =  [
+export const stopsData = [
   {
     lat: 51.1762,
     lon: 71.5048,
