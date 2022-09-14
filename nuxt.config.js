@@ -102,11 +102,11 @@ export default {
           },
           blog: {
             pl: 'blog',
-            en: false
+            en: false,
           },
           'blog/_': {
             pl: 'blog/:_',
-            en: false
+            en: false,
           },
           kontakt: {
             pl: '/kontakt',
@@ -114,8 +114,8 @@ export default {
           },
         },
         detectBrowserLanguage: {
-          useCookie: false
-        }
+          useCookie: false,
+        },
       },
     ],
   ],

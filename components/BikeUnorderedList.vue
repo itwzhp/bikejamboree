@@ -9,15 +9,18 @@ export default {
   props: {
     noMargin: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
 
   computed: {
     classes() {
-      return ['bike-unordered-list', {'bike-unordered-list--no-margin': this.noMargin}]
-    }
-  }
+      return [
+        'bike-unordered-list',
+        { 'bike-unordered-list--no-margin': this.noMargin },
+      ]
+    },
+  },
 }
 </script>
 

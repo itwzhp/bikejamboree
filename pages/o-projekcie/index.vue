@@ -1,7 +1,9 @@
 <template>
   <main>
     <BikeSection width="narrow">
-      <BikeHeading> {{ $t('about_the_project.about_the_project') }} </BikeHeading>
+      <BikeHeading>
+        {{ $t('about_the_project.about_the_project') }}
+      </BikeHeading>
 
       <BikeParagraph>
         {{ $t('about_the_project.travel_project_during_which') }}

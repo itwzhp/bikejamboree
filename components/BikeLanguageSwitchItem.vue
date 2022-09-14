@@ -1,7 +1,5 @@
 <template>
-  <li
-    class="bike-language-switch-item"
-  >
+  <li class="bike-language-switch-item">
     <NuxtLink
       class="bike-language-switch-item__link"
       :to="switchLocalePath(locale.code)"
@@ -24,9 +22,9 @@ export default {
   props: {
     locale: {
       type: Object,
-      default: () => {}
-    }
-  }
+      default: () => {},
+    },
+  },
 }
 </script>
 

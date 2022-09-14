@@ -13,7 +13,11 @@
       <BikeHeading level="2">
         {{ $t('join_us.registration') }}
       </BikeHeading>
-      <BikeParagraph>{{ $t('join_us.currently_we_are_seeking_riders') }}</BikeParagraph>
+      <BikeParagraph>
+        {{
+          $t('join_us.currently_we_are_seeking_riders')
+        }}
+      </BikeParagraph>
       <BikeTable>
         <tr>
           <td>{{ $t('join_us.stage') }}</td>
@@ -36,9 +40,7 @@
           </td>
           <td v-if="$i18n.locale === 'pl'">
             <BikeUnorderedList no-margin>
-              <li>
-                harcerza lub harcerka - spec mechaniki rowerowej
-              </li>
+              <li>harcerza lub harcerka - spec mechaniki rowerowej</li>
             </BikeUnorderedList>
           </td>
         </tr>
@@ -54,15 +56,9 @@
           </td>
           <td v-if="$i18n.locale === 'pl'">
             <BikeUnorderedList no-margin>
-              <li>
-                spec od nowych mediów
-              </li>
-              <li>
-                spec od serwisu roweru
-              </li>
-              <li>
-                człowiek otwarty na realizację spotkań z ludźmi
-              </li>
+              <li>spec od nowych mediów</li>
+              <li>spec od serwisu roweru</li>
+              <li>człowiek otwarty na realizację spotkań z ludźmi</li>
             </BikeUnorderedList>
           </td>
         </tr>

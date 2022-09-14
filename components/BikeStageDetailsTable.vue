@@ -7,7 +7,9 @@
         {{ $t('route.start') }}:
       </td>
       <td class="bike-stage-details-table__cell">
-        {{ $t(`places.${stageData.startPoint.city}`) }} ({{ $t(`places.${stageData.startPoint.country}`) }})
+        {{ $t(`places.${stageData.startPoint.city}`) }} ({{
+          $t(`places.${stageData.startPoint.country}`)
+        }})
         <br>
         {{ stageData.startDate.toLocaleDateString() }}
       </td>
@@ -19,7 +21,9 @@
         {{ $t('route.finish') }}:
       </td>
       <td class="bike-stage-details-table__cell">
-        {{ $t(`places.${stageData.finishPoint.city}`) }} ({{ $t(`places.${stageData.finishPoint.country}`) }})
+        {{ $t(`places.${stageData.finishPoint.city}`) }} ({{
+          $t(`places.${stageData.finishPoint.country}`)
+        }})
         <br>
         {{ stageData.finishDate.toLocaleDateString() }}
       </td>

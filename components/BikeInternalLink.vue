@@ -24,8 +24,8 @@ export default {
     },
     disableLocalePath: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   computed: {
     classes() {
@@ -33,7 +33,7 @@ export default {
     },
     linkDestination() {
       return this.disableLocalePath ? this.to : this.localePath(this.to)
-    }
+    },
   },
 }
 </script>

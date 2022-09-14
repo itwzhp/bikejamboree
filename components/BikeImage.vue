@@ -1,5 +1,5 @@
 <template>
-  <img class="bike-image" :src="imgSrc" :alt="imgAlt" />
+  <img class="bike-image" :src="imgSrc" :alt="imgAlt">
 </template>
 
 <script>

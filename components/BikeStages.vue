@@ -17,7 +17,8 @@
       >
         {{ $t(`stages.${st.name}`) }}
         <span class="bike-stages__link-details">
-          ({{ $t(`places.${st.startPoint.city}`) }} - {{ $t(`places.${st.finishPoint.city}`) }})
+          ({{ $t(`places.${st.startPoint.city}`) }} -
+          {{ $t(`places.${st.finishPoint.city}`) }})
         </span>
       </BikeButton>
     </div>

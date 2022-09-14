@@ -17,7 +17,7 @@
         class="bike-partners__logo"
         :src="require(`~/assets/images/partners/${partner.imageFilename}`)"
         :alt="partner.imageAlt"
-      />
+      >
     </a>
   </BikeSection>
 </template>

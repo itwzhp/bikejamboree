@@ -1,9 +1,9 @@
 <template>
   <main>
     <BikeSection width="narrow">
-      <BikeHeading> {{ $t("contact.contact") }} </BikeHeading>
+      <BikeHeading> {{ $t('contact.contact') }} </BikeHeading>
       <BikeParagraph>
-        {{ $t("contact.the_project_stuff_are") }}
+        {{ $t('contact.the_project_stuff_are') }}
       </BikeParagraph>
       <ul class="contact-list mb-30">
         <li class="contact-list__item">
@@ -13,7 +13,7 @@
           </BikeExternalLink>
         </li>
       </ul>
-      <BikeParagraph> {{ $t("contact.on_the_internet_you") }} </BikeParagraph>
+      <BikeParagraph> {{ $t('contact.on_the_internet_you') }} </BikeParagraph>
       <ul class="contact-list">
         <li class="contact-list__item">
           <BikeIcon class="contact-list__item-icon" icon="facebook" />

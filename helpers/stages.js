@@ -311,7 +311,7 @@ export const stagesData = [
     distance: '800 km',
     previousStages: [12],
     nextStages: [14],
-    leader: 'Artur Kulesza'
+    leader: 'Artur Kulesza',
   },
   {
     name: 'stage_xii_east',

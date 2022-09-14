@@ -1,7 +1,9 @@
 <template>
   <main>
     <BikeSection width="narrow" :class="$screen.lg ? 'mb-75' : 'mb-30'">
-      <BikeHeading> {{ $t('previous_projects.our_previous_projects') }} </BikeHeading>
+      <BikeHeading>
+        {{ $t('previous_projects.our_previous_projects') }}
+      </BikeHeading>
       <BikeParagraph>
         {{ $t('previous_projects.not_intending_to_boast') }}
       </BikeParagraph>
@@ -57,7 +59,9 @@
         <BikeHeading level="2">
           Afryka Nowaka 2009-2011
         </BikeHeading>
-        <BikeParagraph> {{ $t('previous_projects.following_the_footsteps_of') }} </BikeParagraph>
+        <BikeParagraph>
+          {{ $t('previous_projects.following_the_footsteps_of') }}
+        </BikeParagraph>
         <BikeExternalLink :with-icon="false" to="http://afrykanowaka.pl/">
           {{ $t('previous_projects.expedition_website') }}
         </BikeExternalLink>

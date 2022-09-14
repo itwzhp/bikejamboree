@@ -15,9 +15,15 @@ export default {
 
   methods: {
     getItemClasses(code) {
-      return ['bike-language-switch-list__list-item', {'bike-language-switch-list__list-item--current': code === this.$i18n.locale}]
-    }
-  }
+      return [
+        'bike-language-switch-list__list-item',
+        {
+          'bike-language-switch-list__list-item--current':
+            code === this.$i18n.locale,
+        },
+      ]
+    },
+  },
 }
 </script>
 

@@ -46,9 +46,11 @@
 export default {
   computed: {
     zhpLogoPath() {
-      return this.$i18n.locale === 'pl' ? require('~/assets/images/zhp-logo.webp') : require('~/assets/images/zhp-logo-en.webp')
-    }
-  }
+      return this.$i18n.locale === 'pl'
+        ? require('~/assets/images/zhp-logo.webp')
+        : require('~/assets/images/zhp-logo-en.webp')
+    },
+  },
 }
 </script>
 

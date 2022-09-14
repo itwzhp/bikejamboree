@@ -5,7 +5,10 @@
         class="bike-language-switch-dropdown__flag-image"
         :src="require(`~/assets/images/flag-${$i18n.locale}.svg`)"
       >
-      <BikeIcon class="bike-language-switch-dropdown__icon" icon="chevron-down" />
+      <BikeIcon
+        class="bike-language-switch-dropdown__icon"
+        icon="chevron-down"
+      />
     </span>
     <BikeCard class="bike-language-switch-dropdown__dropdown">
       <ul class="bike-language-switch-dropdown__list">
@@ -26,9 +29,15 @@ export default {
 
   methods: {
     getItemClasses(code) {
-      return ['bike-language-switch-dropdown__list-item', {'bike-language-switch-dropdown__list-item--current': code === this.$i18n.locale}]
-    }
-  }
+      return [
+        'bike-language-switch-dropdown__list-item',
+        {
+          'bike-language-switch-dropdown__list-item--current':
+            code === this.$i18n.locale,
+        },
+      ]
+    },
+  },
 }
 </script>
 

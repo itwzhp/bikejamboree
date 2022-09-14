@@ -64,7 +64,10 @@
           {{ $t('navigation.previous_projects') }}
         </NuxtLink>
       </li>
-      <li v-if="$i18n.locale === 'pl'" class="bike-navigation-mobile__list-item">
+      <li
+        v-if="$i18n.locale === 'pl'"
+        class="bike-navigation-mobile__list-item"
+      >
         <NuxtLink
           :class="isActive('blog')"
           :to="localePath('/blog')"
