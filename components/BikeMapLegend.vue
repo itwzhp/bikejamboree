@@ -5,18 +5,18 @@
       <span
         class="bike-map-legend__summary-content bike-map-legend__summary-content--closed"
       >
-        Pokaż legendę
+        {{ $t('route.show_legend') }}
       </span>
       <span
         class="bike-map-legend__summary-content bike-map-legend__summary-content--opened"
       >
-        Ukryj legendę
+        {{ $t('route.hide_legend') }}
       </span>
     </summary>
     <BikeCard class="bike-map-legend">
       <div>
         <BikeHeading level="3" no-top-margin size="small">
-          Legenda
+          {{ $t('route.legend') }}
         </BikeHeading>
         <table>
           <tr class="bike-map-legend__table-row">
@@ -26,7 +26,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="home" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Start - Nur-Sułtan
+              {{ $t('route.start_nursultan') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">
@@ -36,7 +36,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="flag" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Meta - Edynburg, Gdańsk
+              {{ $t('route.finish_edinburgh_gdansk') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">
@@ -46,7 +46,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Miejsca zmiany etapów
+              {{ $t('route.stage_change_locations') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">
@@ -56,7 +56,7 @@
               <div class="bike-map-legend__route-icon" />
             </td>
             <td class="bike-map-legend__table-cell">
-              Trasa wyprawy
+              {{ $t('route.route_of_the_expedition') }}
             </td>
           </tr>
         </table>

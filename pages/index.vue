@@ -2,12 +2,15 @@
   <main>
     <BikeBanner :class="{ 'mb-75': $screen.lg }" />
     <BikeIntroduction />
-    <BikeHeading centered level="2">
+    <BikeHeading v-if="$i18n.locale === 'pl'" centered level="2">
       Aktualności
     </BikeHeading>
-    <BikeNewsShort with-link :articles="articles" class="mb-75" />
-    <BikeHeading centered level="2">
-      Wspierają nas
+    <BikeNewsShort v-if="$i18n.locale === 'pl'" with-link :articles="articles" class="mb-75" />
+    <BikeHeading
+      centered
+      level="2"
+    >
+      {{ $t('homepage.we_are_supported_by') }}
     </BikeHeading>
     <BikePartners />
   </main>

@@ -2,19 +2,13 @@
   <BikeSection columns-desktop="2" class="bike-introduction mb-75">
     <article class="bike-introduction__article">
       <BikeHeading>
-        Harcerska sztafeta rowerowa "JednoŚladami Andersa"
+        {{ $t('homepage.project_name') }}
       </BikeHeading>
       <BikeParagraph class="bike-introduction__paragraph">
-        "JednoŚladami Andersa" to projekt podróżniczy polegający na przejechaniu
-        w sztafecie rowerowej szlaku armii gen. Andersa - z okolic dolnego biegu
-        rzeki Wołga w zachodniej Syberii aż do Edynburga w Wielkiej Brytanii
-        oraz Gdańska.
+        {{ $t('homepage.travel_project_during_which') }}
       </BikeParagraph>
       <BikeParagraph class="mb-30">
-        Inicjatorami i organizatorem wyprawy są uczestnicy rowerowej sztafety
-        dookoła świata Bike Jamboree, która odbyła się w latach 2017-2019 przy
-        wsparciu organizacyjnym Fundacji Światowe Jamboree, Związku Harcerstwa
-        Polskiego i Stowarzyszenia Afryka Nowaka.
+        {{ $t('homepage.the_project_has_been') }}
       </BikeParagraph>
       <div class="bike-introduction__images">
         <a
@@ -35,7 +29,7 @@
         >
           <BikeImage
             class="bike-introduction__image"
-            :img-src="require('~/assets/images/zhp-logo.webp')"
+            :img-src="zhpLogoPath"
             img-alt="Związek Harcerstwa Polskiego"
           />
         </a>
@@ -43,13 +37,19 @@
     </article>
     <BikeVideo
       youtube-url="https://youtu.be/uykmuqvMVLw"
-      heading="Dlaczego jadę JednoŚladami Andersa?"
+      :heading="$t('homepage.why_am_i_a_part')"
     />
   </BikeSection>
 </template>
 
 <script>
-export default {}
+export default {
+  computed: {
+    zhpLogoPath() {
+      return this.$i18n.locale === 'pl' ? require('~/assets/images/zhp-logo.webp') : require('~/assets/images/zhp-logo-en.webp')
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

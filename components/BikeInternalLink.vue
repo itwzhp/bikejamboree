@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :class="classes" :to="to">
+  <NuxtLink :class="classes" :to="linkDestination">
     <BikeIcon v-if="withIcon" class="bike-link__icon" icon="chevron-right" />
     <span class="bike-link__content">
       <slot />
@@ -22,11 +22,18 @@ export default {
       type: String,
       default: '',
     },
+    disableLocalePath: {
+      type: Boolean,
+      default: false
+    }
   },
   computed: {
     classes() {
       return ['bike-link', this.withIcon ? `bike-link--with-icon` : '']
     },
+    linkDestination() {
+      return this.disableLocalePath ? this.to : this.localePath(this.to)
+    }
   },
 }
 </script>

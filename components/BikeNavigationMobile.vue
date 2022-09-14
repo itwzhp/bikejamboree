@@ -2,69 +2,90 @@
   <nav class="bike-navigation-mobile">
     <ul class="bike-navigation-mobile__list">
       <li class="bike-navigation-mobile__list-item">
-        <NuxtLink :class="isActive('')" to="/" @click.native="closeNavigation">
-          Strona Główna
+        <NuxtLink
+          :class="isActive('')"
+          :to="localePath('/')"
+          @click.native="closeNavigation"
+        >
+          {{ $t('navigation.homepage') }}
         </NuxtLink>
       </li>
       <li class="bike-navigation-mobile__list-item">
-        <span :class="isActive('o-projekcie')"> O projekcie </span>
+        <span :class="isActive('o-projekcie')">
+          {{ $t('navigation.about') }}
+        </span>
       </li>
       <li
         class="bike-navigation-mobile__list-item bike-navigation-mobile__list-item--secondary"
       >
-        <NuxtLink to="/o-projekcie" @click.native="closeNavigation">
-          Idea
+        <NuxtLink
+          :to="localePath('/o-projekcie')"
+          @click.native="closeNavigation"
+        >
+          {{ $t('navigation.idea') }}
         </NuxtLink>
       </li>
       <li
         class="bike-navigation-mobile__list-item bike-navigation-mobile__list-item--secondary"
       >
-        <NuxtLink to="/o-projekcie/trasa" @click.native="closeNavigation">
-          Trasa
+        <NuxtLink
+          :to="localePath('/o-projekcie/trasa')"
+          @click.native="closeNavigation"
+        >
+          {{ $t('navigation.route') }}
         </NuxtLink>
       </li>
       <li
         class="bike-navigation-mobile__list-item bike-navigation-mobile__list-item--secondary"
       >
-        <NuxtLink to="/o-projekcie/ludzie" @click.native="closeNavigation">
-          Ludzie
+        <NuxtLink
+          :to="localePath('/o-projekcie/ludzie')"
+          @click.native="closeNavigation"
+        >
+          {{ $t('navigation.people') }}
         </NuxtLink>
       </li>
       <li
         class="bike-navigation-mobile__list-item bike-navigation-mobile__list-item--secondary"
       >
-        <NuxtLink to="/o-projekcie/dolacz" @click.native="closeNavigation">
-          Dołącz
+        <NuxtLink
+          :to="localePath('/o-projekcie/dolacz')"
+          @click.native="closeNavigation"
+        >
+          {{ $t('navigation.join_us') }}
         </NuxtLink>
       </li>
       <li class="bike-navigation-mobile__list-item">
         <NuxtLink
           :class="isActive('poprzednie-projekty')"
-          to="/poprzednie-projekty"
+          :to="localePath('/poprzednie-projekty')"
           @click.native="closeNavigation"
         >
-          Poprzednie projekty
+          {{ $t('navigation.previous_projects') }}
         </NuxtLink>
       </li>
-      <li class="bike-navigation-mobile__list-item">
+      <li v-if="$i18n.locale === 'pl'" class="bike-navigation-mobile__list-item">
         <NuxtLink
           :class="isActive('blog')"
-          to="/blog"
+          :to="localePath('/blog')"
           @click.native="closeNavigation"
         >
-          Blog
+          {{ $t('navigation.blog') }}
         </NuxtLink>
       </li>
       <li class="bike-navigation-mobile__list-item">
         <NuxtLink
           :class="isActive('kontakt')"
-          to="/kontakt"
+          :to="localePath('/kontakt')"
           @click.native="closeNavigation"
         >
-          Kontakt
+          {{ $t('navigation.contact_us') }}
         </NuxtLink>
       </li>
     </ul>
+    <div class="bike-navigation-mobile__language-switch">
+      <BikeLanguageSwitchList />
+    </div>
   </nav>
 </template>
 
@@ -122,6 +143,12 @@ export default {
         margin-top: 24px;
       }
     }
+  }
+  &__language-switch {
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 </style>

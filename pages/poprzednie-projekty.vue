@@ -1,11 +1,9 @@
 <template>
   <main>
     <BikeSection width="narrow" :class="$screen.lg ? 'mb-75' : 'mb-30'">
-      <BikeHeading> Poprzednie projekty </BikeHeading>
+      <BikeHeading> {{ $t('previous_projects.our_previous_projects') }} </BikeHeading>
       <BikeParagraph>
-        Jakkolwiek nieskromnie by to nie zabrzmiało, jesteśmy ekspertami w
-        organizacji międzykontynentalnych sztafet rowerowych. Specjalizacja to,
-        owszem, dość wąska, za to naprawdę znamy się na tym, co robimy.
+        {{ $t('previous_projects.not_intending_to_boast') }}
       </BikeParagraph>
     </BikeSection>
     <BikeSection columns-desktop="2" width="narrow" class="mb-75">
@@ -14,10 +12,10 @@
           Bike Jamboree 2017-2019
         </BikeHeading>
         <BikeParagraph>
-          Rowerowa sztafeta, jakiej jeszcze nie było. Dookoła świata!
+          {{ $t('previous_projects.a_bike_relay_the_world') }}
         </BikeParagraph>
         <BikeExternalLink :with-icon="false" to="https://a.bikejamboree.pl/">
-          Strona wyprawy
+          {{ $t('previous_projects.expedition_website') }}
         </BikeExternalLink>
       </article>
       <BikeImage
@@ -38,14 +36,13 @@
           Rowerowe Jamboree 2015
         </BikeHeading>
         <BikeParagraph>
-          Z Polski przez Europę, Azję Mniejszą, Bliski Wschód, Azję Centralną,
-          Chiny, aż do Japonii!
+          {{ $t('previous_projects.from_poland_through_europe') }}
         </BikeParagraph>
         <BikeExternalLink
           :with-icon="false"
           to="https://web.archive.org/web/20160325131031/http://www.rowerowejamboree.pl/"
         >
-          Strona wyprawy
+          {{ $t('previous_projects.expedition_website') }}
         </BikeExternalLink>
       </article>
       <BikeImage
@@ -60,9 +57,9 @@
         <BikeHeading level="2">
           Afryka Nowaka 2009-2011
         </BikeHeading>
-        <BikeParagraph> Sztafeta śladami Kazimierza Nowaka. </BikeParagraph>
+        <BikeParagraph> {{ $t('previous_projects.following_the_footsteps_of') }} </BikeParagraph>
         <BikeExternalLink :with-icon="false" to="http://afrykanowaka.pl/">
-          Strona wyprawy
+          {{ $t('previous_projects.expedition_website') }}
         </BikeExternalLink>
       </article>
       <BikeImage

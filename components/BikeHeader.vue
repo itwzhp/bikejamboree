@@ -1,7 +1,7 @@
 <template>
   <header class="bike-header">
     <div class="bike-header__container">
-      <NuxtLink to="/">
+      <NuxtLink class="bike-header__homepage-link" :to="localePath('/')">
         <img
           class="bike-header__image"
           src="~/assets/images/bike-jamboree-logo-small.webp"
@@ -18,6 +18,7 @@
         class="bike-header__hamburger-button"
         @click.native="toggleMobileNavVisibility"
       />
+      <BikeLanguageSwitchDropdown class="bike-header__language-switch" />
     </div>
   </header>
 </template>
@@ -47,17 +48,23 @@ export default {
   margin-bottom: 30px;
   &__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 80px;
     padding: 10px 24px;
     max-width: 1440px;
     margin: 0 auto;
+  }
+  &__homepage-link {
+    margin-right: auto;
   }
   &__image {
     max-height: 60px;
   }
   // TODO: fix
   &__navigation--desktop.bike-navigation {
+    display: none;
+  }
+  &__language-switch {
     display: none;
   }
 }
@@ -79,6 +86,10 @@ export default {
     }
     &__hamburger-button {
       display: none;
+    }
+    &__language-switch {
+      display: flex;
+      margin-left: 10px;
     }
   }
 }

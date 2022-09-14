@@ -15,10 +15,10 @@
         class="mb-10 bike-stages__list-item"
         @click.native="selectStage(i)"
       >
-        {{ st.name }}
-        <span class="bike-stages__link-details">{{
-          `(${st.startPoint.city} - ${st.finishPoint.city})`
-        }}</span>
+        {{ $t(`stages.${st.name}`) }}
+        <span class="bike-stages__link-details">
+          ({{ $t(`places.${st.startPoint.city}`) }} - {{ $t(`places.${st.finishPoint.city}`) }})
+        </span>
       </BikeButton>
     </div>
     <BikeStageDetails

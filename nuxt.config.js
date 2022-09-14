@@ -61,6 +61,63 @@ export default {
         xxl: 1920,
       },
     ],
+    [
+      '@nuxtjs/i18n',
+      {
+        locales: [
+          {
+            code: 'pl',
+            file: 'pl.js',
+            name: 'polski',
+          },
+          {
+            code: 'en',
+            file: 'en.js',
+            name: 'English',
+          },
+        ],
+        langDir: 'lang/',
+        defaultLocale: 'pl',
+        parsePages: false,
+        pages: {
+          'o-projekcie/index': {
+            pl: '/o-projekcie',
+            en: '/about',
+          },
+          'o-projekcie/trasa': {
+            pl: '/o-projekcie/trasa',
+            en: '/about/route',
+          },
+          'o-projekcie/ludzie': {
+            pl: '/o-projekcie/ludzie',
+            en: '/about/people',
+          },
+          'o-projekcie/dolacz': {
+            pl: '/o-projekcie/dolacz',
+            en: '/about/join-us',
+          },
+          'poprzednie-projekty': {
+            pl: '/poprzednie-projekty',
+            en: '/previous-projects',
+          },
+          blog: {
+            pl: 'blog',
+            en: false
+          },
+          'blog/_': {
+            pl: 'blog/:_',
+            en: false
+          },
+          kontakt: {
+            pl: '/kontakt',
+            en: '/contact-us',
+          },
+        },
+        detectBrowserLanguage: {
+          useCookie: false
+        }
+      },
+    ],
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

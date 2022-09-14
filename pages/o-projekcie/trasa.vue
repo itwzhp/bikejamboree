@@ -1,7 +1,7 @@
 <template>
   <main>
     <BikeHeading centered level="2">
-      Trasa
+      {{ $t('route.route') }}
     </BikeHeading>
     <BikeStages class="mb-75" />
   </main>

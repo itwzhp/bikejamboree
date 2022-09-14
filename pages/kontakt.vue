@@ -1,11 +1,9 @@
 <template>
   <main>
     <BikeSection width="narrow">
-      <BikeHeading> Kontakt </BikeHeading>
+      <BikeHeading> {{ $t("contact.contact") }} </BikeHeading>
       <BikeParagraph>
-        W sztabie projektu pracujemy wolontariacko, zdalnie i z całej Polski, a
-        nawet bywa, że i ze świata. Zatem, jeśli masz pytanie, zachęcamy do
-        napisania do nas maila.
+        {{ $t("contact.the_project_stuff_are") }}
       </BikeParagraph>
       <ul class="contact-list mb-30">
         <li class="contact-list__item">
@@ -15,7 +13,7 @@
           </BikeExternalLink>
         </li>
       </ul>
-      <BikeParagraph> W internecie znajdziesz nas na: </BikeParagraph>
+      <BikeParagraph> {{ $t("contact.on_the_internet_you") }} </BikeParagraph>
       <ul class="contact-list">
         <li class="contact-list__item">
           <BikeIcon class="contact-list__item-icon" icon="facebook" />

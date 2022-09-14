@@ -2,56 +2,9 @@
   <BikeCard class="bike-stage-details">
     <template v-if="currentStageIndex > -1">
       <BikeHeading size="small" level="3" no-top-margin>
-        {{ currentStage.name }}
+        {{ $t(`stages.${currentStage.name}`) }}
       </BikeHeading>
-      <table>
-        <tr class="bike-stage-details__table-row">
-          <td
-            class="bike-stage-details__table-cell bike-stage-details__table-cell--first"
-          >
-            start:
-          </td>
-          <td class="bike-stage-details__table-cell">
-            {{
-              `${currentStage.startPoint.city} (${currentStage.startPoint.country})`
-            }}<br>
-            {{ currentStage.startDate.toLocaleDateString() }}
-          </td>
-        </tr>
-        <tr class="bike-stage-details__table-row">
-          <td
-            class="bike-stage-details__table-cell bike-stage-details__table-cell--first"
-          >
-            meta:
-          </td>
-          <td class="bike-stage-details__table-cell">
-            {{
-              `${currentStage.finishPoint.city} (${currentStage.finishPoint.country})`
-            }}<br>
-            {{ currentStage.finishDate.toLocaleDateString() }}
-          </td>
-        </tr>
-        <tr class="bike-stage-details__table-row">
-          <td
-            class="bike-stage-details__table-cell bike-stage-details__table-cell--first"
-          >
-            dystans:
-          </td>
-          <td class="bike-stage-details__table-cell">
-            {{ currentStage.distance }}
-          </td>
-        </tr>
-        <tr class="bike-stage-details__table-row">
-          <td
-            class="bike-stage-details__table-cell bike-stage-details__table-cell--first"
-          >
-            lider:
-          </td>
-          <td class="bike-stage-details__table-cell">
-            {{ currentStage.leader }}
-          </td>
-        </tr>
-      </table>
+      <BikeStageDetailsTable :stage-data="currentStage" />
       <nav class="bike-stage-details__nav">
         <ul
           v-if="currentStage.previousStages"
@@ -68,7 +21,7 @@
               icon="chevron-left"
             />
             <BikeButton :with-icon="false">
-              {{ stages[st].name }}
+              {{ $t(`stages.${stages[st].name}`) }}
             </BikeButton>
           </li>
         </ul>
@@ -83,7 +36,7 @@
             @click="selectStage(st)"
           >
             <BikeButton :with-icon="false">
-              {{ stages[st].name }}
+              {{ $t(`stages.${stages[st].name}`) }}
             </BikeButton>
             <BikeIcon
               class="bike-stage-details__nav-item-icon"
@@ -95,7 +48,7 @@
           class="bike-stage-details__nav-item bike-stage-details__nav-item--all"
           @click.native="selectStage(-1)"
         >
-          Pokaż całą trasę
+          {{ $t('route.show_full_route') }}
         </BikeButton>
       </nav>
     </template>
@@ -103,12 +56,12 @@
       <div class="bike-stage-details__action">
         <BikeIcon icon="arrow-down-left" />
         <BikeParagraph no-margin>
-          Wybierz etap z listy
+          {{ $t('route.choose_stage_from_the_list') }}
         </BikeParagraph>
       </div>
-      <BikeParagraph> lub </BikeParagraph>
+      <BikeParagraph> {{ $t('route.or') }} </BikeParagraph>
       <BikeInternalLink @click.native="selectStage(0)">
-        Zacznij od początku (Etap I)
+        {{ $t('route.start_from_the_beginnig') }}
       </BikeInternalLink>
     </div>
   </BikeCard>
@@ -154,16 +107,6 @@ export default {
   &__action {
     display: flex;
     margin-bottom: 1em;
-  }
-  &__table-row {
-    vertical-align: top;
-  }
-  &__table-cell {
-    padding-bottom: 7px;
-    color: $text-color;
-  }
-  &__table-cell--first {
-    padding-right: 7px;
   }
   &__nav {
     margin-top: auto;

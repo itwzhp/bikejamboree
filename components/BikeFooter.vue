@@ -9,7 +9,7 @@
         >
       </NuxtLink>
       <BikeParagraph no-margin>
-        Harcerska sztafeta rowerowa "JednoŚladami Andersa"
+        {{ $t('footer.project_name') }}
       </BikeParagraph>
     </section>
     <section class="bike-footer__section bike-footer__section--lower">

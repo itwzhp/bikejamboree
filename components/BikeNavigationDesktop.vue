@@ -3,31 +3,32 @@
     <ul class="bike-navigation__list">
       <BikeNavigationDesktopItem
         class="bike-navigation__list-item"
-        label="Strona Główna"
+        label="navigation.homepage"
         href="/"
         :active="isActive('')"
       />
       <BikeNavigationDesktopItem
         class="bike-navigation__list-item"
-        label="O projekcie"
+        label="navigation.about"
         :active="isActive('o-projekcie')"
         has-dropdown
       />
       <BikeNavigationDesktopItem
         class="bike-navigation__list-item"
-        label="Poprzednie projekty"
+        label="navigation.previous_projects"
         href="/poprzednie-projekty"
         :active="isActive('poprzednie-projekty')"
       />
       <BikeNavigationDesktopItem
+        v-if="$i18n.locale === 'pl'"
         class="bike-navigation__list-item"
-        label="Blog"
+        label="navigation.blog"
         href="/blog"
         :active="isActive('blog')"
       />
       <BikeNavigationDesktopItem
         class="bike-navigation__list-item"
-        label="Kontakt"
+        label="navigation.contact_us"
         href="/kontakt"
         :active="isActive('kontakt')"
       />

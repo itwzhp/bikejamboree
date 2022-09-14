@@ -20,8 +20,9 @@
   "dependencies": {
     "@nuxtclub/feathericons": "^1.0.0",
     "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/style-resources": "^1.2.1",
+    "@nuxtjs/i18n": "^7.3.0",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/style-resources": "^1.2.1",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "nuxt-leaflet": "^0.0.27",

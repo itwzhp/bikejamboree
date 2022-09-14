@@ -10,7 +10,7 @@
       <div v-else class="bike-news-card__image-placeholder" />
     </div>
     <footer class="bike-news-card__footer">
-      <div class="bike-news-card__date">
+      <div v-if="date" class="bike-news-card__date">
         {{ date }}
       </div>
       <BikeHeading
@@ -20,12 +20,15 @@
         v-html="headingContent"
       />
       <BikeInternalLink
+        v-if="href"
         class="bike-news-card__button"
         :with-icon="false"
         :to="href"
+        disable-locale-path
       >
         Czytaj artykuł
       </BikeInternalLink>
+      <slot />
     </footer>
   </BikeCard>
 </template>

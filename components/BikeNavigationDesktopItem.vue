@@ -1,17 +1,34 @@
 <template>
   <li class="bike-navigation-item">
-    <NuxtLink v-if="href" :class="linkClasses" :to="href">
-      {{ label }}
+    <NuxtLink v-if="href" :class="linkClasses" :to="localePath(href)">
+      {{ $t(label) }}
     </NuxtLink>
     <span v-else :class="linkClasses">
-      {{ label }}
+      {{ $t(label) }}
+      <BikeIcon
+        v-if="hasDropdown"
+        class="bike-navigation-item__icon"
+        icon="chevron-down"
+      />
     </span>
     <BikeCard v-if="hasDropdown" class="bike-navigation-item__dropdown">
       <ul class="bike-navigation-item__dropdown-list">
-        <BikeNavigationDesktopItem label="Idea" href="/o-projekcie" />
-        <BikeNavigationDesktopItem label="Trasa" href="/o-projekcie/trasa" />
-        <BikeNavigationDesktopItem label="Ludzie" href="/o-projekcie/ludzie" />
-        <BikeNavigationDesktopItem label="Dołącz" href="/o-projekcie/dolacz" />
+        <BikeNavigationDesktopItem
+          label="navigation.idea"
+          href="/o-projekcie"
+        />
+        <BikeNavigationDesktopItem
+          label="navigation.route"
+          href="/o-projekcie/trasa"
+        />
+        <BikeNavigationDesktopItem
+          label="navigation.people"
+          href="/o-projekcie/ludzie"
+        />
+        <BikeNavigationDesktopItem
+          label="navigation.join_us"
+          href="/o-projekcie/dolacz"
+        />
       </ul>
       <BikeCard />
     </BikeCard>
@@ -62,6 +79,8 @@ export default {
   &__link {
     padding: 10px 15px;
     display: block;
+    display: flex;
+    white-space: nowrap;
     &--active {
       color: $brand-red;
     }
@@ -77,6 +96,9 @@ export default {
         display: block;
       }
     }
+  }
+  &__icon {
+    transform: scale(0.5);
   }
   &__dropdown {
     position: absolute;
