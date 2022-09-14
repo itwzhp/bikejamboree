@@ -28,11 +28,6 @@ export default {
     return {
       partners: [
         {
-          websiteUrl: 'https://kross.eu',
-          imageFilename: 'kross-logo.webp',
-          imageAlt: 'Kross logo',
-        },
-        {
           websiteUrl: 'https://crosso.pl',
           imageFilename: 'crosso-logo.webp',
           imageAlt: 'Crosso logo',
