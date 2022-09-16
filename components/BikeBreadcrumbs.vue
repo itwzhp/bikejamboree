@@ -38,7 +38,6 @@ export default {
 .bike-breadcrumbs {
   display: flex;
   align-items: center;
-  margin: 0;
   padding: 0;
   list-style: none;
   &__icon {
@@ -64,6 +63,7 @@ export default {
     &:first-of-type {
       display: flex;
       align-items: center;
+      margin-left: -4px;
     }
     &:last-of-type {
       margin-right: 0;
