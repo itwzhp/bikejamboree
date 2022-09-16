@@ -14,9 +14,7 @@
         {{ $t('join_us.registration') }}
       </BikeHeading>
       <BikeParagraph>
-        {{
-          $t('join_us.currently_we_are_seeking_riders')
-        }}
+        {{ $t('join_us.currently_we_are_seeking_riders') }}
       </BikeParagraph>
       <BikeTable>
         <tr>
