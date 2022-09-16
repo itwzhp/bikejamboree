@@ -50,7 +50,7 @@ export default {
     about: 'O projekcie',
     idea: 'Idea',
     route: 'Trasa',
-    anders_traces: '130 śladów',
+    traces: '130 śladów',
     people: 'Ludzie',
     join_us: 'Dołącz',
     previous_projects: 'Poprzednie projekty',
@@ -155,6 +155,13 @@ export default {
       'Dla niego „niemożliwe staje się możliwym”. W ZHP przeszedł drogę od zucha do rzecznika prasowego organizacji (2007-2010).',
     his_profession_is_also:
       'Zawodowo związany z mediami (od papieru, fal eteru i telewizji do elektronicznych). Kocha góry i historię. Miłośnik jednośladów (ostrego koła i rowerów elektrycznych). Prezes działającej od 2016 r. Fundacji „Dziękujemy za Wolność", obecnie realizującej projekt #ApteczkadlaUkrainy. W projekcie JednoŚladami Andersa pełni funkcję rzecznika prasowego.',
+  },
+  traces: {
+    traces_for_the_birthday: '130 śladów na 130 urodziny gen. Andersa',
+    have_a_look_around: 'Rozejrzyj się w swoim mieście, okolicy, czy regionie i odnajduj ulice, skwery, pomniki, szkoły, muzea i wszystko co związane z gen. Władysławem Andersem, jego armią, Bitwą pod Monte Cassino, Misiem Wojtkiem i nie tylko.',
+    when_you_do_find: 'Jeśli już znajdziesz jakiś ślad, zrób zdjęcie - najlepiej z rowerem i chustą harcerską w roli głównej. Fotkę wraz z informacją o miejscu - nazwa, pinezka, współrzędne wyślij na adres:',
+    all_traces_will_be: 'Wszystkie ślady będą umieszczane na naszej mapie, tworzonej na podstawie naszych wycieczek rowerowych.',
+    feel_free_to_engage: 'Zachęcamy, by śladów szukać z drużyną, szczepem, innymi rowerzystami albo przyjaciółmi. Wspólne kręcenie jest przyjemniejsze. A poszukiwanie to nie tylko poznawanie historii Armii Andersa, ale również zgłębianie wiedzy o swojej okolicy.'
   },
   join_us: {
     join_us: 'Dołącz do nas ',

@@ -26,7 +26,7 @@
           href="/o-projekcie/ludzie"
         />
         <BikeNavigationDesktopItem
-          label="navigation.anders_traces"
+          label="navigation.traces"
           href="/o-projekcie/130-sladow"
         />
         <BikeNavigationDesktopItem

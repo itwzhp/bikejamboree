@@ -50,7 +50,7 @@ export default {
     about: 'About',
     idea: 'Idea',
     route: 'Route',
-    anders_traces: '130 traces',
+    traces: '130 traces',
     people: 'People',
     join_us: 'Join us',
     previous_projects: 'Previous projects',
@@ -155,6 +155,14 @@ export default {
       'For him "impossible becomes possible”. In the Polish Scouting and Guiding Association he’s climbed the career ladder from a cub to the association spokesperson (2007-2010).',
     his_profession_is_also:
       'His profession is also related to the media (paper, radio, TV to the electronic media). He loves mountains and history. Adam is a keen cyclist (fixed-gear bikes and e-bikes). Since 2016 he’s been the chairman of Dziękujemy za Wolność Foundation which is currently organizing the project entitled #ApteczkadlaUkrainy. In the "JednoŚladami Andersa" project he is the spokesperson.',
+  },
+  traces: {
+    traces: '130 traces',
+    traces_for_the_birthday: '130 traces for the 130th birthday of General Anders',
+    have_a_look_around: 'Have a look around your city, your neighbourhood and search for streets, squares, monuments, schools, museums and anything else that could be related to Władysław Anders, his army, the Battle of Monte Cassino, Wojtek the Bear, etc.',
+    when_you_do_find: 'When you do find a trace, take a photo, preferably with a bicycle and a scout/guide scarf in it. Then send the photo information regarding the site (its name, the pushpin, the coordinates) to the following email:',
+    all_traces_will_be: 'All traces will be placed on our map created on the basis of our bike trips.',
+    feel_free_to_engage: 'Feel free to engage your scout&guide troop, other cyclists or mates. Cycling together is more fun. The search is not only learning about the Anders’ Army but also exploring your neighbourhood and community.'
   },
   join_us: {
     join_us: 'Join us',

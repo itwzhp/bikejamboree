@@ -52,7 +52,7 @@
           :to="localePath('/o-projekcie/130-sladow')"
           @click.native="closeNavigation"
         >
-          {{ $t('navigation.anders_traces') }}
+          {{ $t('navigation.traces') }}
         </NuxtLink>
       </li>
       <li

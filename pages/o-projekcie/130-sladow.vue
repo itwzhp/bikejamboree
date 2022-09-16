@@ -1,30 +1,21 @@
 <template>
   <main>
-    <BikeSection v-if="$i18n.locale === 'pl'" width="narrow" class="mb-30">
+    <BikeSection width="narrow" class="mb-30">
       <BikeHeading level="2">
-        "130 śladów na 130 urodziny gen. Andersa"
+        {{ $t('traces.traces_for_the_birthday') }}
       </BikeHeading>
       <BikeParagraph>
-        Rozejrzyj się w swoim mieście, okolicy, czy regionie i odnajduj ulice,
-        skwery, pomniki, szkoły, muzea i wszystko co związane z gen. Władysławem
-        Andersem, jego armią, Bitwą pod Monte Cassino, Misiem Wojtkiem i nie
-        tylko.
+        {{ $t('traces.have_a_look_around') }}
       </BikeParagraph>
       <BikeParagraph>
-        Jeśli już znajdziesz jakiś ślad, zrób zdjęcie - najlepiej z rowerem i
-        chustą harcerską w roli głównej. Fotkę wraz z informacją o miejscu -
-        nazwa, pinezka, współrzędne wyślij na adres:
+        {{ $t('traces.when_you_do_find') }}
         <a href="mailto:dorota.limontas@zhp.net.pl">dorota.limontas@zhp.net.pl</a>.
       </BikeParagraph>
       <BikeParagraph>
-        Wszystkie ślady będą umieszczane na naszej mapie, tworzonej na podstawie
-        naszych wycieczek rowerowych.
+        {{ $t('traces.all_traces_will_be') }}
       </BikeParagraph>
       <BikeParagraph>
-        Zachęcamy, by śladów szukać z drużyną, szczepem, innymi rowerzystami
-        albo przyjaciółmi. Wspólne kręcenie jest przyjemniejsze. A poszukiwanie
-        to nie tylko poznawanie historii Armii Andersa, ale również zgłębianie
-        wiedzy o swojej okolicy.
+        {{ $t('traces.feel_free_to_engage') }}
       </BikeParagraph>
     </BikeSection>
     <BikeSection :width="mapSectionWidth">
