@@ -50,6 +50,7 @@ export default {
     about: 'O projekcie',
     idea: 'Idea',
     route: 'Trasa',
+    anders_traces: '130 śladów',
     people: 'Ludzie',
     join_us: 'Dołącz',
     previous_projects: 'Poprzednie projekty',

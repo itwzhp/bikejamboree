@@ -50,6 +50,7 @@ export default {
     about: 'About',
     idea: 'Idea',
     route: 'Route',
+    anders_traces: '130 traces',
     people: 'People',
     join_us: 'Join us',
     previous_projects: 'Previous projects',

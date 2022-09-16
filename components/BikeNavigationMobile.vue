@@ -49,6 +49,16 @@
         class="bike-navigation-mobile__list-item bike-navigation-mobile__list-item--secondary"
       >
         <NuxtLink
+          :to="localePath('/o-projekcie/130-sladow')"
+          @click.native="closeNavigation"
+        >
+          {{ $t('navigation.anders_traces') }}
+        </NuxtLink>
+      </li>
+      <li
+        class="bike-navigation-mobile__list-item bike-navigation-mobile__list-item--secondary"
+      >
+        <NuxtLink
           :to="localePath('/o-projekcie/dolacz')"
           @click.native="closeNavigation"
         >

@@ -96,6 +96,10 @@ export default {
             pl: '/o-projekcie/dolacz',
             en: '/about/join-us',
           },
+          'o-projekcie/130-sladow': {
+            pl: '/o-projekcie/130-sladow',
+            en: '/about/130-traces',
+          },
           'poprzednie-projekty': {
             pl: '/poprzednie-projekty',
             en: '/previous-projects',
