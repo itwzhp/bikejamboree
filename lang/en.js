@@ -41,7 +41,7 @@ export default {
     stage_ix: 'Stage IX',
     stage_x_west: 'Stage X West',
     stage_xi_west: 'Stage XI West',
-    stage_x_east: 'Stage X West',
+    stage_x_east: 'Stage X East',
     stage_xi_east: 'Stage XI East',
     stage_xii_east: 'Stage XII East',
   },
