@@ -18,7 +18,7 @@
         >
           <BikeImage
             class="bike-introduction__image"
-            :img-src="require('~/assets/images/fsj-logo.webp')"
+            :img-src="fsjLogoPath"
             img-alt="Związek Harcerstwa Polskiego"
           />
         </a>
@@ -49,6 +49,11 @@ export default {
       return this.$i18n.locale === 'pl'
         ? require('~/assets/images/zhp-logo.webp')
         : require('~/assets/images/zhp-logo-en.webp')
+    },
+    fsjLogoPath() {
+      return this.$i18n.locale === 'pl'
+        ? require('~/assets/images/fsj-logo.webp')
+        : require('~/assets/images/fsj-logo-en.webp')
     },
   },
 }
