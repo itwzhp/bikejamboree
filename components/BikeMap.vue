@@ -34,7 +34,6 @@
         />
         <l-polyline
           v-if="currentStageIndex > -1"
-          :key="`stage=${i}`"
           :lat-lngs="getAllPoints(currentStage)"
           :weight="8"
           color="#e94f2D"
@@ -75,19 +74,14 @@ export default {
   },
   watch: {
     currentStageIndex(stageIndex) {
-      if (stageIndex > -1) {
-        const stage = this.stages[stageIndex]
-        this.map.fitBounds(this.getAllPoints(stage), {
-          animate: true,
-          padding: [10, 10],
-        })
-      } else {
-        this.map.fitBounds(
-          this.stops.map((stop) => [stop.lat, stop.lon]),
-          { animate: true, padding: [10, 10] }
-        )
-      }
+      this.fitMapToStage(stageIndex)
     },
+    map() {
+      this.fitMapToStage(this.currentStageIndex)
+    }
+  },
+  updated() {
+    this.fitMapToStage(this.currentStageIndex)
   },
   methods: {
     getAllPoints(stage) {
@@ -120,6 +114,22 @@ export default {
             }),
           })
         : ''
+    },
+    fitMapToStage(stageIndex) {
+      if (this.$refs.bikeMap) {
+        if (stageIndex > -1) {
+          const stage = this.stages[stageIndex]
+          this.$refs.bikeMap.fitBounds(this.getAllPoints(stage), {
+            animate: true,
+            padding: [10, 10],
+          })
+        } else {
+          this.$refs.bikeMap.fitBounds(
+            this.stops.map((stop) => [stop.lat, stop.lon]),
+            { animate: true, padding: [10, 10] }
+          )
+        }
+      }
     },
   },
 }
