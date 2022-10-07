@@ -133,9 +133,41 @@ export const stagesData = [
     finishPoint: stopsData[2],
     finishDate: new Date(2022, 11, 30),
     distance: '1400 km',
-    leader: 'Miłosz Bączkowski',
+    leader: 'Bartłomiej Walkowski',
     previousStages: [0],
     nextStages: [2],
+    members: [
+      {
+        name: 'Bartłomiej Walkowski',
+        photo: 'bartlomiej-walkowski.webp',
+        isLeader: true,
+        bio: 'Komendant Chorągwi Ziemi Lubuskiej Związku Harcerstwa Polskiego. Pochodzi z Zielonej Góry i po wielu latach to właśnie jego rodzinne miasto stało się tym ukochanym. Na co dzień pracuje w profesjonalnym radiu, a doświadczenie dziennikarskie zbierał przez wiele lat w redakcjach gazet oraz radiu internetowym, które sam stworzył. Uwielbia słuchać jazzu i bluesa, a obok koniecznie musi stać mała czarna bez której nie wyobraża sobie dnia. Zawodowo Bartek jest również konferansjerem. Chęć poznania nowego i połączenia tego ze zgłębianiem historii jest tym co zawiodło Bartka do projektu Jednośladami Andersa.'
+      },
+      {
+        name: 'Katarzyna Kurowska',
+        photo: 'katarzyna-kurowska.webp',
+        isLeader: false,
+        bio: 'Choć w życiu stara się mieć wiele rzeczy zaplanowanych i przemyślanych, to z ciekawością wchodzi w nowe projekty i wyzwania, które pojawiają się na jej drodze. Z natury ma otwarte serce i umysł, dlatego po próbach studiów prawniczych, ostatecznie skończyła jako doktor antropologii kulturowej i obecnie pracuje w Muzeum Etnograficznym w Zielonej Górze-Ochli. Od kilkunastu jest także aktywną instruktorką ZHP, zaangażowaną w działania na wszystkich szczeblach organizacji. Z urodzenia łodzianka, z wyboru zielonogórzanka. Uczestniczka 29 etapu Bike Jamboree. Poza rowerem, który towarzyszy jej od najmłodszych lat, uwielbia koty, kawę, literaturę i długie jesienne spacery, a w nielicznych wolnych chwilach także gotowanie.'
+      },
+      {
+        name: 'Aleksandra Jędryka',
+        photo: 'aleksandra-jedryka.webp',
+        isLeader: false,
+        bio: 'Wieloletnia harcerka i instruktorka Związku Harcerstwa Polskiego, aktualnie związana z Chorągwią Opolską Związku Harcerstwa Polskiego w obszarach kształcenie i promocja. Zawodowo zajmuje się pracą kreatywną, absolwentka krakowskiej Akademii Sztuk Pięknych, graficzka i architektka wnętrz, prowadząca własne biuro. Pochodzi z małej miejscowości, Buczek (pow. łaski, woj. łódzkie), i określa się jako lokalna patriotka. Zarówno z biznesie jak i w działaniach społecznych stara się podkreślać, że lokalność ma olbrzymią moc i potencjał, o które trzeba dbać. Pasjonatka historii (zwłaszcza lokalnej) oraz alternatywnych sposobów na jej poznawanie, stąd udział w sztafecie JednoŚladami Andersa! Uwielbia odkrywać nowe, być w ciągłym ruchu, skąd miłość do pływania. Niepoprawna miłośniczka kotów.'
+      },
+      {
+        name: 'Piotr Żyta',
+        photo: 'piotr-zyta.webp',
+        isLeader: false,
+        bio: 'Wiecznie poszukujący nowych wrażeń, daje ujście swoim potrzebom w coraz to nowych sposobach na podróże i samorozwój. Na co dzień pracuje w branży IT, lecz jego zainteresowania wykraczają poza tą sferę i krążą wokół ekonomii i rynków finansowych. Jest instruktorem Związku Harcerstwa Polskiego wywodzącym się z Hufca ZHP Jarosław na Podkarpaciu. Aktualnie, mieszkając w Krakowie amatorsko realizuje się w tańcu będąc tancerzem Teatru Tańca Terpsychora. Poznaje świat z różnych perspektyw, autostopem, pieszo, rowerem, kajakiem, oraz pod żaglami jachtu lub żaglowca. W życiu ceni sobie przede wszystkim możliwość poznawania i bycia z ludźmi. Do sztafety JednoŚladami Andersa skierowała go pasja do podróży oraz platforma do rozmów o historii, którą daje ten projekt.'
+      },
+      {
+        name: 'Anna Wilk',
+        photo: 'anna-wilk.webp',
+        isLeader: false,
+        bio: 'Na gdyńskich Kolosach dostrzegła plakat, promujący projekt "JednoŚladami Andersa". Zapragnęła dowiedzieć się więcej. Wypatrzyła kogoś w koszulce Bike Jamboree. Zadała kilka pytań. Wysłała maila ze zgłoszeniem. Udało się! Dołączyła do ekipy II etapu. Pomysł podążania szlakiem Armii Andersa (gest hołdu, promowanie i poznawanie wybitnych życiorysów, a także podróż w głąb siebie) zakiełkował w szkole średniej. Później przerodził się w marzenie. Teraz nadarza się znakomita okazja by je ziścić. Od dzieciństwa w jej życie wpleciona jest aktywność. Ciekawi ją świat a najbardziej ludzie i ich historie. Uwielbia wyzwania; zarówno zmagania z ograniczeniami umysłu jak ciała. Bardzo lubi rozmawiać. Zadaje wiele pytań (i sobie, i innym). Żyje minimalistycznie. Obcowanie ze sztuką dostarcza jej ogrom radości. Góry wraz z morzem są jej ukochanym połączeniem. Żaglowce są jej pasją. Studiuję. Pracuje też jako pilot. Jest instruktorem narciarstwa. Mnóstwo frajdy dostarcza jej jazda na monocyklu. Dwa koła towarzyszą jej już od dwóch dekad. Z wypiekami na twarzy wyczekuje kazachstańskich stepów, spotkań z tamtejszymi ludźmi i spełnienia marzenia!'
+      }
+    ]
   },
   {
     name: 'stage_iii',
