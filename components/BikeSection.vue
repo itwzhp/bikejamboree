@@ -41,6 +41,10 @@ export default {
       type: String,
       default: '',
     },
+    gap: {
+      type: String,
+      default: '',
+    },
   },
 
   computed: {
@@ -57,9 +61,10 @@ export default {
       ]
     },
     inlineStyle() {
-      return this.backgroundImage
-        ? `background-image: url(${this.backgroundImage})`
-        : ''
+      let style = ''
+      if (this.backgroundImage) style += `background-image: url(${this.backgroundImage});`
+      if (this.gap) style += `gap: ${this.gap}px;`
+      return style
     },
   },
 }
