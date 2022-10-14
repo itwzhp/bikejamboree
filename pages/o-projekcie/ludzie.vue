@@ -125,19 +125,6 @@
         {{ $t('people.in_the_project_shes_responsible') }}
       </BikeParagraph>
     </BikeBiography>
-
-    <BikeBiography
-      class="mb-75"
-      name="Adam Zawadzki"
-      :photo-path="require('~/assets/images/people/adam-zawadzki.webp')"
-    >
-      <BikeParagraph>
-        {{ $t('people.for_him_impossible_becomes') }}
-      </BikeParagraph>
-      <BikeParagraph>
-        {{ $t('people.his_profession_is_also') }}
-      </BikeParagraph>
-    </BikeBiography>
   </main>
 </template>
 
