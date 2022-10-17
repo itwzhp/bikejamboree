@@ -26,7 +26,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="home" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              {{ $t('route.start_nursultan') }}
+              {{ $t('route.start_astana') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">

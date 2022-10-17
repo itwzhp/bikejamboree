@@ -2,7 +2,7 @@ export const stopsData = [
   {
     lat: 51.1762,
     lon: 71.5048,
-    city: 'nursultan',
+    city: 'astana',
     country: 'kazakhstan',
     type: 'start',
   },

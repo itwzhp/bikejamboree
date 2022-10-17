@@ -1,6 +1,6 @@
 export default {
   places: {
-    nursultan: 'Nur-Sułtan',
+    astana: 'Astana',
     aral: 'Aralsk',
     tashkent: 'Taszkent',
     ashgabat: 'Aschabad',
@@ -103,7 +103,7 @@ export default {
     legend: 'Legenda',
     show_legend: 'Pokaż legendę',
     hide_legend: 'Ukryj Legendę',
-    start_nursultan: 'Start - Nur-Sułtan',
+    start_astana: 'Start - Astana',
     finish_edinburgh_gdansk: 'Meta - Edynburg, Gdańsk',
     stage_change_locations: 'Miejsca zmiany etapów',
     route_of_the_expedition: 'Trasa wyprawy',
