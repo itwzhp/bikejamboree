@@ -35,7 +35,7 @@
       class="mb-75"
       name="Anna Śledzińska"
       :photo-path="require('~/assets/images/people/anna-sledzinska.webp')"
-      email="ania@bikejamboree.pl"
+      email="anna.sledzinska@zhp.net.pl"
     >
       <BikeParagraph>
         {{ $t('people.she_is_a_guide_leader') }}
