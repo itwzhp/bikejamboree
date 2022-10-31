@@ -24,7 +24,7 @@
       class="mb-75"
       name="Zbigniew Sas"
       :photo-path="require('~/assets/images/people/zbigniew-sas.webp')"
-      email="zbigniew.sas@zhp.net.pl"
+      email="zbigniew.sas@zhp.pl"
     >
       <BikeParagraph>
         {{ $t('people.in_recent_years_hes_been') }}
