@@ -15,7 +15,7 @@
         />
       </slide>
     </carousel>
-    <BikeSection v-else columns-desktop="3" class="mb-30 bike-news-short">
+    <BikeSection v-else columns-tablet="3" columns-desktop="3" class="mb-30 bike-news-short">
       <BikeNewsCard
         v-for="(article, i) in articles"
         :key="`article-${i}`"
