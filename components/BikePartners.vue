@@ -57,6 +57,11 @@ export default {
           imageFilename: 'rzeczpospolita-logo.webp',
           imageAlt: 'Rzeczpospolita logo',
         },
+        {
+          websiteUrl: 'https://elvelo.pl/',
+          imageFilename: 'elvelo-logo.webp',
+          imageAlt: 'Elvelo logo',
+        }
       ],
     }
   },
