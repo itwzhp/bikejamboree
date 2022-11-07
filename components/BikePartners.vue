@@ -32,11 +32,11 @@ export default {
           imageFilename: 'crosso-logo.webp',
           imageAlt: 'Crosso logo',
         },
-        {
-          websiteUrl: 'http://sony.pl',
-          imageFilename: 'sony-logo.webp',
-          imageAlt: 'Sony logo',
-        },
+        // {
+        //   websiteUrl: 'http://sony.pl',
+        //   imageFilename: 'sony-logo.webp',
+        //   imageAlt: 'Sony logo',
+        // },
         {
           websiteUrl: 'https://facebook.com/MedykRescueTeam/',
           imageFilename: 'medyk-logo.webp',
