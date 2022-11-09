@@ -75,6 +75,11 @@ export default {
             file: 'en.js',
             name: 'English',
           },
+          {
+            code: 'ru',
+            file: 'ru.js',
+            name: 'Русский',
+          }
         ],
         langDir: 'lang/',
         defaultLocale: 'pl',
@@ -83,38 +88,47 @@ export default {
           'o-projekcie/index': {
             pl: '/o-projekcie',
             en: '/about',
+            ru: '/o-proekte'
           },
           'o-projekcie/trasa': {
             pl: '/o-projekcie/trasa',
             en: '/about/route',
+            ru: '/o-proekte/marshrut'
           },
           'o-projekcie/ludzie': {
             pl: '/o-projekcie/ludzie',
             en: '/about/people',
+            ru: '/o-proekte/ludi'
           },
           'o-projekcie/dolacz': {
             pl: '/o-projekcie/dolacz',
             en: '/about/join-us',
+            ru: '/o-proekte/prisoedinitsya'
           },
           'o-projekcie/130-sladow': {
             pl: '/o-projekcie/130-sladow',
             en: '/about/130-traces',
+            ru: '/o-proekte/130-sledov'
           },
           'poprzednie-projekty': {
             pl: '/poprzednie-projekty',
             en: '/previous-projects',
+            ru: '/predydushchie-proekty'
           },
           blog: {
             pl: 'blog',
             en: false,
+            ru: false
           },
           'blog/_': {
             pl: 'blog/:_',
             en: false,
+            ru: false,
           },
           kontakt: {
             pl: '/kontakt',
             en: '/contact-us',
+            ru: '/kontakt'
           },
         },
         detectBrowserLanguage: {
