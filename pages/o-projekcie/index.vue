@@ -21,6 +21,22 @@
       <BikeParagraph>
         {{ $t('about_the_project.the_main_route_covers_over') }}
       </BikeParagraph>
+      <template v-if="$i18n.locale === 'pl'">
+        <BikeParagraph>
+          {{ $t('about_the_project.relay_is_the_main') }}
+        </BikeParagraph>
+        <BikeParagraph>
+          {{ $t('about_the_project.until_now_we') }}
+        </BikeParagraph>
+        <BikeUnorderedList>
+          <li>{{ $t('about_the_project.activity_one') }}</li>
+          <li>{{ $t('about_the_project.activity_two') }}</li>
+          <li>{{ $t('about_the_project.activity_three') }}</li>
+        </BikeUnorderedList>
+        <BikeParagraph>
+          {{ $t('about_the_project.all_activities_are_open') }}
+        </BikeParagraph>
+      </template>
 
       <BikeHeading level="2">
         {{ $t('about_the_project.initiators') }}
