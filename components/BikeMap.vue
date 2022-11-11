@@ -11,7 +11,6 @@
         }"
         class="bike-map"
       >
-        <!-- :url="`https://api.mapbox.com/styles/v1/lukasz124/cl2yyj1jr004615mx1m1mwcro/tiles/256/{z}/{x}/{y}?access_token=${$config.MAPBOX_KEY}`" -->
         <l-tile-layer
           :url="`https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=${$config.MAPBOX_KEY}`"
           :options="{ zoomOffset: -1, tileSize: 512 }"
@@ -21,6 +20,11 @@
           :key="`stop-${i}`"
           :lat-lng="[stop.lat, stop.lon]"
           :icon="getIcon(stop)"
+        />
+        <l-marker
+          v-if="kmlCoordinates"
+          :lat-lng="kmlCoordinates"
+          :icon="getIcon({type: 'live'})"
         />
         <l-polyline
           v-for="(stage, i) in stages"
@@ -61,6 +65,15 @@ export default {
       default: -1,
     },
   },
+  data() {
+    return {
+      kmlCoordinates: ''
+    }
+  },
+  async fetch() {
+    this.kmlCoordinates = await fetch('https://inreach.radom.zhp.pl')
+      .then(response => response.json())
+  },
   computed: {
     map() {
       return this.$refs.bikeMap
@@ -94,6 +107,8 @@ export default {
     },
     getIcon(stop) {
       let anchor = [12, 30]
+      let fill = '#454545'
+      let stroke = '#454545'
       let icon = 'map-pin'
       switch (stop.type) {
         case 'start':
@@ -103,14 +118,19 @@ export default {
           icon = 'flag'
           anchor = [4, 24]
           break
+        case 'live':
+          icon = 'disc'
+          fill = 'none'
+          stroke = 'red'
+          break
       }
       return this.$L
         ? this.$L.divIcon({
             className: 'bike-map__marker-icon',
             iconAnchor: anchor,
             html: this.$feathericons[icon].toSvg({
-              fill: '#454545',
-              stroke: '#454545',
+              fill,
+              stroke,
             }),
           })
         : ''
@@ -135,7 +155,33 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+.bike-map__marker-icon .feather-disc {
+  animation: breathing 1s infinite;
+}
+
+@keyframes breathing {
+  0% {
+    transform: scale(0.95);
+  }
+
+  25% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  75% {
+    transform: scale(1)
+  }
+
+  100% {
+    transform: scale(0.95);
+  }
+}
+
 .bike-map {
   min-height: 350px;
 }
