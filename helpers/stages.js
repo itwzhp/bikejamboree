@@ -124,6 +124,10 @@ export const stagesData = [
     distance: '1500 km',
     leader: 'Zbigniew Sas',
     nextStages: [1],
+    points: [
+      { lat: 50.3229, lon: 66.9115 },
+      { lat: 48.6695, lon: 61.2609 }
+    ]
   },
   {
     name: 'stage_ii',
@@ -136,6 +140,12 @@ export const stagesData = [
     leader: 'Bartłomiej Walkowski',
     previousStages: [0],
     nextStages: [2],
+    points: [
+      { lat: 45.6295, lon: 63.3162 },
+      { lat: 44.8482, lon: 65.4877 },
+      { lat: 42.3440, lon: 69.5888 },
+      { lat: 42.3440, lon: 69.5888 }
+    ],
     members: [
       {
         name: 'Bartłomiej Walkowski',
@@ -180,6 +190,19 @@ export const stagesData = [
     leader: 'Arkadiusz Kościelski',
     previousStages: [1],
     nextStages: [3],
+    points: [
+      { lat: 40.8939, lon: 68.6789 },
+      { lat: 40.6267, lon: 68.7239 },
+      { lat: 40.5018, lon: 68.5390 },
+      { lat: 40.5636, lon: 68.3743 },
+      { lat: 39.2179, lon: 66.2372 },
+      { lat: 39.0378, lon: 66.5849 },
+      { lat: 39.1162, lon: 66.8654 },
+      { lat: 38.6069, lon: 66.2607 },
+      { lat: 39.7721, lon: 64.4491 },
+      { lat: 41.3459, lon: 61.3811 },
+      { lat: 41.3810, lon: 60.3375 }
+    ]
   },
   {
     name: 'stage_iv',
