@@ -59,6 +59,17 @@
               {{ $t('route.route_of_the_expedition') }}
             </td>
           </tr>
+          <tr v-if="liveDateAndTime" class="bike-map-legend__table-row">
+            <td
+              class="bike-map-legend__table-cell bike-map-legend__table-cell--first"
+            >
+              <BikeIcon class="bike-map-legend__live-icon" icon="disc" />
+            </td>
+            <td class="bike-map-legend__table-cell">
+              Aktualne położenie
+              <small class="bike-map-legend__live-date">({{ liveDateAndTime }})</small>
+            </td>
+          </tr>
         </table>
       </div>
     </BikeCard>
@@ -67,6 +78,12 @@
 
 <script>
 export default {
+  props: {
+    liveDateAndTime: {
+      type: String,
+      default: ''
+    }
+  },
   data() {
     return {
       legendOpen: true,
@@ -78,7 +95,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .bike-map-legend {
   color: $text-color;
   padding: 30px;
@@ -119,6 +136,12 @@ export default {
     height: 6px;
     background: $brand-red;
     opacity: 0.6;
+  }
+  &__live-icon {
+    color: $brand-red
+  }
+  &__live-date {
+    display: block
   }
 }
 

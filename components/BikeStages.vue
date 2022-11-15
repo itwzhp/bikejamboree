@@ -3,7 +3,8 @@
     <BikeMap
       :stops="stops"
       :stages="stages"
-      :current-stage-index="currentStageIndex"
+      :current-stage-index="Number(currentStageIndex)"
+      :live-coordinates="liveCoordinates"
       class="bike-stages__map"
       @select-stage="selectStage($event)"
     />
@@ -25,10 +26,10 @@
     <BikeStageDetails
       class="bike-stages__details"
       :stages="stages"
-      :current-stage-index="currentStageIndex"
+      :current-stage-index="Number(currentStageIndex)"
       @select-stage="selectStage($event)"
     />
-    <BikeMapLegend class="bike-stages__map-legend" />
+    <BikeMapLegend :live-date-and-time="liveDateAndTime" class="bike-stages__map-legend" />
   </BikeSection>
 </template>
 
@@ -39,7 +40,12 @@ export default {
   data() {
     return {
       currentStageIndex: -1,
+      kmlData: ''
     }
+  },
+  async fetch() {
+    this.kmlData = await fetch('https://inreach.radom.zhp.pl')
+      .then(response => response.json())
   },
   computed: {
     stops() {
@@ -48,11 +54,22 @@ export default {
     stages() {
       return stagesData
     },
+    liveCoordinates() {
+      return (this.kmlData.lat && this.kmlData.lon) ? [this.kmlData.lat, this.kmlData.lon]: null
+    },
+    liveDate() {
+      return this.kmlData.time
+    },
+    liveDateAndTime() {
+      const date = new Date(this.liveDate)
+      const result = `${date.toLocaleDateString()}, ${date.toLocaleTimeString([], {timeStyle: 'short'})}`
+      return result
+    }
   },
   methods: {
     selectStage(i) {
       this.currentStageIndex = i
-    },
+    }
   },
 }
 </script>

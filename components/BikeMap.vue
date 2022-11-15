@@ -9,7 +9,7 @@
           attributionControl: false,
           scrollWheelZoom: false,
         }"
-        class="bike-map"
+        :class="classes"
       >
         <l-tile-layer
           :url="`https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=${$config.MAPBOX_KEY}`"
@@ -22,8 +22,8 @@
           :icon="getIcon(stop)"
         />
         <l-marker
-          v-if="kmlCoordinates"
-          :lat-lng="kmlCoordinates"
+          v-if="liveCoordinates"
+          :lat-lng="liveCoordinates"
           :icon="getIcon({type: 'live'})"
         />
         <l-polyline
@@ -64,15 +64,14 @@ export default {
       type: Number,
       default: -1,
     },
-  },
-  data() {
-    return {
-      kmlCoordinates: ''
+    liveCoordinates: {
+      type: Array,
+      default: () => []
+    },
+    size: {
+      type: String,
+      default: 'regular'
     }
-  },
-  async fetch() {
-    this.kmlCoordinates = await fetch('https://inreach.radom.zhp.pl')
-      .then(response => response.json())
   },
   computed: {
     map() {
@@ -84,6 +83,12 @@ export default {
     mapZoom() {
       return this.$screen.lg ? 4 : 3
     },
+    classes() {
+      return [
+        'bike-map',
+        `bike-map--size-${this.size}`
+      ]
+    }
   },
   watch: {
     currentStageIndex(stageIndex) {
@@ -156,6 +161,10 @@ export default {
 </script>
 
 <style lang="scss">
+#map-wrap {
+  height: 100%;
+}
+
 .bike-map__marker-icon .feather-disc {
   animation: breathing 1s infinite;
 }
@@ -183,12 +192,22 @@ export default {
 }
 
 .bike-map {
-  min-height: 350px;
+  &--size-small {
+    min-height: 250px;
+  }
+  &--size-regular {
+    min-height: 350px;
+  }
 }
 
 @include screen-size('tablet') {
   .bike-map {
-    min-height: 550px;
+    // &--size-small {
+    //   min-height: 250px;
+    // }
+    &--size-regular {
+      min-height: 550px;
+    }
   }
 }
 </style>

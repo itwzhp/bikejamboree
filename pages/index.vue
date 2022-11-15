@@ -3,6 +3,10 @@
     <BikeBanner :class="{ 'mb-75': $screen.lg }" />
     <BikeIntroduction />
     <BikeHeading v-if="$i18n.locale === 'pl'" centered level="2">
+      "JednoŚladami Andersa" na żywo
+    </BikeHeading>
+    <BikeCurrentState v-if="$i18n.locale === 'pl'" />
+    <BikeHeading v-if="$i18n.locale === 'pl'" centered level="2">
       Aktualności
     </BikeHeading>
     <BikeNewsShort
