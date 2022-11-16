@@ -61,7 +61,9 @@
       </div>
     </BikeCard>
     <article class="bike-current__link">
-      <BikeInternalLink>Zobacz trasę całej wyprawy</BikeInternalLink>
+      <BikeInternalLink :to="localePath('/o-projekcie/trasa')">
+        Zobacz trasę całej wyprawy
+      </BikeInternalLink>
     </article>
   </BikeSection>
 </template>
