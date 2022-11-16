@@ -133,4 +133,31 @@ export default {
     }
   }
 }
+
+.bike-map-legend {
+  color: $text-color;
+  padding: 30px;
+
+  &__table-cell {
+    padding-bottom: 7px;
+    &--first {
+      min-width: 35px;
+      padding-right: 7px;
+    }
+  }
+  &__icon {
+    transform: scale(0.8);
+  }
+  &__route-icon {
+    height: 6px;
+    background: $brand-red;
+    opacity: 0.6;
+  }
+  &__live-icon {
+    color: $brand-red
+  }
+  &__live-date {
+    display: block
+  }
+}
 </style>

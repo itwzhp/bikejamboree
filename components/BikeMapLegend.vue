@@ -95,7 +95,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .bike-map-legend {
   color: $text-color;
   padding: 30px;
