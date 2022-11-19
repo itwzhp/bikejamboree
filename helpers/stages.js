@@ -49,9 +49,9 @@ export const stopsData = [
     type: 'regular',
   },
   {
-    lat: 31.2018,
-    lon: 29.9158,
-    city: 'alexandria',
+    lat: 31.2386,
+    lon: 32.2501,
+    city: 'port_said',
     country: 'egypt',
     type: 'regular',
   },

@@ -7,7 +7,7 @@ export default {
     teheran: 'Teheran',
     kermanshah: 'Kermanszah',
     amman: 'Amman',
-    alexandria: 'Alexandria',
+    port_said: 'Port Said',
     taranto: 'Taranto',
     monte_cassino: 'Monte Cassino',
     milan: 'Mediolan',
