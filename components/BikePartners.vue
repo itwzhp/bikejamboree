@@ -61,6 +61,11 @@ export default {
           websiteUrl: 'https://elvelo.pl/',
           imageFilename: 'elvelo-logo.webp',
           imageAlt: 'Elvelo logo',
+        },
+        {
+          websiteUrl: 'https://cstpoland.pl/',
+          imageFilename: 'cst-logo.webp',
+          imageAlt: 'CST logo',
         }
       ],
     }
