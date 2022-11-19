@@ -26,13 +26,13 @@
         </li>
         <li class="contact-list__item">
           <BikeIcon class="contact-list__item-icon" icon="archive" />
-          <BikeExternalLink :with-icon="false" to="/jednosladami-andersa-foto.zip">
+          <BikeExternalLink :with-icon="false" to="/files/jednosladami-andersa-foto.zip">
             pakiet zdjęć
           </BikeExternalLink>
         </li>
         <li class="contact-list__item">
           <BikeIcon class="contact-list__item-icon" icon="file-text" />
-          <BikeExternalLink :with-icon="false" to="mailto:magdalena.suchan@zhp.net.pl">
+          <BikeExternalLink :with-icon="false" to="/files/22-11-09_JA start-sztafety-komunikat-prasowy_druk.pdf">
             komunikat prasowy o starcie sztafety
           </BikeExternalLink>
         </li>
