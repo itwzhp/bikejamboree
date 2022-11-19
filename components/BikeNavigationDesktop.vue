@@ -27,6 +27,13 @@
         :active="isActive('blog')"
       />
       <BikeNavigationDesktopItem
+        v-if="$i18n.locale === 'pl'"
+        class="bike-navigation__list-item"
+        label="navigation.media"
+        href="/dla-mediow"
+        :active="isActive('dla-mediow')"
+      />
+      <BikeNavigationDesktopItem
         class="bike-navigation__list-item"
         label="navigation.contact_us"
         href="/kontakt"

@@ -55,6 +55,7 @@ export default {
     join_us: 'Dołącz',
     previous_projects: 'Poprzednie projekty',
     blog: 'Blog',
+    media: 'Dla mediów',
     contact_us: 'Kontakt',
   },
   footer: {

@@ -86,6 +86,18 @@
           {{ $t('navigation.blog') }}
         </NuxtLink>
       </li>
+      <li
+        v-if="$i18n.locale === 'pl'"
+        class="bike-navigation-mobile__list-item"
+      >
+        <NuxtLink
+          :class="isActive('dla-mediow')"
+          :to="localePath('/dla-mediow')"
+          @click.native="closeNavigation"
+        >
+          {{ $t('navigation.media') }}
+        </NuxtLink>
+      </li>
       <li class="bike-navigation-mobile__list-item">
         <NuxtLink
           :class="isActive('kontakt')"
