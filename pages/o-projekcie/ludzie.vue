@@ -125,6 +125,29 @@
         {{ $t('people.in_the_project_shes_responsible') }}
       </BikeParagraph>
     </BikeBiography>
+
+    <BikeBiography
+      class="mb-75"
+      name="Marcin Dałkiewicz"
+      :photo-path="require('~/assets/images/people/marcin-dalkiewicz.webp')"
+    >
+      <BikeParagraph>
+        Na co dzień związany z branżą jubilerską, w projekcie odpowiedzialny za trasę,sprzęt i magazyn Bike Jamboree. Sporo wyjeżdża w różne zakątki świata na różnychkontynentach. Zdecydowanie woli ciepło od zimna i rower od samochodu. Ciężko muusiedzieć dłużej w jednym miejscu. Lubi poznawać niepoznane i odkrywaćnieodkryte. Zanimu coś wyżuci sprawdza czy nie da się tego naprawić.Zdecydowany przeciwnik ludzkiej bezmyślności.
+      </BikeParagraph>
+    </BikeBiography>
+
+    <BikeBiography
+      class="mb-75"
+      name="Monika Pawelec"
+      :photo-path="require('~/assets/images/people/monika-pawelec.webp')"
+    >
+      <BikeParagraph>
+        Na co dzień spełnia się jako chemik kontrolujący jakość leków, jednak poczucie wolności daje jej poznawanie świata –szczególnie z perspektywy siodełka rowerowego. Jest uzależniona - nie wyobraża sobie dnia bez muzyki, tygodnia bez dobrej książki, miesiąca bez chodzenia po górach oraz życia bez roweru, tańca i podróży. Poszukiwaczka dobrego smaku, również we własnej kuchni. Sopran warszawskiej grupy wokalnej. Nigdy się nie nudzi. Kocha zwierzęta. Uczestniczka 26. etapu Bike Jamboreeprzez USA.Amatorka czerpania z życia pełnymi garściami oraz ambitnych, ciekawych i wartościowych projektów podróżniczych co przywiodło ją na szlak JednoŚladów Andersa.
+      </BikeParagraph>
+      <BikeParagraph>
+        W projekcie odpowiedzialna za dokumentację i wsparcie administracji.
+      </BikeParagraph>
+    </BikeBiography>
   </main>
 </template>
 
