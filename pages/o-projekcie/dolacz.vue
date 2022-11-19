@@ -27,6 +27,38 @@
           </td>
         </tr>
         <tr>
+          <td>II</td>
+          <td>{{ $t('places.aral') }} - {{ $t('places.tashkent') }}</td>
+          <td>10.12.2022 – 30.12.2022</td>
+          <td>
+            Bartłomiej Walkowski<br>
+            <BikeExternalLink to="mailto:bartłomiej.walkowski@zhp.net.pl" :with-icon="false">
+              bartłomiej.walkowski@zhp.net.pl
+            </BikeExternalLink>
+          </td>
+          <td v-if="$i18n.locale === 'pl'">
+            <BikeUnorderedList no-margin>
+              <li>jedna osoba</li>
+            </BikeUnorderedList>
+          </td>
+        </tr>
+        <tr>
+          <td>VII</td>
+          <td>{{ $t('places.amman') }} - {{ $t('places.port_said') }}</td>
+          <td>25.03.2023 – 21.04.2023</td>
+          <td>
+            Dariusz Zajączkowski<br>
+            <BikeExternalLink to="mailto:d.zajaczkowski@zhp.net.pl" :with-icon="false">
+              d.zajaczkowski@zhp.net.pl
+            </BikeExternalLink>
+          </td>
+          <td v-if="$i18n.locale === 'pl'">
+            <BikeUnorderedList no-margin>
+              <li>jeden harcerz</li>
+            </BikeUnorderedList>
+          </td>
+        </tr>
+        <tr>
           <td>X West</td>
           <td>{{ $t('places.milan') }} - {{ $t('places.paris') }}</td>
           <td>03.06.2023 – 18.06.2023</td>
