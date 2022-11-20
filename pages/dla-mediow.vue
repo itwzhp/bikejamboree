@@ -55,7 +55,7 @@
           <td>Pytanie na Śniadanie, 17.11.2022</td>
           <td>
             <BikeExternalLink :with-icon="false" to="https://pytanienasniadanie.tvp.pl/64574595/harcerze-na-rowerze-w-podrozy-dookola-swiata">
-              Czytaj artykuł
+              Oglądaj materiał
             </BikeExternalLink>
           </td>
         </tr>
@@ -100,7 +100,7 @@
           <td>Radio Zielona Góra, 12.10.2022</td>
           <td>
             <BikeExternalLink :with-icon="false" to="https://rzg.pl/208631/sladami-andersa-na-rowerach-zielonogorscy-harcerze-w-sztafecie/">
-              Czytaj artykuł
+              Słuchaj audycji
             </BikeExternalLink>
           </td>
         </tr>
@@ -109,7 +109,7 @@
           <td>Radio Zielona Góra, 12.10.2022</td>
           <td>
             <BikeExternalLink :with-icon="false" to="https://rzg.pl/208373/2kolka-harcerska-sztafeta-rowerowa-jednosladami-andersa/">
-              Czytaj artykuł
+              Słuchaj audycji
             </BikeExternalLink>
           </td>
         </tr>
@@ -120,7 +120,7 @@
 
 <script>
 export default {
-  name: 'MEdiaPage',
+  name: 'MediaPage',
 }
 </script>
 
@@ -148,6 +148,7 @@ export default {
     }
     td:nth-child(3) {
       padding-top: 0;
+      white-space: nowrap;
     }
   }
 }
