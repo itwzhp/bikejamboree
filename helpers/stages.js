@@ -125,6 +125,8 @@ export const stagesData = [
     leader: 'Zbigniew Sas',
     nextStages: [1],
     points: [
+      { lat: 51.6262, lon: 69.8618 },
+      { lat: 51.9760, lon: 66.4029 },
       { lat: 50.3229, lon: 66.9115 },
       { lat: 48.6695, lon: 61.2609 }
     ]
