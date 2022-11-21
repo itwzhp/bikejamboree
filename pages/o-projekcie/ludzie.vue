@@ -132,7 +132,7 @@
       :photo-path="require('~/assets/images/people/marcin-dalkiewicz.webp')"
     >
       <BikeParagraph>
-        Na co dzień związany z branżą jubilerską, w projekcie odpowiedzialny za trasę,sprzęt i magazyn Bike Jamboree. Sporo wyjeżdża w różne zakątki świata na różnychkontynentach. Zdecydowanie woli ciepło od zimna i rower od samochodu. Ciężko muusiedzieć dłużej w jednym miejscu. Lubi poznawać niepoznane i odkrywaćnieodkryte. Zanimu coś wyżuci sprawdza czy nie da się tego naprawić.Zdecydowany przeciwnik ludzkiej bezmyślności.
+        Na co dzień związany z branżą jubilerską, w projekcie odpowiedzialny za trasę, sprzęt i magazyn Bike Jamboree. Sporo wyjeżdża w różne zakątki świata na różnych kontynentach. Zdecydowanie woli ciepło od zimna i rower od samochodu. Ciężko mu usiedzieć dłużej w jednym miejscu. Lubi poznawać niepoznane i odkrywać nieodkryte. Zanim coś wyrzuci sprawdza czy nie da się tego naprawić. Zdecydowany przeciwnik ludzkiej bezmyślności.
       </BikeParagraph>
     </BikeBiography>
 
