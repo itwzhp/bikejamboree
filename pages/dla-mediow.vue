@@ -60,11 +60,29 @@
           </td>
         </tr>
         <tr>
+          <td>"Witaj Wielkopolsko!" (01:05:25)</td>
+          <td>TVP3, 15.11.2022</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://poznan.tvp.pl/64529853/15112022">
+              Oglądaj materiał
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"Na rowerach śladem polskiej armii"</td>
           <td>Rzeczpospolita, 11.11.2022</td>
           <td>
             <BikeExternalLink :with-icon="false" to="https://www.rp.pl/historia-polski/art37399001-na-rowerach-sladem-polskiej-armii">
               Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"Trwają przygotowania do sztafety rowerowej śladami Armii gen. Andersa."</td>
+          <td>Telewizja Asta, 08.11.2022</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://youtu.be/36BMTop3u1s">
+              Oglądaj materiał
             </BikeExternalLink>
           </td>
         </tr>
