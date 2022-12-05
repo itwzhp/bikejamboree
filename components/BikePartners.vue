@@ -33,29 +33,9 @@ export default {
           imageAlt: 'Crosso logo',
         },
         {
-          websiteUrl: 'http://sony.pl',
-          imageFilename: 'sony-logo.webp',
-          imageAlt: 'Sony logo',
-        },
-        {
-          websiteUrl: 'https://facebook.com/MedykRescueTeam/',
-          imageFilename: 'medyk-logo.webp',
-          imageAlt: 'Medyk Rescue Team logo',
-        },
-        {
-          websiteUrl: 'https://pajaksport.pl/',
-          imageFilename: 'pajak-logo.webp',
-          imageAlt: 'Pajak Sport logo',
-        },
-        {
-          websiteUrl: 'https://namioty.marabut.com/',
-          imageFilename: 'marabut-logo.webp',
-          imageAlt: 'Marabut logo',
-        },
-        {
-          websiteUrl: 'https://rp.pl/',
-          imageFilename: 'rzeczpospolita-logo.webp',
-          imageAlt: 'Rzeczpospolita logo',
+          websiteUrl: 'https://cstpoland.pl/',
+          imageFilename: 'cst-logo.webp',
+          imageAlt: 'CST logo',
         },
         {
           websiteUrl: 'https://elvelo.pl/',
@@ -63,9 +43,44 @@ export default {
           imageAlt: 'Elvelo logo',
         },
         {
-          websiteUrl: 'https://cstpoland.pl/',
-          imageFilename: 'cst-logo.webp',
-          imageAlt: 'CST logo',
+          websiteUrl: 'https://namioty.marabut.com/',
+          imageFilename: 'marabut-logo.webp',
+          imageAlt: 'Marabut logo',
+        },
+        {
+          websiteUrl: 'https://facebook.com/MedykRescueTeam/',
+          imageFilename: 'medyk-logo.webp',
+          imageAlt: 'Medyk Rescue Team logo',
+        },
+        {
+          websiteUrl: 'https://www.gov.pl/web/dyplomacja',
+          imageFilename: 'msz-logo.webp',
+          imageAlt: 'MSZ logo',
+        },
+        {
+          websiteUrl: 'https://sybir.bialystok.pl',
+          imageFilename: 'muzeum-pamieci-sybiru-logo.webp',
+          imageAlt: 'Muzeum Pamięci Sybiru logo',
+        },
+        {
+          websiteUrl: 'https://normandavies.com/',
+          imageFilename: 'norman-davies-logo.webp',
+          imageAlt: 'Norman Davies logo',
+        },
+        {
+          websiteUrl: 'https://pajaksport.pl/',
+          imageFilename: 'pajak-logo.webp',
+          imageAlt: 'Pajak Sport logo',
+        },
+        {
+          websiteUrl: 'https://rp.pl/',
+          imageFilename: 'rzeczpospolita-logo.webp',
+          imageAlt: 'Rzeczpospolita logo',
+        },
+        {
+          websiteUrl: 'http://sony.pl',
+          imageFilename: 'sony-logo.webp',
+          imageAlt: 'Sony logo',
         }
       ],
     }
