@@ -407,6 +407,77 @@ export const stagesData = [
     nextStages: [6],
     members: [
       {
+        name: 'Marcin Dałkiewicz',
+        photo: 'marcin-dalkiewicz.webp',
+        isLeader: true,
+        bio: 'Pracuje na co dzień z metalami szlachetnymi. Zapalony miłośnik podróżowania różnymi środkami transportu. Najbardziej jednak lubi podróżować stopem, ponieważ może wtedy spotkać ciekawych ludzi. Jednym z jego zainteresowań i celów podróży są kraje byłego ZSRR oraz opuszczone miasta i postindustrialne krajobrazy takie jak Czarnobyl. W wolnej chwili wskakuje na rower i przemierza nim wiele kilometrów. W zimie i w lecie odwiedza góry, przez które maszeruje lub zjeżdża na desce. Zdecydowanie woli upał od zimna. Brał udział w VI etapie projektu Rowerowe Jamboree z Polski do Japonii oraz I, IV oraz XV etapie w projekcie sztafety rowerowej dookoła świata Bike Jambore w którym był również odpowiedzialny za prowadzenie magazynu i sprzęt. W projekcie JednoŚladami Andersa lider etapu VI oraz odpowiedzialny za prowadzenie magazynu i sprzęt.'
+      },
+      {
+        name: 'Magdalena Suchan',
+        photo: 'magdalena-suchan.webp',
+        isLeader: false,
+        bio: 'To uosobienie ADHD. Jest instruktorką ZHP od ponad 20 lat. Harcersko jest członkinią Rady Chorągwi Łódzkiej oraz przewodniczącą Hufcowej Komisji Rewizyjnej i szefową chorągwianego programu #lodzkadbaozdrowie. Wyznawca praktykujący EKO i FIT. Uwielbia gotować, jeść zdrowo i jest turbo aktywna sportowo. Tańczy, żegluje po morzu, nurkuje, wspina się, wchodzi na góry wysokie i bardzo wysokie, trenuje (m.in. kalistenikę) i trenuje innych, stara się czasem jogować i rollować, biega, w tym przeszkodowo. Absolutnie kocha podróże! W wolnych chwilach - działacz i starter pozaharcerskich inicjatyw społecznych lokalnych i ogólnopolskich. '
+      },
+      {
+        name: 'Dorota Limontas',
+        photo: 'dorota-limontas.webp',
+        isLeader: false,
+        bio: ' Z powołania nauczycielka przedszkola, gdzie realizuje wszystkie swoje szalone pomysły i często przy nich bawi się lepiej niż dzieci. Od małego harcerka, gdzie przeszła wszystkie funkcje od zastępowej aż do komendantki hufca, a ostatnio zastępczyni komendanta chorągwi. Harcerstwo to wyzwania, które przekłada na wszystkie dziedziny swojego życia. Nie umie siedzieć w miejscu, uwielbia podróże te dalekie, ale bardziej docenia te bliskie, gdzie poznaje swój ukochany region - Warmię. W wolnych chwilach biega, ćwicząc przed maratonem, jeździ na rowerze szukając ciągle to nowych ciekawych miejsc, morsuje hartując swoje ciało. Najlepiej czuje się w bliskim kontakcie z naturą, jest kolekcjonerką zachodów słońca, dużo spaceruje i wędruje po lesie. Nie wyobraża sobie wakacji bez obozu, wieczoru bez ogniska z gitarą, weekendu bez wycieczki pod namiot czy wypadu na żagle. Umysł wycisza podczas medytacji i jogi. Humor poprawia sobie namiętnie słuchając disco polo :) Angażuje się w wiele działań społecznych- jest członkinią Rady Organizacji Pozarządowych Miasta Olsztyna, charytatywnych- od wielu lat wspiera WOŚP, Szlachetną Paczkę, oddaję krew. Kiedy tylko może ucieka na południe w góry, którym oddaje się bez pamięci. Była uczestniczką etapu 34 Bike Jamboree dookoła świata pokonując trasę Barcelona- Genewa. W projekcie “jednoŚLADAMI Andersa” odpowiada za działania programowe.'
+      },
+      {
+        name: 'Bartosz Małłek',
+        photo: 'bartosz-mallek.webp',
+        isLeader: false,
+        bio: 'Podharcmistrz, podróżnik, pilot wycieczek, genealog, amator historii i archeologii. Komendant Kręgu Instruktorów i Starszyny „Azymut”, hufiec Opole, chorągiew opolska. Kocha rower, bieganie i góry. Zawsze znajdzie gdzieś gitarę i coś tam zaśpiewa. Posiada umiejętność zaśnięcia w każdych warunkach. Zmarźluch, dlatego morsuje ;) Kocha jeść! Organizator opolskich spotkań z gitarą oraz podróżniczych.'
+      },
+      {
+        name: 'Katarzyna Wilk',
+        photo: 'empty.webp',
+        isLeader: false,
+        bio: 'Trenerka i metodyczka zdalnego nauczania, ratowniczka czytelnictwa, turystka rowerowa. Projektuje i prowadzi e-szkolenia dla dorosłych, przede wszystkim w zakresie kompetencji cyfrowych i społecznościowego uczenia się. Oswaja nauczycieli z wolnymi licencjami i otwartymi zasobami edukacyjnymi. Entuzjastka design thinking i zwinnego zarządzania projektami w środowisku edukacyjnym. Członkini zespołu koordynującego program Ratownicy Czytelnictwa oraz wolontariuszka w grupie Polska Czytająca. Wierna sympatyczka grupy Obszar Warowny „Śląsk” na Rowerze. Ulubione trasy rowerowe: długie, dużo pod górkę, najlepiej w nieznane i najchętniej nocą przez las.'
+      },
+      {
+        name: 'Robert Janus',
+        photo: 'empty.webp',
+        isLeader: false,
+        bio: 'Zawodowo pomaga budować systemy informacji przestrzennej. Introwertyk chętnie spoglądający w niebo. To bliskie – atmosferyczne i to odległe – astronomiczne. Szukający tam piękna, które można zobaczyć i zachwycający się wiedzą, którą ludzkość ciągle odkrywa. Miłośnik wędrowania przez karty książek, by poznawać losy ludzi prawdziwych, zwiedzać światy wymyślone, przekonywać się wciąż, jak wiele świat ma do zaoferowania. Czasami zastanowić się również, dlaczego..? Łączący historię i rower dzięki przyjaciołom z Obszaru Warownego „Śląsk” na Rowerze i wspólnym rowerowym przejazdom z historią w tle. Do Ekipy JednoŚladami Andersa trafił z miłości, w pogoni za marzeniami inspirowanymi lekturą książek podróżniczych o rowerowych wyprawach.'
+      }
+    ]
+  },
+  {
+    name: 'stage_vii',
+    id: 'etap-vii',
+    startPoint: stopsData[6],
+    startDate: new Date(2023, 2, 25),
+    finishPoint: stopsData[7],
+    finishDate: new Date(2023, 3, 21),
+    distance: '1800 km',
+    leader: 'Dariusz Zajączkowski',
+    previousStages: [5],
+    nextStages: [7],
+    points: [
+      { lat: 32.7045, lon: 35.2898 },
+      { lat: 32.8184, lon: 34.9885 },
+      { lat: 31.9257, lon: 34.868 },
+      { lat: 31.8953, lon: 34.8105 },
+      { lat: 31.7884, lon: 35.2068 },
+      { lat: 31.7072, lon: 35.2029 },
+      { lat: 31.6076, lon: 34.896 },
+      { lat: 31.2986, lon: 34.9349 },
+      { lat: 31.2588, lon: 35.2133 },
+      { lat: 31.3156, lon: 35.3537 },
+      { lat: 31.2588, lon: 35.2133 },
+      { lat: 30.8516, lon: 34.7826 },
+      { lat: 29.5581, lon: 34.9482 },
+      { lat: 29.3142, lon: 34.7408 },
+      { lat: 29.035, lon: 34.6619 },
+      { lat: 28.5676, lon: 33.9536 },
+      { lat: 28.7144, lon: 33.3305 },
+      { lat: 29.9737, lon: 32.5263 },
+      { lat: 30.6318, lon: 31.9393 },
+    ],
+    members: [
+      {
         name: '',
         photo: '',
         isLeader: false,
@@ -443,39 +514,6 @@ export const stagesData = [
         bio: ''
       }
     ]
-  },
-  {
-    name: 'stage_vii',
-    id: 'etap-vii',
-    startPoint: stopsData[6],
-    startDate: new Date(2023, 2, 25),
-    finishPoint: stopsData[7],
-    finishDate: new Date(2023, 3, 21),
-    distance: '1800 km',
-    leader: 'Dariusz Zajączkowski',
-    previousStages: [5],
-    nextStages: [7],
-    points: [
-      { lat: 32.7045, lon: 35.2898 },
-      { lat: 32.8184, lon: 34.9885 },
-      { lat: 31.9257, lon: 34.868 },
-      { lat: 31.8953, lon: 34.8105 },
-      { lat: 31.7884, lon: 35.2068 },
-      { lat: 31.7072, lon: 35.2029 },
-      { lat: 31.6076, lon: 34.896 },
-      { lat: 31.2986, lon: 34.9349 },
-      { lat: 31.2588, lon: 35.2133 },
-      { lat: 31.3156, lon: 35.3537 },
-      { lat: 31.2588, lon: 35.2133 },
-      { lat: 30.8516, lon: 34.7826 },
-      { lat: 29.5581, lon: 34.9482 },
-      { lat: 29.3142, lon: 34.7408 },
-      { lat: 29.035, lon: 34.6619 },
-      { lat: 28.5676, lon: 33.9536 },
-      { lat: 28.7144, lon: 33.3305 },
-      { lat: 29.9737, lon: 32.5263 },
-      { lat: 30.6318, lon: 31.9393 },
-    ],
   },
   {
     name: 'stage_vii_sea',
