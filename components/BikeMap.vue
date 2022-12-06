@@ -22,7 +22,7 @@
           :icon="getIcon(stop)"
         />
         <l-marker
-          v-if="liveCoordinates"
+          v-if="liveCoordinates && liveCoordinates.length"
           :lat-lng="liveCoordinates"
           :icon="getIcon({type: 'live'})"
         />
