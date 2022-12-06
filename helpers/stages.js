@@ -129,6 +129,44 @@ export const stagesData = [
       { lat: 51.9760, lon: 66.4029 },
       { lat: 50.3229, lon: 66.9115 },
       { lat: 48.6695, lon: 61.2609 }
+    ],
+    members: [
+      {
+        name: 'Zbigniew Sas',
+        photo: 'zbigniew-sas.webp',
+        isLeader: true,
+        bio: 'Zawodowo zajmuje się pilotowaniem wycieczek rowerowych. Zaangażowany w duże projekty podróżnicze. Współorganizator Afryki Nowaka, Rowerowego Jamboree 2015, Bike Jamboree 2017-2019 - wypraw, które każdemu uczestnikowi przyniosły przygodę, nowe przyjaźnie i zaskakujące doświadczenia. Zafascynowany Afryką i państwami poradzieckimi. Miłośnik mikroprzygód - weekendowych wypadów w najbliższą okolicę. Laureat prestiżowych nagród podróżniczych m.in. wyróżnienia na Kolosach za rowerową wyprawę na Madagaskar, nagrody Travellera w kategorii "Podróż Roku" za pionierską wyprawę wzdłuż rzeki Antanambalana również na Madagaskarze. Z zawodu rybak morski i przedsiębiorca. W projekcie JednoŚladami Andersa odpowiedzialny za koordynację całego przedsięwzięcia oraz trasę, sprzęt i logistykę. '
+      },
+      {
+        name: 'Lilla Bilińska',
+        photo: 'empty.webp',
+        isLeader: false,
+        bio: 'Otwarta na przygody i nowe wyzwania. Czas wolny spędza aktywnie na świeżym powietrzu lub pod ciepłym kocykiem w domu z książką i jazzem. Kocha góry i rower, ale też nurkuje, biega. Już prawie ćwierć wieku temu odkryła, że najszybciej regeneruje się w saunie , od której jest na swój sposób uzależniona. Dzień zaczyna od zdania „ Najpierw kawa. Potem życie”. Zawodowo zajmuje się doradztwem techniczno handlowym w przemyśle metalurgicznym w zakresie ceramiki.'
+      },
+      {
+        name: 'Bogumił Koszałka',
+        photo: 'bogumil-koszalka.webp',
+        isLeader: false,
+        bio: 'Wrocławianin. Matematyk z wykształcenia, rowerzysta z pasji. Lubi jazdę na rowerze w każdej postaci zarówno rowerami tradycyjnymi jak i monocyklem. Wraz z przyjaciółmi regularnie gra w BikePolo - polo na rowerach. Miłośnik górskich wędrówek i wspinaczki. JednoŚladami Andersa łączy wszystkie jego pasje: rower, podróże, poznawanie historii i miejsc.'
+      },
+      {
+        name: 'Wojtek Kuciński',
+        photo: 'wojciech-kucinski.webp',
+        isLeader: false,
+        bio: 'Łodzianin, instruktor ZHP, wegetarianin. Z wykształcenia kulturoznawca, a z zawodu od 30 lat kiniarz. Miłośnik jednośladów zarówno tych warczących jak i tych cichych, a jako Łowca Niewygód kieruje się zasadą: „im trudniej tym lepiej”. Choć siwizna pokryła mu głowę to uwielbia taplać się w błocie i z zuchami, i z motocyklem. Jak się zmęczy to sadzi drzewa, ratuje zwierzęta lub skacze ze spadochronem. Zimowa wyprawa do Kazachstanu z JednoŚladami Andersa to wyzwanie, które rozpala mu radością serducho. Umie ugotować coś z niczego nawet gdy w lodówce jest tylko światło, a rozwiązania problemów ma poupychane w kieszeniach. Zawsze przytuli i pomoże.'
+      },
+      {
+        name: 'Piotr Sztybór',
+        photo: 'piotr-sztybor.webp',
+        isLeader: false,
+        bio: 'Instruktor harcerski w ZHR w Płocku. Przyroda, ognisko, służba dla drugiego człowieka, Bóg to wartości, bez których trudno byłoby mu żyć. Prywatnie prowadzi własną firmę, dzięki której po zakończeniu zlecenia zwiedza miejsca, do których dotarł. Uwielbia wyprawy w „niecywilizowane” miejsca. Jak już jechać na daleką wyprawę to nie na tydzień, ale minimum na trzy tygodnie. Dlatego do Kazachstanu jedzie na dwa etapy i łącznie ponad dwa miesiące Jego pasją jest też fotografia, z każdego miejsca w świecie przywozi setki zdjęć. Morze-góry!? ZDECYDOWNIE góry! ale nie Krupówki tylko intensywny wypoczynek. Lubi zimę – przy kominku rowerowo-zimowa wyprawa będzie jego pierwszą. Chce się sprawdzić, chce doświadczyć czegoś nowego. Z drugiej strony chciałby kiedyś pojechać na Antarktydę i tam spędzić z trzy miesiące choćby, jako pomoc kuchenna w stacji polarnej. Uczestniczył w poprzednich dwóch projektach – przemierzał rowerem Chiny i Rosję.'
+      },
+      {
+        name: 'Beata Szczepańska',
+        photo: 'empty.webp',
+        isLeader: false,
+        bio: 'Szczecinianka. Brałam udział w13. Etapie projeku Bike Jamboree dookoła świata i to było jedno ze wspanialszych doświadczeń w moim życiu. Robię w życiu mnóstwo rzeczy: brydż, książki. Moje miejsce na ziemi to mała wioska w Borach Tucholskich nad jeziorem Ostrawite. Najważniejsi ludzie w moim życiu, to moja rodzina. Prawnik czynny w zawodzie.'
+      }
     ]
   },
   {
@@ -204,6 +242,44 @@ export const stagesData = [
       { lat: 39.7721, lon: 64.4491 },
       { lat: 41.3459, lon: 61.3811 },
       { lat: 41.3810, lon: 60.3375 }
+    ],
+    members: [
+      {
+        name: 'Arkadiusz Kościelski',
+        photo: 'arek-koscielski.webp',
+        isLeader: true,
+        bio: 'Z zamiłowania i zawodu informatyk, miłośnik fotografowania, wędrówek małych i dużych oraz miasta Czarnków. Niezmiennie zakochany mąż Beaty, tata Halszki i Szymona. Czynny harcerz. Lubi czytać książki, przede wszystkim historyczne, kiedyś o przygodach Tomka Wilmowskiego. Uwielbia szwendać się z mapą i kompasem. Uczestnik XVII etapu Bike Jamboree z Homer do Fairbanks na Alasce. W projekcie JednoŚladami Andersa odpowiedzialny za archiwizację materiałów fotograficznych oraz filmowych.'
+      },
+      {
+        name: 'Beata Kościelska',
+        photo: 'beata-koscielska.webp',
+        isLeader: false,
+        bio: 'Z wykształcenia i zamiłowania biolog-mikrobiolog-epidemiolog, w zawodowej rzeczywistości kluczy pomiędzy zawiłościami przepisów prawnych i wytycznych urzędowych. Żona Arka, mama Halszki i Szymona, z którymi najbardziej na świecie lubi spędzać czas. Zaangażowana w działalność Hufca ZHP Trzcianka jako członek Kręgu Instruktorskiego “Ogień” i w różne społeczne aktywności. Uczestniczka XVII etapu Bike Jamboree z Homer do Fairbanks na Alasce. W projekcie JednoŚladami Andersa odpowiedzialna za pracę wirtualnego biura.'
+      },
+      {
+        name: 'Małgorzata Chwalisz',
+        photo: 'malgorzata-chwalisz.webp',
+        isLeader: false,
+        bio: 'Szczęśliwa mama dwóch córek oraz babcia ukochanej Julci, która wierzy, że nigdy nie jest zbyt późno na realizację marzeń. Kocha fotografię i obcowanie z naturą z dala od miast i zgiełku - czym bardziej dziko, tym lepiej. Do ZHP wstąpiła w pierwszej klasie szkoły podstawowej oddając się harcerstwu na 100%. Od kilku lat tworzy festiwal muzyczny Łagodne Granie w Łomnicy (Piła leży obok Łomnicy), dzięki któremu zaspakaja wewnętrzną potrzebę działania i organizowania. W etapie odpowiedzialna za promocję.'
+      },
+      {
+        name: 'Krzysztof Helwich',
+        photo: 'krzysztof-helwich.webp',
+        isLeader: false,
+        bio: 'Z wykształcenia geograf i etnolog. Ciekawość świata i kultur ma wpisaną w krew. Mąż i ojciec dwójki dzieci. Lokalny działacz na rzecz społeczności swojej okolicy. W małym Lubaszu położonym w północnej części Wielkopolski zorganizował dla dzieci szereg zajęć i warsztatów na pograniczu ekologii, bushcraftu i twórczego majsterkowania. Góry, skały, kajaki, ale i kawa zaparzona na palniku pod namiotem nadaje sens jego życiu. Wyprawy lub mikrowyprawy - byle w ruchu. W sztafecie marzył mu się gorący Iran, ale nie zawahał się przy zaproszeniu na zimowy odcinek w Uzbekistanie. Uważa, że wynalazca roweru powinien zostać odznaczony nagrodą pokroju Nobla.'
+      },
+      {
+        name: 'Halszka Kościelska',
+        photo: 'halszka-koscielska.webp',
+        isLeader: false,
+        bio: 'Studentka kognitywistyki na Uniwersytecie im. Adama Mickiewicza w Poznaniu i czynna harcerka działająca w Hufcu ZHP Trzcianka w Czarnkowie. Uwielbia rysować, od form tradycyjnych po digital. Od dziecka śpiewa, była członkinią zespołu Na Piątym Progu z nurtu piosenki turystycznej i poezji śpiewanej. Obecnie poszukuje nowych wyzwań.'
+      },
+      {
+        name: 'Szymon Kościelski',
+        photo: 'szymon-koscielski.webp',
+        isLeader: false,
+        bio: 'Nieśmiały, ale gotów eksplorować świat, zainteresowany krajobrazami różnych krajów. Uczeń Zespołu Szkół im. Józefa Nojego w Czarnkowie, ale to nie jedyne miejsce, w którym się udziela. Zainteresowany grafiką komputerową, którą zajmuje się od ponad 2 lat i nie zamierza zatrzymać się w tym temacie. Lubi kontakty z innymi ludźmi, lecz potrzebuje trochę odwagi. Kocha swoją rodzinę i z chęcią pojedzie z nimi w sztafecie.'
+      }
     ]
   },
   {
@@ -217,6 +293,44 @@ export const stagesData = [
     leader: 'Dorota Młynarczyk',
     previousStages: [2],
     nextStages: [4],
+    members: [
+      {
+        name: 'Dorota Młynarczyk',
+        photo: 'dorota-mlynarczyk.webp',
+        isLeader: true,
+        bio: 'Na co dzień szuka matematycznego opisu świata, a przynajmniej jakiegoś jego skrawka. W podróżach i w życiu uważa, że najważniejsza jest sama droga, niekoniecznie osiągnięcie celu. Dlatego najbardziej lubi długie i niespieszne włóczęgi, najlepiej z plecakiem i namiotem. Podróże rowerem zaczęła od udziału w 15. etapie sztafety Bike Jamboree, jadąc z Jakucka do Magadanu. Autostopem przejechała ponad 40,000 kilometrów na trzech kontynentach. Do życia potrzebuje dużo słońca.'
+      },
+      {
+        name: 'Daniel Brożek',
+        photo: 'daniel-brozek.webp',
+        isLeader: false,
+        bio: 'Uwielbia obcować z naturą, podróżować rowerem, pływać łodzią pychówką, spać w namiocie, oglądać gwiazdy. Fan motoryzacji, znawca klasyków, konstruktor kampera. Zawsze znajdzie patent, żeby naprawić coś, co się niespodziewanie zepsuło, a w sakwach zmieści jakiś instrument muzyczny. Na co dzień szczęśliwy mąż i przedsiębiorca.'
+      },
+      {
+        name: 'Zbigniew Sas',
+        photo: 'zbigniew-sas.webp',
+        isLeader: false,
+        bio: 'Zawodowo zajmuje się pilotowaniem wycieczek rowerowych. Zaangażowany w duże projekty podróżnicze. Współorganizator Afryki Nowaka, Rowerowego Jamboree 2015, Bike Jamboree 2017-2019 - wypraw, które każdemu uczestnikowi przyniosły przygodę, nowe przyjaźnie i zaskakujące doświadczenia. Zafascynowany Afryką i państwami poradzieckimi. Miłośnik mikroprzygód - weekendowych wypadów w najbliższą okolicę. Laureat prestiżowych nagród podróżniczych m.in. wyróżnienia na Kolosach za rowerową wyprawę na Madagaskar, nagrody Travellera w kategorii "Podróż Roku" za pionierską wyprawę wzdłuż rzeki Antanambalana również na Madagaskarze. Z zawodu rybak morski i przedsiębiorca. W projekcie JednoŚladami Andersa odpowiedzialny za koordynację całego przedsięwzięcia oraz trasę, sprzęt i logistykę. '
+      },
+      {
+        name: 'Marcin Błeński',
+        photo: 'marcin-blenski.webp',
+        isLeader: false,
+        bio: 'Ratownik i szkoleniowiec. Od ponad 20 lat związany zawodowo z ratownictwem. Pomysłodawca projektu Bezpieczny Kazbek i twórca Medyk Rescue Team. W projekcie Jednośladami Andersa, tak samo jak w poprzednich projektach Bike Jamboree, odpowiada za bezpieczeństwo i szkolenie medyczne.'
+      },
+      {
+        name: 'Anna Śledzińska',
+        photo: 'anna-sledzinska.webp',
+        isLeader: false,
+        bio: 'Instruktorka ZHP, ostatnio na funkcji szefowej hufcowego klubu żeglarskiego w Elblągu. W zarządzie Fundacji Światowe Jamboree od 2016 roku, współtworzy już trzecią sztafetę rowerową. Nie gardzi żadnym środkiem lokomocji, ale najczęściej zasiada na rowerowym siodełku albo za sterem jachtu. W projekcie Jednośladami Andersa odpowiedzialna za współkoordynację całego przedsięwzięcia oraz organizację pracy, pozyskiwanie partnerów i zarządzanie kasą.'
+      },
+      {
+        name: 'Rafał Śledziński',
+        photo: 'rafal-sledzinski.webp',
+        isLeader: false,
+        bio: 'Na co dzień ratownik medyczny, w chwili wolnej od pracy chwyta się wszystkiego, na co nie ma czasu. Miłośnik przygód oraz wyzwań. W ramach aktywności chętnie pójdzie pod górę i z góry na nartach, po wodzie na żaglach, a po drodze rowerem. Pochodzi z Elbląga.'
+      }
+    ]
   },
   {
     name: 'stage_v',
@@ -235,6 +349,44 @@ export const stagesData = [
       { lat: 33.4994, lon: 49.053 },
       { lat: 33.8973, lon: 48.7516 },
     ],
+    members: [
+      {
+        name: '',
+        photo: '',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: '',
+        photo: '',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: '',
+        photo: '',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: '',
+        photo: '',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: '',
+        photo: '',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: '',
+        photo: '',
+        isLeader: false,
+        bio: ''
+      }
+    ]
   },
   {
     name: 'stage_vi',
