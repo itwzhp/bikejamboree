@@ -10,7 +10,7 @@
       <BikeMap
         :stops="stops"
         :stages="stages"
-        :current-stage-index="currentStageIndex"
+        :current-stage-index="Number(currentStageIndex)"
         class="bike-stages__map"
         @select-stage="selectStage($event)"
       />
