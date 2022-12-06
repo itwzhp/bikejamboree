@@ -5,7 +5,7 @@
     </BikeSection>
     <BikeSection>
       <BikeInternalLink
-        v-for="(stage, i) in stages.slice(0, 4)"
+        v-for="(stage, i) in stages.slice(0, 5)"
         :key="`stage-${i}`"
         :to="`/o-projekcie/etapy/${stage.id}`"
       >

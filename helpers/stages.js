@@ -351,6 +351,62 @@ export const stagesData = [
     ],
     members: [
       {
+        name: 'Adam Dąbrowski',
+        photo: 'adam-dabrowski.webp',
+        isLeader: true,
+        bio: 'Po raz drugi zakłada liderską koszulkę Bike Jamboree, poprzednią spocił na Syberii. Domowy zwierz, który musi czasem wyruszyć w drogę. Wymagającą, bez wygód, daleką. Ceni w podróży prostotę, naturę i cel. Szczególnie, kiedy celem jest przekazanie pałeczki sztafetowej.'
+      },
+      {
+        name: 'Grzesiek Trzcionkowski',
+        photo: 'empty.webp',
+        isLeader: false,
+        bio: 'Zafascynowany Iranem, po pierwszej podróży systematycznie odwiedzający ten kraj - pełen kontrastów i sprzeczności. W każdej podróży odkrywa inne oblicze Persji. Szczególnie zainteresowany historią polskich tułaczy w Iranie, stara się w każdej podróży odszukać ich ślady w różnych miastach. Życie planuje od wyjazdu do wyjazdu, za kierunek obiera Wschód i Bałkany, najchętniej nieprzetartymi szlakami. Miłośnik kotów, wędrówek górskich i jazdy autostopem. Amator fotografii, marzyciel ciągle szukający przygód.'
+      },
+      {
+        name: 'Emil Kaczor',
+        photo: 'emil-kaczor.webp',
+        isLeader: false,
+        bio: 'Pochodzący z Suchedniowa entuzjasta sportów rowerowych i amator spotkań towarzyskich uwielbiający rozmowy, ludzi i historię. Na co dzień mieszka i pracuje w Krakowie. Od kilkunastu lat zajmuje się profesjonalną sprzedażą artykułów wykończenia wnętrz. Szukając nowych wrażeń i doświadczeń przyłączył się do lidera V etapu rajdu mając nadzieję na przeżycie przygody, poznanie fascynującej historii, zobaczenie i zrozumienie kultury Iranu. Zawsze otwarty i pomocny. Uwielbia gotować i jeść. Ciekawy nowych smaków i historii ma nadzieję zakosztować ich na Bliskim Wschodzie.'
+      },
+      {
+        name: 'Seweryn Klęk',
+        photo: 'empty.webp',
+        isLeader: false,
+        bio: 'Przykładny rowerzysta. W pracy myśli ciepło o rowerze, a po pracy... to wiadomo - jeździ i jeździ. No bo po prostu lubi. Jego superbohaterem jest Pan Samochodzik (choć czasem w myślach lubi nazywać go Pan Rowerek), muzealnik, społecznik i łowca przygód. Jako zuch należał do zastępu Bajkowi Przyjaciele, czy mógł więc pozostać obojętny na przygodę Bike Jamboree? No nie mógł!'
+      },
+      {
+        name: 'Julia Szefler',
+        photo: 'empty.webp',
+        isLeader: false,
+        bio: 'Rodowita poznanianka, ale tak naprawdę typowy z niej włóczykij - zdarła niejedne buty podczas harcerskich wędrówek, spała pod gołym niebem na śródziemnomorskich plażach, a każdy wolny weekend spędza w polskich górach. Skończyła Politechnikę Poznańską na Wydziale Architektury, łącząc zamiłowania do technicznego aspektu projektowania z wrażliwością na piękno sztuki. Choć uprawiała prawie każdy możliwy sport, to rower od zawsze ma specjalne miejsce w jej sercu, zwłaszcza odkąd ostatniego lata dotarła na nim aż do Barcelony.'
+      },
+      {
+        name: 'Julia Woźniak',
+        photo: 'julia-wozniak.webp',
+        isLeader: false,
+        bio: 'Od 15 lat niezmiennie w związku… Harcerstwa Polskiego. Instruktorka, jak to często bywa - wielofunkcyjna, ale perełką w jej głowie jest drużyna Wędrownicza, której jest drużynową. Poza harcerstwem studentka grafiki i uczennica szkoły muzycznej. A w międzyczasie? Miłośniczka wędrówek i nocy spędzonych w lesie oraz tradycyjnych sztuk plastycznych. Pozytywna marzycielka, która uwielbia próbować nowych aktywności, ale też usiąść z herbatą (koniecznie z cytryną) przy dobrej książce.'
+      },
+      {
+        name: 'Adam Panczocha',
+        photo: 'adam-panczocha.webp',
+        isLeader: false,
+        bio: 'W harcerstwie od prawie 20 lat. Obecnie członek Komendy Chorągwi Opolskiej i CSI ZHP, w przeszłości drużynowy drużyny wielopoziomowej o silnych tradycjach związanych z 2 Korpusem. Orędownik współpracy między ZHP a Gruzińską Organizacją Skautową. Uczestnik i organizator kilku zagranicznych projektów skautowych. Z wykształcenia logistyk, zawodowo związany z branżą IT. Prywatnie podróżnik-amator, wspinacz i żeglarz. Szczególnym zainteresowaniem darzy Bliski Wschód i Azję Mniejszą.'
+      }
+    ]
+  },
+  {
+    name: 'stage_vi',
+    id: 'etap-vi',
+    startPoint: stopsData[5],
+    startDate: new Date(2023, 2, 4),
+    finishPoint: stopsData[6],
+    finishDate: new Date(2023, 2, 24),
+    distance: '1400 km',
+    leader: 'Marcin Dałkiewicz',
+    previousStages: [4],
+    nextStages: [6],
+    members: [
+      {
         name: '',
         photo: '',
         isLeader: false,
@@ -387,18 +443,6 @@ export const stagesData = [
         bio: ''
       }
     ]
-  },
-  {
-    name: 'stage_vi',
-    id: 'etap-vi',
-    startPoint: stopsData[5],
-    startDate: new Date(2023, 2, 4),
-    finishPoint: stopsData[6],
-    finishDate: new Date(2023, 2, 24),
-    distance: '1400 km',
-    leader: 'Marcin Dałkiewicz',
-    previousStages: [4],
-    nextStages: [6],
   },
   {
     name: 'stage_vii',
