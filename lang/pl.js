@@ -52,6 +52,7 @@ export default {
     route: 'Trasa',
     traces: '130 śladów',
     people: 'Ludzie',
+    stages: 'Etapy',
     join_us: 'Dołącz',
     previous_projects: 'Poprzednie projekty',
     blog: 'Blog',

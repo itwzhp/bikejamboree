@@ -26,6 +26,10 @@
           href="/o-projekcie/ludzie"
         />
         <BikeNavigationDesktopItem
+          label="navigation.stages"
+          href="/o-projekcie/etapy"
+        />
+        <BikeNavigationDesktopItem
           label="navigation.traces"
           href="/o-projekcie/130-sladow"
         />
