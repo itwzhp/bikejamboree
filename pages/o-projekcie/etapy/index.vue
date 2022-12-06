@@ -3,11 +3,11 @@
     <BikeSection>
       <BikeHeading> Etapy sztafety </BikeHeading>
     </BikeSection>
-    <BikeSection columns-desktop="3" columns-tablet="2" columns-mobile="2">
+    <BikeSection>
       <BikeInternalLink
-        v-for="(stage, i) in stages"
+        v-for="(stage, i) in stages.slice(0, 4)"
         :key="`stage-${i}`"
-        :to="`/etapy/${stage.id}`"
+        :to="`/o-projekcie/etapy/${stage.id}`"
       >
         {{ $t(`stages.${stage.name}`) }}
       </BikeInternalLink>

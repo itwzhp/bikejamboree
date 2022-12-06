@@ -76,8 +76,12 @@ export default {
     breadcrumbs() {
       return [
         {
+          label: 'O projekcie',
+          href: '/o-projekcie',
+        },
+        {
           label: 'Etapy',
-          href: '/etapy',
+          href: '/o-projekcie/etapy',
         },
         {
           label: this.$t(`stages.${this.currentStageData.name}`),
