@@ -74,7 +74,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .bike-stages {
   display: grid;
   grid-template-areas: 'map' 'legend' 'details' 'list';
