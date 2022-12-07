@@ -212,10 +212,10 @@ export const stagesData = [
         bio: 'Wiecznie poszukujący nowych wrażeń, daje ujście swoim potrzebom w coraz to nowych sposobach na podróże i samorozwój. Na co dzień pracuje w branży IT, lecz jego zainteresowania wykraczają poza tą sferę i krążą wokół ekonomii i rynków finansowych. Jest instruktorem Związku Harcerstwa Polskiego wywodzącym się z Hufca ZHP Jarosław na Podkarpaciu. Aktualnie, mieszkając w Krakowie amatorsko realizuje się w tańcu będąc tancerzem Teatru Tańca Terpsychora. Poznaje świat z różnych perspektyw, autostopem, pieszo, rowerem, kajakiem, oraz pod żaglami jachtu lub żaglowca. W życiu ceni sobie przede wszystkim możliwość poznawania i bycia z ludźmi. Do sztafety JednoŚladami Andersa skierowała go pasja do podróży oraz platforma do rozmów o historii, którą daje ten projekt.'
       },
       {
-        name: 'Anna Wilk',
-        photo: 'anna-wilk.webp',
+        name: 'Piotr Sztybór',
+        photo: 'piotr-sztybor.webp',
         isLeader: false,
-        bio: 'Na gdyńskich Kolosach dostrzegła plakat, promujący projekt "JednoŚladami Andersa". Zapragnęła dowiedzieć się więcej. Wypatrzyła kogoś w koszulce Bike Jamboree. Zadała kilka pytań. Wysłała maila ze zgłoszeniem. Udało się! Dołączyła do ekipy II etapu. Pomysł podążania szlakiem Armii Andersa (gest hołdu, promowanie i poznawanie wybitnych życiorysów, a także podróż w głąb siebie) zakiełkował w szkole średniej. Później przerodził się w marzenie. Teraz nadarza się znakomita okazja by je ziścić. Od dzieciństwa w jej życie wpleciona jest aktywność. Ciekawi ją świat a najbardziej ludzie i ich historie. Uwielbia wyzwania; zarówno zmagania z ograniczeniami umysłu jak ciała. Bardzo lubi rozmawiać. Zadaje wiele pytań (i sobie, i innym). Żyje minimalistycznie. Obcowanie ze sztuką dostarcza jej ogrom radości. Góry wraz z morzem są jej ukochanym połączeniem. Żaglowce są jej pasją. Studiuję. Pracuje też jako pilot. Jest instruktorem narciarstwa. Mnóstwo frajdy dostarcza jej jazda na monocyklu. Dwa koła towarzyszą jej już od dwóch dekad. Z wypiekami na twarzy wyczekuje kazachstańskich stepów, spotkań z tamtejszymi ludźmi i spełnienia marzenia!'
+        bio: 'Instruktor harcerski w ZHR w Płocku. Przyroda, ognisko, służba dla drugiego człowieka, Bóg to wartości, bez których trudno byłoby mu żyć. Prywatnie prowadzi własną firmę, dzięki której po zakończeniu zlecenia zwiedza miejsca, do których dotarł. Uwielbia wyprawy w „niecywilizowane” miejsca. Jak już jechać na daleką wyprawę to nie na tydzień, ale minimum na trzy tygodnie. Dlatego do Kazachstanu jedzie na dwa etapy i łącznie ponad dwa miesiące Jego pasją jest też fotografia, z każdego miejsca w świecie przywozi setki zdjęć. Morze-góry!? ZDECYDOWNIE góry! ale nie Krupówki tylko intensywny wypoczynek. Lubi zimę – przy kominku rowerowo-zimowa wyprawa będzie jego pierwszą. Chce się sprawdzić, chce doświadczyć czegoś nowego. Z drugiej strony chciałby kiedyś pojechać na Antarktydę i tam spędzić z trzy miesiące choćby, jako pomoc kuchenna w stacji polarnej. Uczestniczył w poprzednich dwóch projektach – przemierzał rowerem Chiny i Rosję.'
       }
     ]
   },
@@ -478,16 +478,16 @@ export const stagesData = [
     ],
     members: [
       {
-        name: '',
-        photo: '',
+        name: 'Dariusz Zajączkowski',
+        photo: 'dariusz-zajaczkowski.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Na co dzień kierownik serwisu usług w firmie zajmującej się produkcją przyrządów pomiarowych. Instruktor harcerski od ponad 35 lat, obecnie w stopniu harcmistrza. Pełnił różne funkcje - m.in. drużynowego, komendanta hufca Zielona Góra, skarbnika Chorągwi Ziemi Lubuskiej, członka Rady Naczelnej ZHP. Wieloletni kształceniowiec liderów zespołów. Oficer rezerwy Wojska Polskiego. W wolnych chwilach chodzi po górach, jeździ rowerem (głównie MTB, ale od kilku lat także z sakwami). Instruktor narciarstwa i indoor cycling. Pasjonat podglądania przyrody i biwakowania pod gołym niebem. Uczestnik etapu 27B “Bike Jamboree” z Fargo (USA) do Thunder Bay (Kanada). Członek Rady Fundacji “Światowe Jamboree”. W projekcie “JednoŚladami Andersa” odpowiedzialny za koordynację współpracy pomiędzy organizacjami harcerskimi oraz lider etapu 7 z Ammanu (Jordania) do Port Said (Egipt).'
       },
       {
-        name: '',
+        name: 'Michał Murgrabia',
         photo: '',
         isLeader: false,
-        bio: ''
+        bio: 'Psycholog, założyciel i prezes platformy ePsycholodzy.pl - miejsca, które łączy psychologów i psychoterapeutów z osobami, które czują, że w ich życiu dzieje się coś trudnego, czego nie mogą zrozumieć lub z czym nie są w stanie sobie same poradzić. Instruktor Związku Harcerstwa Polskiego, gdzie obecnie głównie zajmuje się kształceniem obecnych i przyszłych instruktorów. W wolnym czasie lubi podróżować, poznawać nowych ludzi i miejsca, odkrywać nowe smaki, które inspirują go do własnego kucharzenia :)'
       },
       {
         name: '',
