@@ -106,7 +106,6 @@ export default {
 @include screen-size('tablet') {
   .bike-partners {
     &__logo {
-      height: 100%;
       max-height: 120px;
       max-width: 200px;
       filter: brightness(0) invert(1);
