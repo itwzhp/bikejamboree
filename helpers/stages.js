@@ -358,7 +358,7 @@ export const stagesData = [
       },
       {
         name: 'Grzesiek Trzcionkowski',
-        photo: 'empty.webp',
+        photo: 'grzegorz-trzcionkowski.webp',
         isLeader: false,
         bio: 'Zafascynowany Iranem, po pierwszej podróży systematycznie odwiedzający ten kraj - pełen kontrastów i sprzeczności. W każdej podróży odkrywa inne oblicze Persji. Szczególnie zainteresowany historią polskich tułaczy w Iranie, stara się w każdej podróży odszukać ich ślady w różnych miastach. Życie planuje od wyjazdu do wyjazdu, za kierunek obiera Wschód i Bałkany, najchętniej nieprzetartymi szlakami. Miłośnik kotów, wędrówek górskich i jazdy autostopem. Amator fotografii, marzyciel ciągle szukający przygód.'
       },
@@ -370,13 +370,13 @@ export const stagesData = [
       },
       {
         name: 'Seweryn Klęk',
-        photo: 'empty.webp',
+        photo: 'seweryn-klek.webp',
         isLeader: false,
         bio: 'Przykładny rowerzysta. W pracy myśli ciepło o rowerze, a po pracy... to wiadomo - jeździ i jeździ. No bo po prostu lubi. Jego superbohaterem jest Pan Samochodzik (choć czasem w myślach lubi nazywać go Pan Rowerek), muzealnik, społecznik i łowca przygód. Jako zuch należał do zastępu Bajkowi Przyjaciele, czy mógł więc pozostać obojętny na przygodę Bike Jamboree? No nie mógł!'
       },
       {
         name: 'Julia Szefler',
-        photo: 'empty.webp',
+        photo: 'julia-szefler.webp',
         isLeader: false,
         bio: 'Rodowita poznanianka, ale tak naprawdę typowy z niej włóczykij - zdarła niejedne buty podczas harcerskich wędrówek, spała pod gołym niebem na śródziemnomorskich plażach, a każdy wolny weekend spędza w polskich górach. Skończyła Politechnikę Poznańską na Wydziale Architektury, łącząc zamiłowania do technicznego aspektu projektowania z wrażliwością na piękno sztuki. Choć uprawiała prawie każdy możliwy sport, to rower od zawsze ma specjalne miejsce w jej sercu, zwłaszcza odkąd ostatniego lata dotarła na nim aż do Barcelony.'
       },
