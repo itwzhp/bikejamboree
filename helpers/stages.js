@@ -21,10 +21,10 @@ export const stopsData = [
     type: 'regular',
   },
   {
-    lat: 37.9406,
-    lon: 58.3823,
-    city: 'ashgabat',
-    country: 'turkmenistan',
+    lat: 41.3810,
+    lon: 60.3375,
+    city: 'khiva',
+    country: 'uzbekistan',
     type: 'regular',
   },
   {
@@ -111,7 +111,22 @@ export const stopsData = [
     country: 'poland',
     type: 'finish',
   },
+  {
+    lat:37.24697,
+    lon: 67.27374,
+    city: 'termez',
+    country: 'uzbekistan',
+    type: 'regular',
+  }
 ]
+
+// export const extraPoint = {
+//   lat: 41.3125,
+//   lon: 69.2787,
+//   city: 'termez',
+//   country: 'uzbekistan',
+//   type: 'regular',
+// }
 
 export const stagesData = [
   {
@@ -240,8 +255,8 @@ export const stagesData = [
       { lat: 39.1162, lon: 66.8654 },
       { lat: 38.6069, lon: 66.2607 },
       { lat: 39.7721, lon: 64.4491 },
-      { lat: 41.3459, lon: 61.3811 },
-      { lat: 41.3810, lon: 60.3375 }
+      { lat: 41.3459, lon: 61.3811 }
+      // { lat: 41.3810, lon: 60.3375 }
     ],
     members: [
       {
@@ -285,7 +300,7 @@ export const stagesData = [
   {
     name: 'stage_iv',
     id: 'etap-iv',
-    startPoint: stopsData[3],
+    startPoint: stopsData[16],
     startDate: new Date(2023, 0, 21),
     finishPoint: stopsData[4],
     finishDate: new Date(2023, 1, 10),
@@ -293,6 +308,14 @@ export const stagesData = [
     leader: 'Dorota Młynarczyk',
     previousStages: [2],
     nextStages: [4],
+    points: [
+      // { lat: 37.24697, lon: 67.27374 },
+      { lat: 36.70320, lon: 67.06998 },
+      { lat: 34.35345, lon: 62.19047 },
+      { lat: 36.29368, lon: 59.49011 },
+      { lat: 37.47193, lon: 57.30352 },
+      { lat: 36.83172, lon: 54.37704 },
+    ],
     members: [
       {
         name: 'Dorota Młynarczyk',
@@ -405,6 +428,12 @@ export const stagesData = [
     leader: 'Marcin Dałkiewicz',
     previousStages: [4],
     nextStages: [6],
+    points: [
+      { lat: 35.28662, lon: 46.95615 },
+      { lat: 35.46040, lon: 44.28434 },
+      { lat: 33.31165, lon: 44.27350 },
+      { lat: 33.03606, lon: 40.27300 }
+    ],
     members: [
       {
         name: 'Marcin Dałkiewicz',
