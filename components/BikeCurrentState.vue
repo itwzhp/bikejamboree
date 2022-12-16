@@ -5,14 +5,14 @@
         :stops="stops"
         :stages="stages"
         size="small"
-        :current-stage-index="Number(0)"
+        :current-stage-index="Number(1)"
         :live-coordinates="liveCoordinates"
       />
     </div>
     <BikeCard class="bike-map-legend">
       <div>
         <BikeHeading level="2" no-top-margin size="small">
-          Aktualnie trwa: Etap I
+          Aktualnie trwa: Etap II
         </BikeHeading>
         <table>
           <tr class="bike-map-legend__table-row">
@@ -22,7 +22,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Start (12.11.2022 ) - {{ $t('places.astana') }}
+              Start (10.12.2022 ) - {{ $t('places.aral') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">
@@ -32,7 +32,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Meta (9.12.2022) - {{ $t('places.aral') }}
+              Meta (30.12.2022) - {{ $t('places.tashkent') }}
             </td>
           </tr>
 
