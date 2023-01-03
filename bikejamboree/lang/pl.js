@@ -16,7 +16,7 @@ export default {
     linz: 'Linz',
     katowice: 'Katowice',
     gdansk: 'Gdańsk',
-    termez: "Termez",
+    bojnord: 'Bodżnurd',
     kazakhstan: 'Kazachstan',
     uzbekistan: 'Uzbekistan',
     turkmenistan: 'Turkmenistan',

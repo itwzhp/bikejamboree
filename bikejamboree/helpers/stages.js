@@ -112,10 +112,10 @@ export const stopsData = [
     type: 'finish',
   },
   {
-    lat:37.24697,
-    lon: 67.27374,
-    city: 'termez',
-    country: 'uzbekistan',
+    lat: 37.47193,
+    lon: 57.30352,
+    city: 'bojnord',
+    country: 'iran',
     type: 'regular',
   }
 ]
@@ -304,16 +304,11 @@ export const stagesData = [
     startDate: new Date(2023, 0, 21),
     finishPoint: stopsData[4],
     finishDate: new Date(2023, 1, 10),
-    distance: '1300 km',
+    distance: '900 km',
     leader: 'Dorota Młynarczyk',
     previousStages: [2],
     nextStages: [4],
     points: [
-      // { lat: 37.24697, lon: 67.27374 },
-      { lat: 36.70320, lon: 67.06998 },
-      { lat: 34.35345, lon: 62.19047 },
-      { lat: 36.29368, lon: 59.49011 },
-      { lat: 37.47193, lon: 57.30352 },
       { lat: 36.83172, lon: 54.37704 },
     ],
     members: [
@@ -352,6 +347,12 @@ export const stagesData = [
         photo: 'rafal-sledzinski.webp',
         isLeader: false,
         bio: 'Na co dzień ratownik medyczny, w chwili wolnej od pracy chwyta się wszystkiego, na co nie ma czasu. Miłośnik przygód oraz wyzwań. W ramach aktywności chętnie pójdzie pod górę i z góry na nartach, po wodzie na żaglach, a po drodze rowerem. Pochodzi z Elbląga.'
+      },
+      {
+        name: 'Leszek Fidelus',
+        photo: 'leszek-fidelus.webp',
+        isLeader: false,
+        bio: 'Urodzony w Beskidzie Makowskim, miłośnik i propagator tych terenów. Uczestnik dwóch poprzednich edycji Bike Jamboree i sztafety rowerowej przez Afrykę, śladami Wielkiego Podróżnika Kazimierza Nowaka. Triathlonista, ultramaratończyk, taternik. Miłośnik i obrońca zabytkowych wind, utworzył dla nich muzeum w Krakowie. Współzałożyciel Stowarzyszenia Chrzanowskich Cyklistów i drużyny rowerowej w Chrzanowie. Mocno zaangażowany ekolog. Inicjator akcji Stop Wycince Puszczy Dulowskiej i biegu 12-godzinnego w jej obronie. Winiarz amator, ciągle doskonalący się w niezwykle pasjonującym procesie produkcji wina. Pracuje na etacie i prowadzi swój biznes. Życie w ciągłym biegu - stosuje dosłownie i w przenośni.'
       }
     ]
   },
