@@ -27,18 +27,18 @@
           </td>
         </tr>
         <tr>
-          <td>II</td>
-          <td>{{ $t('places.aral') }} - {{ $t('places.tashkent') }}</td>
-          <td>10.12.2022 – 30.12.2022</td>
+          <td>V</td>
+          <td>{{ $t('places.teheran') }} - {{ $t('places.kermanshah') }}</td>
+          <td>08.02.2023 – 06.03.2023</td>
           <td>
-            Bartłomiej Walkowski<br>
-            <BikeExternalLink to="mailto:bartłomiej.walkowski@zhp.net.pl" :with-icon="false">
-              bartłomiej.walkowski@zhp.net.pl
+            Adam Dąbrowski<br>
+            <BikeExternalLink to="mailto:dabrowski.www@gmail.com" :with-icon="false">
+              dabrowski.www@gmail.com
             </BikeExternalLink>
           </td>
           <td v-if="$i18n.locale === 'pl'">
             <BikeUnorderedList no-margin>
-              <li>jedna osoba</li>
+              <li>jedna harcerka</li>
             </BikeUnorderedList>
           </td>
         </tr>
@@ -54,23 +54,7 @@
           </td>
           <td v-if="$i18n.locale === 'pl'">
             <BikeUnorderedList no-margin>
-              <li>jeden harcerz</li>
-            </BikeUnorderedList>
-          </td>
-        </tr>
-        <tr>
-          <td>X West</td>
-          <td>{{ $t('places.milan') }} - {{ $t('places.paris') }}</td>
-          <td>03.06.2023 – 18.06.2023</td>
-          <td>
-            Wojtek Wrześniak<br>
-            <BikeExternalLink to="mailto:pizmak22@gmail.com" :with-icon="false">
-              pizmak22@gmail.com
-            </BikeExternalLink>
-          </td>
-          <td v-if="$i18n.locale === 'pl'">
-            <BikeUnorderedList no-margin>
-              <li>harcerza lub harcerka - spec mechaniki rowerowej</li>
+              <li>jeden harcerz - specjalista od mediów społecznościowych lub finansów</li>
             </BikeUnorderedList>
           </td>
         </tr>
