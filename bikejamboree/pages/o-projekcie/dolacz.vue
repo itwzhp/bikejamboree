@@ -43,22 +43,6 @@
           </td>
         </tr>
         <tr>
-          <td>VII</td>
-          <td>{{ $t('places.amman') }} - {{ $t('places.port_said') }}</td>
-          <td>25.03.2023 – 21.04.2023</td>
-          <td>
-            Dariusz Zajączkowski<br>
-            <BikeExternalLink to="mailto:d.zajaczkowski@zhp.net.pl" :with-icon="false">
-              d.zajaczkowski@zhp.net.pl
-            </BikeExternalLink>
-          </td>
-          <td v-if="$i18n.locale === 'pl'">
-            <BikeUnorderedList no-margin>
-              <li>jeden harcerz - specjalista od mediów społecznościowych lub finansów</li>
-            </BikeUnorderedList>
-          </td>
-        </tr>
-        <tr>
           <td>XI East</td>
           <td>{{ $t('places.linz') }} - {{ $t('places.katowice') }}</td>
           <td>16.06.2023 - 26.06.2023</td>
