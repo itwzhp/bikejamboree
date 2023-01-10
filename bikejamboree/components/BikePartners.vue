@@ -63,7 +63,7 @@ export default {
           imageAlt: 'Muzeum Pamięci Sybiru logo',
         },
         {
-          websiteUrl: 'https://normandavies.com/',
+          websiteUrl: 'http://normandavies.com/',
           imageFilename: 'norman-davies-logo.webp',
           imageAlt: 'Norman Davies logo',
         },

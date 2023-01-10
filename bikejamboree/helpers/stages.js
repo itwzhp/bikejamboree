@@ -228,7 +228,7 @@ export const stagesData = [
       },
       {
         name: 'Piotr Sztybór',
-        photo: 'piotr-sztybor.webp',
+        photo: 'piotr-sztybor-2.webp',
         isLeader: false,
         bio: 'Instruktor harcerski w ZHR w Płocku. Przyroda, ognisko, służba dla drugiego człowieka, Bóg to wartości, bez których trudno byłoby mu żyć. Prywatnie prowadzi własną firmę, dzięki której po zakończeniu zlecenia zwiedza miejsca, do których dotarł. Uwielbia wyprawy w „niecywilizowane” miejsca. Jak już jechać na daleką wyprawę to nie na tydzień, ale minimum na trzy tygodnie. Dlatego do Kazachstanu jedzie na dwa etapy i łącznie ponad dwa miesiące Jego pasją jest też fotografia, z każdego miejsca w świecie przywozi setki zdjęć. Morze-góry!? ZDECYDOWNIE góry! ale nie Krupówki tylko intensywny wypoczynek. Lubi zimę – przy kominku rowerowo-zimowa wyprawa będzie jego pierwszą. Chce się sprawdzić, chce doświadczyć czegoś nowego. Z drugiej strony chciałby kiedyś pojechać na Antarktydę i tam spędzić z trzy miesiące choćby, jako pomoc kuchenna w stacji polarnej. Uczestniczył w poprzednich dwóch projektach – przemierzał rowerem Chiny i Rosję.'
       }
@@ -515,33 +515,27 @@ export const stagesData = [
       },
       {
         name: 'Michał Murgrabia',
-        photo: '',
+        photo: 'michal-murgrabia.webp',
         isLeader: false,
         bio: 'Psycholog, założyciel i prezes platformy ePsycholodzy.pl - miejsca, które łączy psychologów i psychoterapeutów z osobami, które czują, że w ich życiu dzieje się coś trudnego, czego nie mogą zrozumieć lub z czym nie są w stanie sobie same poradzić. Instruktor Związku Harcerstwa Polskiego, gdzie obecnie głównie zajmuje się kształceniem obecnych i przyszłych instruktorów. W wolnym czasie lubi podróżować, poznawać nowych ludzi i miejsca, odkrywać nowe smaki, które inspirują go do własnego kucharzenia :)'
       },
       {
-        name: '',
-        photo: '',
+        name: 'Monika Pawelec',
+        photo: 'monika-pawelec.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Okolice Wielunia/Warszawa. Na co dzień spełnia się jako chemik kontrolujący jakość leków, jednak poczucie wolności daje jej poznawanie świata – szczególnie z perspektywy siodełka rowerowego. Jest uzależniona - nie wyobraża sobie dnia bez muzyki, tygodnia bez dobrej książki, miesiąca bez chodzenia po górach oraz życia bez roweru, tańca i podróży. Poszukiwaczka dobrego smaku, również we własnej kuchni. Sopran warszawskiej grupy wokalnej. Nigdy sie nie nudzi. Kocha zwierzęta. Uczestniczka 26 etapu Bike Jamboree. Amatorka czerpania z życia pełnymi garściami oraz ambitnych, ciekawych i wartościowych projektów podróżniczych co przywiodło ją na szlak JednoŚladów Andersa.'
       },
       {
-        name: '',
-        photo: '',
+        name: 'Tomasz Szudrowicz',
+        photo: 'tomasz-szudrowicz.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Podharcmistrz z Hufca Rzeszów, nurek, spadochroniarz, rekonstruktor historyczny, przewodnik SKPB Rzeszów, skiturowiec, wspinacz. Zawodowo: instruktor narciarstwa, pilot wycieczek, kierownik górskich obozów wędrownych. Lubi być wszędzie - pracował na Alasce, w Holandii, Francji; podróżował Transsibem. Remontuje przedwojenną chałupę i przerabia 30-letnią terenówkę na kampera. Chodzi po wszelakich górach, jeździ z sakwami rowerem. Uwielbia "Mistrza i Małgorzatę". Stanowczo przedkłada wieczór z gitarą w schronisku ponad imprezę masową. Podróżuje by żyć, żyje by podróżować.'
       },
       {
-        name: '',
-        photo: '',
+        name: 'Adela Uchmańska',
+        photo: 'adela-uchmanska.webp',
         isLeader: false,
-        bio: ''
-      },
-      {
-        name: '',
-        photo: '',
-        isLeader: false,
-        bio: ''
+        bio: 'Uczestniczka i jedna z osób organizujących poprzednią sztafetę Bike Jamboree. Pochodzi z Warszawy, ale jej serce zawsze podpowiadało jej, że jej domem jest świat. Dlatego też przeprowadziła się na Wyspy Kanaryjskie. Na co dzień zajmuje się pisaniem jako copywriter w agencji marketingowej, fotografią oraz terapią tańcem. Uwielbia próbować i doświadczać nowych rzeczy. W wolnych chwilach jeździ na rowerze, odpoczywa na plaży i tańczy. Inspirują spotkania z ludźmi, dlatego też tak bardzo uwielbia podróżować. I dlatego też dołączyła do projektu "JednoŚladami Andersa".'
       }
     ]
   },
@@ -580,6 +574,38 @@ export const stagesData = [
     leader: 'Dorota Limontas',
     previousStages: [7],
     nextStages: [9],
+    members: [
+      {
+        name: 'Dorota Limontas',
+        photo: 'dorota-limontas.webp',
+        isLeader: true,
+        bio: ' Z powołania nauczycielka przedszkola, gdzie realizuje wszystkie swoje szalone pomysły i często przy nich bawi się lepiej niż dzieci. Od małego harcerka, gdzie przeszła wszystkie funkcje od zastępowej aż do komendantki hufca, a ostatnio zastępczyni komendanta chorągwi. Harcerstwo to wyzwania, które przekłada na wszystkie dziedziny swojego życia. Nie umie siedzieć w miejscu, uwielbia podróże te dalekie, ale bardziej docenia te bliskie, gdzie poznaje swój ukochany region - Warmię. W wolnych chwilach biega, ćwicząc przed maratonem, jeździ na rowerze szukając ciągle to nowych ciekawych miejsc, morsuje hartując swoje ciało. Najlepiej czuje się w bliskim kontakcie z naturą, jest kolekcjonerką zachodów słońca, dużo spaceruje i wędruje po lesie. Nie wyobraża sobie wakacji bez obozu, wieczoru bez ogniska z gitarą, weekendu bez wycieczki pod namiot czy wypadu na żagle. Umysł wycisza podczas medytacji i jogi. Humor poprawia sobie namiętnie słuchając disco polo :) Angażuje się w wiele działań społecznych- jest członkinią Rady Organizacji Pozarządowych Miasta Olsztyna, charytatywnych- od wielu lat wspiera WOŚP, Szlachetną Paczkę, oddaję krew. Kiedy tylko może ucieka na południe w góry, którym oddaje się bez pamięci. Była uczestniczką etapu 34 Bike Jamboree dookoła świata pokonując trasę Barcelona- Genewa. W projekcie “jednoŚLADAMI Andersa” odpowiada za działania programowe.'
+      },
+      {
+        name: 'Marcin Dałkiewicz',
+        photo: 'marcin-dalkiewicz.webp',
+        isLeader: false,
+        bio: 'Pracuje na co dzień z metalami szlachetnymi. Zapalony miłośnik podróżowania różnymi środkami transportu. Najbardziej jednak lubi podróżować stopem, ponieważ może wtedy spotkać ciekawych ludzi. Jednym z jego zainteresowań i celów podróży są kraje byłego ZSRR oraz opuszczone miasta i postindustrialne krajobrazy takie jak Czarnobyl. W wolnej chwili wskakuje na rower i przemierza nim wiele kilometrów. W zimie i w lecie odwiedza góry, przez które maszeruje lub zjeżdża na desce. Zdecydowanie woli upał od zimna. Brał udział w VI etapie projektu Rowerowe Jamboree z Polski do Japonii oraz I, IV oraz XV etapie w projekcie sztafety rowerowej dookoła świata Bike Jambore w którym był również odpowiedzialny za prowadzenie magazynu i sprzęt. W projekcie JednoŚladami Andersa lider etapu VI oraz odpowiedzialny za prowadzenie magazynu i sprzęt.'
+      },
+      {
+        name: 'Magdalena Suchan',
+        photo: 'magdalena-suchan.webp',
+        isLeader: false,
+        bio: 'To uosobienie ADHD. Jest instruktorką ZHP od ponad 20 lat. Harcersko jest członkinią Rady Chorągwi Łódzkiej oraz przewodniczącą Hufcowej Komisji Rewizyjnej i szefową chorągwianego programu #lodzkadbaozdrowie. Wyznawca praktykujący EKO i FIT. Uwielbia gotować, jeść zdrowo i jest turbo aktywna sportowo. Tańczy, żegluje po morzu, nurkuje, wspina się, wchodzi na góry wysokie i bardzo wysokie, trenuje (m.in. kalistenikę) i trenuje innych, stara się czasem jogować i rollować, biega, w tym przeszkodowo. Absolutnie kocha podróże! W wolnych chwilach - działacz i starter pozaharcerskich inicjatyw społecznych lokalnych i ogólnopolskich.'
+      },
+      {
+        name: 'Emilia Maliszak',
+        photo: 'emilia-maliszak.webp',
+        isLeader: false,
+        bio: 'Instruktorka Hufca ZHP Wrocław Północ. Od 19 lat w harcerstwie, od 27 lat na rowerze, od zawsze bez kawy. Całą swoją energię zużywa na wędrówki górskie, jazdę na dwóch kółkach, kształcenie harcerzy i szukanie miejsc, gdzie jeszcze jej nie było, a być by chciała. Uczestniczyła w 21-szym etapie sztafety rowerowej Bike Jamboree i postanowiła, że w kolejnym projekcie również nie może jej zabraknąć.'
+      },
+      {
+        name: 'Mikołaj Zawiślak',
+        photo: 'mikolaj-zawislak.webp',
+        isLeader: false,
+        bio: 'Z pochodzenia i w sercu rzeszowianin, z zamieszkania warszawski student UW, który zamiast szlifować magisterkę jedzie do Włoch. Instruktor ZHP - niegdyś wieloletni drużynowy gromady zuchowej, obecnie dumny Karp tj. członek WGKA "Carpe Noctum". W wolnym czasie ceni sobie aktywny wypoczynek, czyli bierze plecak i wyrusza na szlak, czasami bardzo długi.'
+      },
+    ]
   },
   {
     name: 'stage_ix',

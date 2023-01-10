@@ -5,7 +5,7 @@
     </BikeSection>
     <BikeSection>
       <BikeInternalLink
-        v-for="(stage, i) in stages.slice(0, 6)"
+        v-for="(stage, i) in stages.slice(0, 9).filter(stage => stage.id !== 'etap-vii-sea')"
         :key="`stage-${i}`"
         :to="`/o-projekcie/etapy/${stage.id}`"
       >
