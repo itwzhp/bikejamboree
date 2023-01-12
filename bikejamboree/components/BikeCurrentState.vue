@@ -111,7 +111,7 @@ export default {
     border-radius: 15px;
     overflow: hidden;
     margin-bottom: 30px;
-    min-height: 250px;
+    min-height: 300px;
   }
   &__link {
     display: flex;
