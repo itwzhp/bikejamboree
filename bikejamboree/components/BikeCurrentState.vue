@@ -80,7 +80,7 @@ export default {
     }
   },
   async fetch() {
-    this.kmlData = await fetch('https://inreach.radom.zhp.pl')
+    this.kmlData = await fetch('https://frog01-20438.wykr.es')
       .then(response => response.json())
   },
   computed: {
