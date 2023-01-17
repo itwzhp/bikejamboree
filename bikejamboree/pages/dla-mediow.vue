@@ -51,6 +51,15 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>"Przepraszam, że tak wcześnie - Bartłomiej Walkowski"</td>
+          <td>Radio Zielona Góra, 10.01.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://rzg.pl/234453/bartlomiej-walkowski/">
+              Słuchaj audycji
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"Harcerze na rowerze w podróży dookoła świata"</td>
           <td>Pytanie na Śniadanie, 17.11.2022</td>
           <td>

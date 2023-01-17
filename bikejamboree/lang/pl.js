@@ -82,7 +82,7 @@ export default {
     the_core_of_the_project:
       'Trzonem projektu było przejechanie trasy przemarszu wojsk od Tatiszczewa w Rosji aż do Edynburga w Wielkiej Brytanii, jednak sytuacja polityczna zmusiła nas do skorygowania startu sztafety. Planujemy przejechać przez kraje znaczone śladami Armii Andersa. Ruszymy z okolic dolnego biegu rzeki Wołga w zachodniej Syberii, przejedziemy przez Kazachstan do Uzbekistanu, stamtąd przez Turkmenistan do Turkmenbaszy nad Morzem Kaspijskim, skąd przeprawimy się, podobnie jak armia, przez morze do Teheranu, by następnie przejechać przez Iran do Iraku. Z Iraku przez Jordanię i Izrael sztafeta dotrze do Egiptu, skąd przez Morze Śródziemne dotrzemy do południowych Włoch, gdzie uczestnicy projektu wezmą udział w obchodach rocznicy Bitwy pod Monte Casino. Następnie rowerzyści dotrą do Mediolanu, stamtąd uczestnicy etapów się rozdzielą. Część pojedzie do Edynburga, gdzie dotarły wojska Andersa wraz z Niedźwiedziem Wojtkiem oraz do Polski - na Wyspę Sobieszewską, gdzie w 2027 odbędzie się Światowe Jamboree skautowe. Sztafeta skończy się równolegle w dwóch miejscach na świecie - symbolicznie.',
     the_main_route_covers_over:
-      'Główna trasa liczy ponad 15 tys. km i została podzielona na 14 etapów, które będą pokonywane w 6-osobowych zespołach.',
+      'Główna trasa liczy ponad 15 tys. km i została podzielona na 14 etapów rowerowych, które będą pokonywane w sześcioosobowych zespołach',
     relay_is_the_main: 'Sztafeta stanowi kulminacyjny element projektu. Należy zaznaczyć, że już od 11 listopada 2021 realizujemy program, do którego zapraszamy.',
     until_now_we: 'Do tej pory zrealizowaliśmy już:',
     activity_one: 'Rowerową Sztafetę Betlejemskiego Światła Pokoju,',

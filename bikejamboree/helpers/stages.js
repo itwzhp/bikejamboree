@@ -618,6 +618,69 @@ export const stagesData = [
     leader: 'Anna Popowska',
     previousStages: [8],
     nextStages: [10, 12],
+    points: [
+      { lat: 42.4697, lon: 14.2066 },
+      { lat: 43.6182, lon: 13.5161 },
+      { lat: 44.0608, lon: 12.5673 },
+      { lat: 44.1370, lon: 12.2436 },
+      { lat: 44.2239, lon: 12.0407 },
+      { lat: 44.3555, lon: 11.7169 },
+      { lat: 44.4944, lon: 11.3406 },
+      { lat: 44.6473, lon: 10.9242 },
+      { lat: 44.8021, lon: 10.3306 },
+      { lat: 45.0542, lon: 9.6910 },
+      { lat: 45.3140, lon: 9.5030 }
+    ],
+    members: [
+      {
+        name: 'Anna Popowska',
+        photo: 'anna-popowska.webp',
+        isLeader: true,
+        bio: ''
+      },
+      {
+        name: 'Zbigniew Popowski',
+        photo: 'zbigniew-popowski.webp',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: 'Robert Popowski',
+        photo: 'robert-popowski.webp',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: 'Zuzia Ptaszyńska',
+        photo: 'zuzia-ptaszynska.webp',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: 'Weronika Kaczor',
+        photo: 'weronika-kaczor.webp',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: 'Gosia Błeńska',
+        photo: 'gosia-blenska.webp',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: 'Jakub Błeński',
+        photo: 'jakub-blenski.webp',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: 'Janek Błeński',
+        photo: 'janek-blenski.webp',
+        isLeader: false,
+        bio: ''
+      }
+    ]
   },
   {
     name: 'stage_x_west',
