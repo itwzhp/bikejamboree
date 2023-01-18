@@ -154,7 +154,7 @@ export const stagesData = [
       },
       {
         name: 'Lilla Bilińska',
-        photo: 'empty.webp',
+        photo: 'lilla-bilinska.webp',
         isLeader: false,
         bio: 'Otwarta na przygody i nowe wyzwania. Czas wolny spędza aktywnie na świeżym powietrzu lub pod ciepłym kocykiem w domu z książką i jazzem. Kocha góry i rower, ale też nurkuje, biega. Już prawie ćwierć wieku temu odkryła, że najszybciej regeneruje się w saunie , od której jest na swój sposób uzależniona. Dzień zaczyna od zdania „ Najpierw kawa. Potem życie”. Zawodowo zajmuje się doradztwem techniczno handlowym w przemyśle metalurgicznym w zakresie ceramiki.'
       },
@@ -178,7 +178,7 @@ export const stagesData = [
       },
       {
         name: 'Beata Szczepańska',
-        photo: 'empty.webp',
+        photo: 'beata-szczepanska.webp',
         isLeader: false,
         bio: 'Szczecinianka. Brałam udział w13. Etapie projeku Bike Jamboree dookoła świata i to było jedno ze wspanialszych doświadczeń w moim życiu. Robię w życiu mnóstwo rzeczy: brydż, książki. Moje miejsce na ziemi to mała wioska w Borach Tucholskich nad jeziorem Ostrawite. Najważniejsi ludzie w moim życiu, to moja rodzina. Prawnik czynny w zawodzie.'
       }
@@ -659,6 +659,12 @@ export const stagesData = [
       {
         name: 'Weronika Kaczor',
         photo: 'weronika-kaczor.webp',
+        isLeader: false,
+        bio: ''
+      },
+      {
+        name: 'Julek Bączkowski',
+        photo: 'empty.webp',
         isLeader: false,
         bio: ''
       },
