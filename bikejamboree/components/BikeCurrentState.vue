@@ -5,13 +5,13 @@
         :stops="stops"
         :stages="stages"
         size="small"
-        :current-stage-index="Number(1)"
+        :current-stage-index="Number(3)"
       />
     </div>
     <BikeCard class="bike-map-legend">
       <div>
         <BikeHeading level="2" no-top-margin size="small">
-          Aktualnie trwa: Etap III
+          Aktualnie trwa: Etap IV
         </BikeHeading>
         <table>
           <tr class="bike-map-legend__table-row">
@@ -21,7 +21,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Start (31.12.2022 ) - {{ $t('places.tashkent') }}
+              Start (21.01.2023 ) - {{ $t('places.bojnord') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">
@@ -31,7 +31,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Meta (20.01.2023) - {{ $t('places.khiva') }}
+              Meta (10.02.2023) - {{ $t('places.teheran') }}
             </td>
           </tr>
 
