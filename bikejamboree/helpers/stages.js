@@ -462,13 +462,13 @@ export const stagesData = [
       },
       {
         name: 'Katarzyna Wilk',
-        photo: 'empty.webp',
+        photo: 'katarzyna-wilk.webp',
         isLeader: false,
         bio: 'Trenerka i metodyczka zdalnego nauczania, ratowniczka czytelnictwa, turystka rowerowa. Projektuje i prowadzi e-szkolenia dla dorosłych, przede wszystkim w zakresie kompetencji cyfrowych i społecznościowego uczenia się. Oswaja nauczycieli z wolnymi licencjami i otwartymi zasobami edukacyjnymi. Entuzjastka design thinking i zwinnego zarządzania projektami w środowisku edukacyjnym. Członkini zespołu koordynującego program Ratownicy Czytelnictwa oraz wolontariuszka w grupie Polska Czytająca. Wierna sympatyczka grupy Obszar Warowny „Śląsk” na Rowerze. Ulubione trasy rowerowe: długie, dużo pod górkę, najlepiej w nieznane i najchętniej nocą przez las.'
       },
       {
         name: 'Robert Janus',
-        photo: 'empty.webp',
+        photo: 'robert-janus.webp',
         isLeader: false,
         bio: 'Zawodowo pomaga budować systemy informacji przestrzennej. Introwertyk chętnie spoglądający w niebo. To bliskie – atmosferyczne i to odległe – astronomiczne. Szukający tam piękna, które można zobaczyć i zachwycający się wiedzą, którą ludzkość ciągle odkrywa. Miłośnik wędrowania przez karty książek, by poznawać losy ludzi prawdziwych, zwiedzać światy wymyślone, przekonywać się wciąż, jak wiele świat ma do zaoferowania. Czasami zastanowić się również, dlaczego..? Łączący historię i rower dzięki przyjaciołom z Obszaru Warownego „Śląsk” na Rowerze i wspólnym rowerowym przejazdom z historią w tle. Do Ekipy JednoŚladami Andersa trafił z miłości, w pogoni za marzeniami inspirowanymi lekturą książek podróżniczych o rowerowych wyprawach.'
       }
@@ -532,10 +532,22 @@ export const stagesData = [
         bio: 'Podharcmistrz z Hufca Rzeszów, nurek, spadochroniarz, rekonstruktor historyczny, przewodnik SKPB Rzeszów, skiturowiec, wspinacz. Zawodowo: instruktor narciarstwa, pilot wycieczek, kierownik górskich obozów wędrownych. Lubi być wszędzie - pracował na Alasce, w Holandii, Francji; podróżował Transsibem. Remontuje przedwojenną chałupę i przerabia 30-letnią terenówkę na kampera. Chodzi po wszelakich górach, jeździ z sakwami rowerem. Uwielbia "Mistrza i Małgorzatę". Stanowczo przedkłada wieczór z gitarą w schronisku ponad imprezę masową. Podróżuje by żyć, żyje by podróżować.'
       },
       {
-        name: 'Adela Uchmańska',
-        photo: 'adela-uchmanska.webp',
+        name: 'Jola Kreczmańska',
+        photo: 'jola-kreczmanska.webp',
         isLeader: false,
-        bio: 'Uczestniczka i jedna z osób organizujących poprzednią sztafetę Bike Jamboree. Pochodzi z Warszawy, ale jej serce zawsze podpowiadało jej, że jej domem jest świat. Dlatego też przeprowadziła się na Wyspy Kanaryjskie. Na co dzień zajmuje się pisaniem jako copywriter w agencji marketingowej, fotografią oraz terapią tańcem. Uwielbia próbować i doświadczać nowych rzeczy. W wolnych chwilach jeździ na rowerze, odpoczywa na plaży i tańczy. Inspirują spotkania z ludźmi, dlatego też tak bardzo uwielbia podróżować. I dlatego też dołączyła do projektu "JednoŚladami Andersa".'
+        bio: 'Harcmistrzyni ZHP, entuzjastka harcerstwa jako ruchu wychowawczego niezależnie od organizacji, z pasji podróżniczka choć częściej bez roweru, przedsiębiorca i dyrektor zarządzająca w wielooddziałowej firmie handlowej. Uczestniczka i liderka etapu 27B  Bike Jamboree (USA-Kanada).  Wielbicielka własnej rodziny, mieszkania w lesie i spotkań z przyjaciółmi.  Tym razem w zespole projektu niemal w ostatniej chwili.'
+      },
+      {
+        name: 'Sylwia Zuzia Skoczylas-Leżoń',
+        photo: 'sylwia-zuzia-skoczylas-lezon.webp',
+        isLeader: false,
+        bio: 'Podharcmistrzyni ZHP, instruktorka podwarszawskiego hufca Piastów. Biolożka molekularna pracująca na co dzień jako manager w branży klinicznej. W pracy ceni sobie nieprzewidywalność i międzynarodowe środowisko. Po studiach zapałała pasją do kwiatów. W swoim mieszkaniu ma ponad 50 roślin. Uwielbia być w ruchu, zarówno daleko jak i blisko od domu. Ulubiony rodzaj podróży to taki, gdzie nie wie w jakim miejscu będzie spała następnego dnia. Miłośniczka Skandynawii. Uwielbia robić rzeczy samemu - swetry, bluzki, skarpetki, sukienki. Szyje, szydełkuje, robi na drutach, gotuje i piecze. Wszędzie się spieszy i zawsze jest wszędzie za wcześnie. Chodzi po górach, lubi się wspinać, jeździć na rowerze. Kiedy potrzebuje spokoju zaczytuje się reportażach. Najbardziej ceni więzi rodzinne, przyjaciół i dobrą kawę.'
+      },
+      {
+        name: 'Kamil Kopyść',
+        photo: 'kamil-kopysc.webp',
+        isLeader: false,
+        bio: 'Z wykształcenia inżynier budownictwa, dotychczas uczestniczył przede wszystkim w realizacji różnych projektów budowlanych, lecz obecnie chce skupić się zdecydowanie bardziej na realizacji projektów podróżniczych.  Lubi aktywnie spędzać czas w szczególności podczas górskich trekkingów, przejażdżek rowerowych i biegania w terenie. Udziałem w projekcie "JednoŚladami Andersa" chce rozpocząć dłuższą przygodę rowerowych podróży z sakwami po Świecie. Zamiłowanie do podróżowania na dobre odkrył w sobie podczas wyjazdów z plecakiem do Ameryki Południowej i Azji Południowo-Wschodniej. W podróżach lubi korzystać z różnych środków lokomocji, lecz rower jest jednym z jego ulubionych, który pozwala na bliski kontakt z otoczeniem, pozwala dostrzegać i odczuwać to co nie jest osiągalne zza szyby… W okolicach, które odwiedza zdecydowanie częściej wybiera mniej utarte szlaki chcąc lepiej poznać prawdziwe życie zwyczajnych ludzi, zasmakować lokalnej kuchni oraz przebywać w bliskości przyrody. Jego marzeniem jest podróż przez wszystkie kontynenty, a w życiu towarzyszy mu motto… "Nigdy, przenigdy się nie poddawaj w realizacji marzeń"'
       }
     ]
   },
@@ -664,7 +676,7 @@ export const stagesData = [
       },
       {
         name: 'Julek Bączkowski',
-        photo: 'empty.webp',
+        photo: 'julek-baczkowski.webp',
         isLeader: false,
         bio: ''
       },

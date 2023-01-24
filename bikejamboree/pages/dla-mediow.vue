@@ -60,6 +60,15 @@
           </td>
         </tr>
         <tr>
+          <td>"2Kółka – ekipa rowerowa „JednoŚladami Andersa” na trasie w Kazachstanie"</td>
+          <td>Radio Zielona Góra, 21.12.2022</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://rzg.pl/230406/2kolka-ekipa-rowerowa-jednosladami-andersa-na-trasie-w-kazachstanie/">
+              Słuchaj audycji
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"Harcerze na rowerze w podróży dookoła świata"</td>
           <td>Pytanie na Śniadanie, 17.11.2022</td>
           <td>
