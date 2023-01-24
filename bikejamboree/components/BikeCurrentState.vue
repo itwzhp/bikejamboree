@@ -6,7 +6,6 @@
         :stages="stages"
         size="small"
         :current-stage-index="Number(1)"
-        :live-coordinates="liveCoordinates"
       />
     </div>
     <BikeCard class="bike-map-legend">
@@ -74,15 +73,15 @@ import { stopsData, stagesData } from '@/helpers/stages.js'
 export default {
   name: 'BikeCurrentState',
 
-  data() {
-    return {
-      kmlData: ''
-    }
-  },
-  async fetch() {
-    this.kmlData = await fetch('https://frog01-20438.wykr.es')
-      .then(response => response.json())
-  },
+  // data() {
+  //   return {
+  //     kmlData: ''
+  //   }
+  // },
+  // async fetch() {
+  //   this.kmlData = await fetch('https://frog01-20438.wykr.es')
+  //     .then(response => response.json())
+  // },
   computed: {
     stops() {
       return stopsData
@@ -90,17 +89,17 @@ export default {
     stages() {
       return stagesData
     },
-    liveCoordinates() {
-      return (this.kmlData.lat && this.kmlData.lon) ? [this.kmlData.lat, this.kmlData.lon]: null
-    },
-    liveDate() {
-      return this.kmlData.time
-    },
-    liveDateAndTime() {
-      const date = new Date(this.liveDate)
-      const result = `${date.toLocaleDateString()}, ${date.toLocaleTimeString([], {timeStyle: 'short'})}`
-      return result
-    }
+    // liveCoordinates() {
+    //   return (this.kmlData.lat && this.kmlData.lon) ? [this.kmlData.lat, this.kmlData.lon]: null
+    // },
+    // liveDate() {
+    //   return this.kmlData.time
+    // },
+    // liveDateAndTime() {
+    //   const date = new Date(this.liveDate)
+    //   const result = `${date.toLocaleDateString()}, ${date.toLocaleTimeString([], {timeStyle: 'short'})}`
+    //   return result
+    // }
   },
 }
 </script>
