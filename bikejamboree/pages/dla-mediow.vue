@@ -51,6 +51,15 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>"2Kółka: II etap wyprawy rowerowej „JednoŚladami Andersa” zakończony!"</td>
+          <td>Radio Zielona Góra, 25.01.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://rzg.pl/237882/2kolka-ii-etap-wyprawy-rowerowej-jednosladami-andersa-zakonczony/">
+              Słuchaj audycji
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"Przepraszam, że tak wcześnie - Bartłomiej Walkowski"</td>
           <td>Radio Zielona Góra, 10.01.2023</td>
           <td>
