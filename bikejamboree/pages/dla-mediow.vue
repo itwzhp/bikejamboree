@@ -60,6 +60,24 @@
           </td>
         </tr>
         <tr>
+          <td>"Sztafeta rowerowa 🚴 „JednoŚladami Andersa” dotarła do Taszkentu!"</td>
+          <td>Serwis Rzeczypospolitej Polskiej, 22.01.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.gov.pl/web/uzbekistan/sztafeta-rowerowa--jednosladami-andersa-dotarla-do-taszkentu/">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"JednoŚladami Andersa w Taszkencie (Uzbekistan)"</td>
+          <td>Ośrodek Rozwoju Polskiej Edukacji za Granicą, 21.01.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.orpeg.pl/jednosladami-andersa-w-taszkencie-uzbekistan/">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"Przepraszam, że tak wcześnie - Bartłomiej Walkowski"</td>
           <td>Radio Zielona Góra, 10.01.2023</td>
           <td>
