@@ -1,25 +1,78 @@
 <template>
-  <BikeSection
-    class="bike-partners"
-    centered
-    :rounded="$screen.lg"
-    :width="!$screen.lg ? 'full' : null"
-    background="red"
-  >
-    <a
-      v-for="(partner, i) in partners"
-      :key="`partner-${i}`"
-      :href="partner.websiteUrl"
-      target="_blank"
-      rel="nofollow noreferrer noopener"
+  <div>
+    <BikeHeading centered level="2">
+      Partnerzy
+    </BikeHeading>
+    <BikeSection
+      class="bike-partners"
+      centered
+      :rounded="$screen.lg"
+      :width="!$screen.lg ? 'full' : null"
+      background="red"
     >
-      <img
-        class="bike-partners__logo"
-        :src="require(`~/assets/images/partners/${partner.imageFilename}`)"
-        :alt="partner.imageAlt"
+      <a
+        v-for="(partner, i) in partners"
+        :key="`partner-${i}`"
+        :href="partner.websiteUrl"
+        target="_blank"
+        rel="nofollow noreferrer noopener"
       >
-    </a>
-  </BikeSection>
+        <img
+          class="bike-partners__logo"
+          :src="require(`~/assets/images/partners/${partner.imageFilename}`)"
+          :alt="partner.imageAlt"
+        >
+      </a>
+    </BikeSection>
+    <BikeHeading centered level="2">
+      Patroni
+    </BikeHeading>
+    <BikeSection
+      class="bike-partners mb-30"
+      centered
+      :rounded="$screen.lg"
+      :width="!$screen.lg ? 'full' : null"
+      background="red"
+    >
+      <a
+        v-for="(partner, i) in patrons"
+        :key="`partner-${i}`"
+        :href="partner.websiteUrl"
+        target="_blank"
+        rel="nofollow noreferrer noopener"
+      >
+        <img
+          class="bike-partners__logo"
+          :src="require(`~/assets/images/partners/${partner.imageFilename}`)"
+          :alt="partner.imageAlt"
+        >
+      </a>
+    </BikeSection>
+    <BikeHeading centered level="2">
+      Patroni Medialni
+    </BikeHeading>
+    <BikeSection
+      class="bike-partners"
+      centered
+      :rounded="$screen.lg"
+      :width="!$screen.lg ? 'full' : null"
+      background="red"
+    >
+      <a
+        v-for="(partner, i) in media"
+        :key="`partner-${i}`"
+        :href="partner.websiteUrl"
+        target="_blank"
+        rel="nofollow noreferrer noopener"
+      >
+        <img
+          class="bike-partners__logo"
+          :src="require(`~/assets/images/partners/${partner.imageFilename}`)"
+          :alt="partner.imageAlt"
+        >
+      </a>
+    </BikeSection>
+  </div>
 </template>
 
 <script>
@@ -53,9 +106,31 @@ export default {
           imageAlt: 'Medyk Rescue Team logo',
         },
         {
+          websiteUrl: 'https://pajaksport.pl/',
+          imageFilename: 'pajak-logo.webp',
+          imageAlt: 'Pajak Sport logo',
+        },
+        {
+          websiteUrl: 'http://sony.pl',
+          imageFilename: 'sony-logo.webp',
+          imageAlt: 'Sony logo',
+        }
+      ],
+      patrons: [
+        {
           websiteUrl: 'https://www.gov.pl/web/dyplomacja',
           imageFilename: 'msz-logo.webp',
           imageAlt: 'MSZ logo',
+        },
+        {
+          websiteUrl: 'https://muzeumharcerstwa.pl/',
+          imageFilename: 'muzeum-harcerstwa-logo.webp',
+          imageAlt: 'Muzeum Harcerstwa logo',
+        },
+        {
+          websiteUrl: 'https://niw.gov.pl',
+          imageFilename: 'niw-logo.webp',
+          imageAlt: 'Narodowy Instytut wolności logo',
         },
         {
           websiteUrl: 'https://sybir.bialystok.pl',
@@ -66,21 +141,13 @@ export default {
           websiteUrl: 'http://normandavies.com/',
           imageFilename: 'norman-davies-logo.webp',
           imageAlt: 'Norman Davies logo',
-        },
-        {
-          websiteUrl: 'https://pajaksport.pl/',
-          imageFilename: 'pajak-logo.webp',
-          imageAlt: 'Pajak Sport logo',
-        },
+        }
+      ],
+      media: [
         {
           websiteUrl: 'https://rp.pl/',
           imageFilename: 'rzeczpospolita-logo.webp',
           imageAlt: 'Rzeczpospolita logo',
-        },
-        {
-          websiteUrl: 'http://sony.pl',
-          imageFilename: 'sony-logo.webp',
-          imageAlt: 'Sony logo',
         }
       ],
     }
@@ -94,6 +161,7 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  min-height: 80px;
   &__logo {
     max-height: 80px;
     max-width: 120px;
@@ -105,6 +173,7 @@ export default {
 
 @include screen-size('tablet') {
   .bike-partners {
+    min-height: 120px;
     &__logo {
       max-height: 120px;
       max-width: 200px;

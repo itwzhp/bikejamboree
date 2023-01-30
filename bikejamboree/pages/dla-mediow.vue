@@ -51,6 +51,15 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>"Strefa Młodych – Harcerze śladami Armii Andersa"</td>
+          <td>Radio Zachód, 30.01.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://zachod.pl/793611/strefa-mlodych-harcerze-sladami-armii-andersa/">
+              Słuchaj audycji
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"2Kółka: II etap wyprawy rowerowej „JednoŚladami Andersa” zakończony!"</td>
           <td>Radio Zielona Góra, 25.01.2023</td>
           <td>

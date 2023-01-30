@@ -752,6 +752,27 @@ export const stagesData = [
     previousStages: [12],
     nextStages: [14],
     leader: 'Artur Kulesza',
+    points: [
+      { lat: 48.9745, lon: 14.4743 },
+      { lat: 49.2234, lon: 14.4212 },
+      { lat: 49.6047, lon: 14.2776 },
+      { lat: 50.0873, lon: 14.4230 },
+      { lat: 50.1611, lon: 14.7491 },
+      { lat: 50.1868, lon: 15.0415 },
+      { lat: 50.0267, lon: 15.1968 },
+      { lat: 50.0385, lon: 15.7812 },
+      { lat: 50.2100, lon: 15.8299 },
+      { lat: 50.3555, lon: 15.9178 },
+      { lat: 50.4423, lon: 16.2424 },
+      { lat: 50.5071, lon: 16.7396 },
+      { lat: 50.4742, lon: 17.3320 },
+      { lat: 50.3895, lon: 17.6605 },
+      { lat: 50.4753, lon: 17.9669 },
+      { lat: 50.4861, lon: 18.4115 },
+      { lat: 50.6092, lon: 18.4797 },
+      { lat: 50.6707, lon: 18.6826 },
+      { lat: 50.5641, lon: 18.8855 }
+    ]
   },
   {
     name: 'stage_xii_east',

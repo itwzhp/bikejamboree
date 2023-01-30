@@ -15,9 +15,6 @@
       :articles="articles"
       class="mb-75"
     />
-    <BikeHeading centered level="2">
-      {{ $t('homepage.we_are_supported_by') }}
-    </BikeHeading>
     <BikePartners />
   </main>
 </template>
