@@ -51,6 +51,15 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>"Od Kazachstanu do Edynburga. Łodzianie w podróży rowerem liczącej 15 tys. km"</td>
+          <td>Gazeta Wyborcza Łódź, 05.02.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.rp.pl/plus-minus/art37617021-jednosladami-andersa-mroz-step-i-zyczliwi-ludzie">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"Strefa Młodych – Harcerze śladami Armii Andersa"</td>
           <td>Radio Zachód, 30.01.2023</td>
           <td>
@@ -101,6 +110,15 @@
           <td>
             <BikeExternalLink :with-icon="false" to="https://rzg.pl/230406/2kolka-ekipa-rowerowa-jednosladami-andersa-na-trasie-w-kazachstanie/">
               Słuchaj audycji
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"Jednośladami Andersa. Mróz, step i życzliwi ludzie"</td>
+          <td>Rzeczpospolita, 16.12.2022</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.rp.pl/plus-minus/art37617021-jednosladami-andersa-mroz-step-i-zyczliwi-ludzie">
+              Czytaj artykuł
             </BikeExternalLink>
           </td>
         </tr>
