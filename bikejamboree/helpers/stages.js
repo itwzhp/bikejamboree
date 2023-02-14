@@ -648,55 +648,55 @@ export const stagesData = [
         name: 'Anna Popowska',
         photo: 'anna-popowska.webp',
         isLeader: true,
-        bio: ''
+        bio: 'Pochodzę z Augustowa, myślę ,że dlatego ukochałam sobie jeziora. Bez bliskości wody trudno byłoby mi żyć. Jestem mamą ,żoną -rodzina daje mi grunt na którym się mocno trzymam. Pracuję w Wolnej Szkole Harmonia, jestem psychologiem dziecięcym i fizjoterapeutką, towarzyszę dzieciom w ich drodze do poznawania siebie i świata sama a sama nabywam przy tym wciąż nowej wiedzy i zasobów. Byłam uczestniczką III etapu Bj przez Kaukaz i liderką XXXVII etapu z Gniezna do Gdańska z najmłodszymi uczestnikami, którzy dowieźli na metę pałeczkę sztafetową. Dzięki BJ rozsmakowałam się w jeżdżeniu na rowerze. Uwielbiam literaturę faktu , dobrą literaturę dziecięcą, historię. Zachwyciła mnie historia armii stworzonej przez Generała Władysława Andersa i stąd pomysł ,by na jeden z etapów zabrać młodych ludzi i zainspirować ich Szlakiem Nadziei.'
       },
       {
         name: 'Zbigniew Popowski',
         photo: 'zbigniew-popowski.webp',
         isLeader: false,
-        bio: ''
+        bio: 'W harcerstwie aktywny od ponad dwudziestu pięciu lat. Był m.in. drużynowym, instruktorem i komendantem hufca Augustów, członkiem Rady Naczelnej ZHP, członkiem komend kontyngentów polskich na 18. Światowe Jamboree Skautowe w Holandii oraz 21. Światowe Jamboree Skautowe w Wielkiej Brytanii, skarbnikiem ZHP i członkiem Głównej Kwatery ZHP (2007-2009) oraz członkiem Rady Fundacji Harcerstwa Polskiego Schronisko „Głodówka” (2008-2016). Od 2006 roku kieruje Fundacją Światowe Jamboree zajmującą się projektami zagranicznymi dla młodzieży. Z zawodu ekonomista i bankowiec ze specjalizacją z finansowania handlu zagranicznego, ekspert Centrum Stosunków Międzynarodowych oraz członek Rady Ekspertów polskiego ThinkTank. Od blisko 7 lat kieruje firmą oferującą kompleksowe doradztwo w finansach oraz handlu zagranicznym. Szczęśliwy ojciec 2 dzieci oraz mąż. W nielicznych wolnych chwilach gra na gitarze i harmonijce, chodzi po górach, jeździ na wyprawy rowerowe oraz ślizga się na nartach wodnych.'
       },
       {
         name: 'Robert Popowski',
         photo: 'robert-popowski.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Jestem uczniem Wolnego Liceum im Olka Doby. Lubię gry komputerowe, koty. Lubię podróżować. Bylem uczestnikiem Rowerowego Jamboree , przejechałem zimą Turcję. W projekcie BJ uczestniczyłem w dwóch etapach III przez Kaukaz i ostatnim z Gniezna do Gdańska. Chciałabym odwiedzić wszystkie kontynenty, niekoniecznie na rowerze.'
       },
       {
         name: 'Zuzia Ptaszyńska',
         photo: 'zuzia-ptaszynska.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Hej, Jestem Zuzia. Mam prawie 15 lat. Lubię podróżować, chodzić po górach, jeździć na rowerze i pływać kajakiem. Jestem fanką różnych kreatywnych zajęć takich jak plecenie makramy, czy lepienie z gliny. Wydaje mi się, że jestem osobą z wyobraźnią, a jeśli nie, to na pewno z lekką dozą szaleństwa. Może nie do końca widać to na zdjęciu, ale mam kolorowe włosy. Uwielbiam kolory! Nie przepadam za wyblakłymi odcieniami. Wolę mieć na sobie tęczę i wyróżniać się z szarego tłumu...'
       },
       {
         name: 'Weronika Kaczor',
         photo: 'weronika-kaczor.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Na co dzień chodzę boso. Uwielbiam żeglować, czytać książki i pisać. Interesuje mnie Norwegia oraz psychologia zaburzeń. No i zdecydowanie wolę łódkę od roweru... Byłam uczestniczą XXXVII etapu BJ z Gniezna do Gdańska.'
       },
       {
         name: 'Julek Bączkowski',
         photo: 'julek-baczkowski.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Mam 14 lat i mieszkam w Strzeniówce. Chodzę do dwóch liceów. Jednego muzycznego a drugiego podstawowego. Lubię muzykę, jazdę na deskorolce oraz na rowerze , kręcenie filmów i robienie zdjęć i rysowanie.'
       },
       {
         name: 'Gosia Błeńska',
         photo: 'gosia-blenska.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Mama Kuby i Janka. Młode lata spędziła w harcerstwie, które ją ukształtowało. Od kilku lat zaangażowana w realizację projektu Bezpieczny Kazbek oraz działania fundacji Medyk Rescue Team. Lubi odwiedzać nowe miejsca i wcale nie muszą one być daleko od domu. Zawsze z muzyką w serduchu. Najgłośniej potrafi śpiewać w samochodzie, ale świetnie sobie radzi też przy kominku, ognisku, w górskim schronisku czy gdziekolwiek indziej, ważne by ktoś zaczął ;) Jak ma do wyboru morze albo góry to niezależnie od pory roku zawsze wybierze górskie szlaki. Nie trzeba jej też dwa razy zapraszać na planszówki. Zawsze chętnie rozegra partyjkę pod warunkiem, że gra jest bez kostek. Jechała ostatni etap Bike Jamboree kończąc rowerową sztafetę dookoła świata.'
       },
       {
         name: 'Jakub Błeński',
         photo: 'jakub-blenski.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Drugi rok jest uczniem wolnego liceum, które odmieniło jego życie. Od dziecka uwielbia sport - zarówno uprawiać jak i wiedzieć o nim jak najwięcej. Jakiś czas temu rakietę tenisową zamienił na pałeczki perkusyjne i obecnie nie daje o sobie zapomnieć domownikom waląc w "gary". Ostatnio próbuje swoich sił również na basie. Lubi podróże, zwłaszcza zagraniczne. Od prawie dwóch lat samodzielnie uczy się języka fińskiego udowadniając swoją zawziętość i konsekwencję. Był uczestnikiem ostatniego etapu Bike Jamboree dowożąc pałeczkę sztafetową na metę.'
       },
       {
         name: 'Janek Błeński',
         photo: 'janek-blenski.webp',
         isLeader: false,
-        bio: ''
+        bio: 'Uczeń warszawskiej podstawówki, choć szkoła mogłaby dla niego nie istnieć. Najciekawszym zajęciem w szkole jest rysowanie, do czego zdecydowanie ma talent. Najlepiej odnajduje się w postaciach komiksowych. Miłośnik gier komputerowych i kotów. Od dziecka jego marzeniem był "żywy kotek - nie pluszak" - obecnie opiekun Pazura i Leona. W wolnych chwilach spotyka się z kolegami i wspólnie łapią Pokemony lub grają "w kosza". Lubi również grać w gry karciane i planszowe czym zaraża swoich rówieśników. Jako najmłodszy, 10-letni uczestnik ostatniego etapu Bike Jamboree musiał nadrabiać pedałowaniem na mniejszym rowerze dzielnie kończąc sztafetę dookoła świata.'
       }
     ]
   },

@@ -127,7 +127,7 @@ export default {
     project_is_organized_by_number:
       'W organizację projektu JednoŚladami Andersa zaangażowanych jest wiele osób cenionych w środowisku podróżniczym i harcerskim. Trzon zespołu stanowią:',
     hes_been_an_active_scout:
-      ' W harcerstwie aktywny od ponad dwudziestu pięciu lat. Był m.in. drużynowym, instruktorem i komendantem hufca Augustów, członkiem Rady Naczelnej ZHP, członkiem komend kontyngentów polskich na 18. Światowe Jamboree Skautowe w Holandii oraz 21. Światowe Jamboree Skautowe w Wielkiej Brytanii, skarbnikiem ZHP i członkiem Głównej Kwatery ZHP (2007-2009) oraz członkiem Rady Fundacji Harcerstwa Polskiego Schronisko „Głodówka” (2008-2016).',
+      'W harcerstwie aktywny od ponad dwudziestu pięciu lat. Był m.in. drużynowym, instruktorem i komendantem hufca Augustów, członkiem Rady Naczelnej ZHP, członkiem komend kontyngentów polskich na 18. Światowe Jamboree Skautowe w Holandii oraz 21. Światowe Jamboree Skautowe w Wielkiej Brytanii, skarbnikiem ZHP i członkiem Głównej Kwatery ZHP (2007-2009) oraz członkiem Rady Fundacji Harcerstwa Polskiego Schronisko „Głodówka” (2008-2016).',
     since_2006_hes_been_leading:
       'Od 2006 roku kieruje Fundacją Światowe Jamboree zajmującą się projektami zagranicznymi dla młodzieży. Z zawodu ekonomista i bankowiec ze specjalizacją z finansowania handlu zagranicznego, ekspert Centrum Stosunków Międzynarodowych oraz członek Rady Ekspertów polskiego ThinkTank. Od blisko 7 lat kieruje firmą oferującą kompleksowe doradztwo w finansach oraz handlu zagranicznym. Szczęśliwy ojciec 2 dzieci oraz mąż. W nielicznych wolnych chwilach gra na gitarze i harmonijce, chodzi po górach, jeździ na wyprawy rowerowe oraz ślizga się na nartach wodnych.',
     in_recent_years_hes_been:
