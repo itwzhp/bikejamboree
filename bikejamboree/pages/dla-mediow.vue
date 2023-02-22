@@ -51,6 +51,15 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>Jadą rowerami szlakiem armii Andersa. "Ta historia jest żywa"</td>
+          <td>Radio Olsztyn, 20.02.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://radioolsztyn.pl/jada-rowerami-szlakiem-armii-andersa-ta-historia-jest-zywa">
+              Słuchaj audycji
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"Od Kazachstanu do Edynburga. Łodzianie w podróży rowerem liczącej 15 tys. km"</td>
           <td>Gazeta Wyborcza Łódź, 05.02.2023</td>
           <td>
