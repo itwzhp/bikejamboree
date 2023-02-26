@@ -55,7 +55,7 @@
           <td>Warmia Bike, 26.02.2023</td>
           <td>
             <BikeExternalLink :with-icon="false" to="https://open.spotify.com/show/1fJfStMBKHukaTR8c7Ozm0">
-              Słuchaj Audycji
+              Słuchaj audycji
             </BikeExternalLink>
           </td>
         </tr>
