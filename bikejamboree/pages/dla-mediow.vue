@@ -51,6 +51,15 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>Dorota Limontas / Bike Jamboree</td>
+          <td>Warmia Bike, 26.02.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://open.spotify.com/show/1fJfStMBKHukaTR8c7Ozm0">
+              Słuchaj Audycji
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>Rowerem szlakiem Armii Andersa</td>
           <td>Gazeta Olsztyńska, 24.02.2023</td>
           <td>
