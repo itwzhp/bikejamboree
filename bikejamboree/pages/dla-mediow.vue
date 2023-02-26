@@ -51,7 +51,7 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
-          <td>Jadą rowerami szlakiem armii Andersa. "Ta historia jest żywa"</td>
+          <td>Rowerem szlakiem Armii Andersa</td>
           <td>Gazeta Olsztyńska, 24.02.2023</td>
           <td>
             <BikeExternalLink :with-icon="false" to="https://bikejamboree.pl/files/gazeta-olsztynska-24-02-2023.jpg">
