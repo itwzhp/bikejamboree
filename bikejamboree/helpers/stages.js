@@ -711,6 +711,32 @@ export const stagesData = [
     leader: 'Wojciech Wrześniak',
     previousStages: [9],
     nextStages: [11],
+    members: [
+      {
+        name: 'Wojciech Wrześniak',
+        photo: 'wojciech-wrzesniak.webp',
+        idLeader: true,
+        bio: 'Od dziecka spędza wolny czas na rowerze włócząc się po okolicy. Jednak dopiero po studiach wkręcił się w rowerowy świat; zaczynał od lokalnych maratonów MTB, z poznaną na trasie ekipą Mark the Spot objechał kawał Polski, wkręcił się mocno w ultramaraton Wisła 1200 - ukończył go czterokrotnie, by w 5 edycji stanąć po drugiej stronie i pomóc przy jej organizacji. Z Bike Jamboree w etapie 20 przemierzył zimą, a nie latem Kanadyjskie góry Skaliste oraz gorące Maroko w etapie 32. Z wykształcenia geodeta, a zawodowo sprawdza się jako logistyk. W ‘JednoŚladach’ debiutuje w odpowiedzialnej roli lidera etapu.'
+      },
+      {
+        name: 'Grzegorz Baworowski',
+        photo: 'grzegorz-baworowski.webp',
+        idLeader: false,
+        bio: 'Od kiedy dostał pierwszy rower na komunię zrozumiał, że będzie to jego ulubiony środek lokomocji oraz przepustka do niesamowitych przygód. Uwielbia jeździć w wolnym czasie na rowerze. Prawie każdy wakacyjny urlop spędza na długodystansowych wyprawach rowerowych. Podczas swoich zagranicznych wojaży z sakwami odwiedził między innymi Bornholm, Kopenhagę, Monachium i Pragę. W Polsce przejechał m.in. szlaki Greenvelo, wzdłuż Odry i Wisły. Ostatnio odkrywa tajniki bikepackingu. Ponadto pasjonat fotografii, szczególnie krajobrazowej i ulicznej. Jest współzałożycielem i członkiem Zielonogórskiego Towarzystwa Fotograficznego.'
+      },
+      {
+        name: 'Barbara Sobańska',
+        photo: 'barbara-sobanska.webp',
+        idLeader: false,
+        bio: 'Rower to od najmłodszych lat jej największy sprzymierzeniec w przemierzaniu leśnej i miejskiej dżungli. Dojeżdżała nim m.in. do dwujęzycznych klas gimnazjum i liceum, gdzie przez sześć lat doskonaliła swoje francuskojęzyczne kwalifikacje. Teraz w końcu może podjąć rowerowo-językowe wyzwanie, jakim jest X etap ‘JednoŚladami Andersa’ na trasie Mediolan - Paryż. Na codzień jest studentką fizjoterapii na Akademii Wychowania Fizycznego w Poznaniu, przyboczną w gromadzie 89 JGZ ‘Wesołe Krasnale’ i pasjonatką triathlonu.'
+      },
+      {
+        name: 'Aleksandra Duliban',
+        photo: 'aleksandra-duliban.webp',
+        idLeader: false,
+        bio: 'Harcerka całym serduszkiem - w ZHP spędziła już połowę swojego życia. Wędrowniczka, działa w promocji swojego hufca i pełni funkcję komendantki kręgu instruktorskiego. Jej życie prywatne podąża w reklamowo / marketingowo / graficznym kierunku. Pochodzi z Radomia, aktualnie mieszka w ukochanej stolicy i poznaje ją za pomocą dwóch kółek. Członkini ekipy promo w sztafecie JednoŚladami Andersa. Właściwie to dopiero teraz zaczyna przygodę z profesjonalnym kolarstwem - ale wie, że w naszym etapie znajdzie ludzi gotowych podzielić się doświadczeniem.'
+      }
+    ]
   },
   {
     name: 'stage_xi_west',

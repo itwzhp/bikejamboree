@@ -51,6 +51,15 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>Jadą na rowerach, by promować historię</td>
+          <td>Radio Plus Olsztyn, 27.02.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.radioplus.pl/olsztyn/jada-na-rowerach-by-promowac-historie-aa-Hs5c-jA7z-nmeD.html">
+              Słuchaj audycji
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>Dorota Limontas / Bike Jamboree</td>
           <td>Warmia Bike, 26.02.2023</td>
           <td>
