@@ -27,24 +27,8 @@
           </td>
         </tr>
         <tr>
-          <td>V</td>
-          <td>{{ $t('places.teheran') }} - {{ $t('places.kermanshah') }}</td>
-          <td>08.02.2023 – 06.03.2023</td>
-          <td>
-            Adam Dąbrowski<br>
-            <BikeExternalLink to="mailto:dabrowski.www@gmail.com" :with-icon="false">
-              dabrowski.www@gmail.com
-            </BikeExternalLink>
-          </td>
-          <td v-if="$i18n.locale === 'pl'">
-            <BikeUnorderedList no-margin>
-              <li>jedna harcerka</li>
-            </BikeUnorderedList>
-          </td>
-        </tr>
-        <tr>
           <td>XI East</td>
-          <td>{{ $t('places.linz') }} - {{ $t('places.katowice') }}</td>
+          <td>{{ $t('places.linz') }} - {{ $t('places.czestochowa') }}</td>
           <td>16.06.2023 - 26.06.2023</td>
           <td>
             Artur Kulesza <br>
@@ -57,6 +41,22 @@
               <li>spec od nowych mediów</li>
               <li>spec od serwisu roweru</li>
               <li>człowiek otwarty na realizację spotkań z ludźmi</li>
+            </BikeUnorderedList>
+          </td>
+        </tr>
+        <tr>
+          <td>XII East</td>
+          <td>{{ $t('places.czestochowa') }} - {{ $t('places.gdansk') }}</td>
+          <td>27.06.2023 - 08.07.2023</td>
+          <td>
+            Łukasz Tomala <br>
+            <BikeExternalLink to="mailto:lukasz.tomala@zhp.net.pl" :with-icon="false">
+              lukasz.tomala@zhp.net.pl
+            </BikeExternalLink>
+          </td>
+          <td v-if="$i18n.locale === 'pl'">
+            <BikeUnorderedList no-margin>
+              <li>członkowie etapu</li>
             </BikeUnorderedList>
           </td>
         </tr>

@@ -100,7 +100,7 @@ export const stopsData = [
   {
     lat: 50.214,
     lon: 19.008,
-    city: 'katowice',
+    city: 'czestochowa',
     country: 'poland',
     type: 'regular',
   },
@@ -807,7 +807,7 @@ export const stagesData = [
     startDate: new Date(2023, 5, 27),
     finishPoint: stopsData[15],
     finishDate: new Date(2023, 6, 8),
-    distance: '650 km',
+    distance: '550 km',
     previousStages: [13],
     points: [
       { lat: 50.8097, lon: 19.1222 },

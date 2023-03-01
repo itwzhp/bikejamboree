@@ -51,6 +51,15 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>Rowerowa wyprawa harcerzy</td>
+          <td>TVK Macrosat, 01.03.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.facebook.com/macrosatPL/posts/pfbid033T5cmwr1Gt7AiVzjdPkpibkUfwCahxy8rBJubEwF9LH2tgWo2KE5h6tR5zqgGqAMl">
+              Oglądaj materiał
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>Jadą na rowerach, by promować historię</td>
           <td>Radio Plus Olsztyn, 27.02.2023</td>
           <td>
