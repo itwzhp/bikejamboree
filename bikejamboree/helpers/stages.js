@@ -98,8 +98,8 @@ export const stopsData = [
     type: 'regular',
   },
   {
-    lat: 50.214,
-    lon: 19.008,
+    lat: 50.8119,
+    lon: 19.1128,
     city: 'czestochowa',
     country: 'poland',
     type: 'regular',
@@ -403,12 +403,6 @@ export const stagesData = [
         photo: 'julia-szefler.webp',
         isLeader: false,
         bio: 'Rodowita poznanianka, ale tak naprawdę typowy z niej włóczykij - zdarła niejedne buty podczas harcerskich wędrówek, spała pod gołym niebem na śródziemnomorskich plażach, a każdy wolny weekend spędza w polskich górach. Skończyła Politechnikę Poznańską na Wydziale Architektury, łącząc zamiłowania do technicznego aspektu projektowania z wrażliwością na piękno sztuki. Choć uprawiała prawie każdy możliwy sport, to rower od zawsze ma specjalne miejsce w jej sercu, zwłaszcza odkąd ostatniego lata dotarła na nim aż do Barcelony.'
-      },
-      {
-        name: 'Julia Woźniak',
-        photo: 'julia-wozniak.webp',
-        isLeader: false,
-        bio: 'Od 15 lat niezmiennie w związku… Harcerstwa Polskiego. Instruktorka, jak to często bywa - wielofunkcyjna, ale perełką w jej głowie jest drużyna Wędrownicza, której jest drużynową. Poza harcerstwem studentka grafiki i uczennica szkoły muzycznej. A w międzyczasie? Miłośniczka wędrówek i nocy spędzonych w lesie oraz tradycyjnych sztuk plastycznych. Pozytywna marzycielka, która uwielbia próbować nowych aktywności, ale też usiąść z herbatą (koniecznie z cytryną) przy dobrej książce.'
       },
       {
         name: 'Adam Panczocha',
@@ -735,6 +729,12 @@ export const stagesData = [
         photo: 'aleksandra-duliban.webp',
         idLeader: false,
         bio: 'Harcerka całym serduszkiem - w ZHP spędziła już połowę swojego życia. Wędrowniczka, działa w promocji swojego hufca i pełni funkcję komendantki kręgu instruktorskiego. Jej życie prywatne podąża w reklamowo / marketingowo / graficznym kierunku. Pochodzi z Radomia, aktualnie mieszka w ukochanej stolicy i poznaje ją za pomocą dwóch kółek. Członkini ekipy promo w sztafecie JednoŚladami Andersa. Właściwie to dopiero teraz zaczyna przygodę z profesjonalnym kolarstwem - ale wie, że w naszym etapie znajdzie ludzi gotowych podzielić się doświadczeniem.'
+      },
+      {
+        name: 'Julia Woźniak',
+        photo: 'julia-wozniak.webp',
+        isLeader: false,
+        bio: 'Od 15 lat niezmiennie w związku… Harcerstwa Polskiego. Instruktorka, jak to często bywa - wielofunkcyjna, ale perełką w jej głowie jest drużyna Wędrownicza, której jest drużynową. Poza harcerstwem studentka grafiki i uczennica szkoły muzycznej. A w międzyczasie? Miłośniczka wędrówek i nocy spędzonych w lesie oraz tradycyjnych sztuk plastycznych. Pozytywna marzycielka, która uwielbia próbować nowych aktywności, ale też usiąść z herbatą (koniecznie z cytryną) przy dobrej książce.'
       }
     ]
   },

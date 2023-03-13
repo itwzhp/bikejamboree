@@ -51,6 +51,24 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>"Strefa Młodych – Harcerze śladami Armii Andersa cz.2"</td>
+          <td>Radio Zachód, 13.03.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://zachod.pl/821392/strefa-mlodych-jednosladami-andersa-cz-2/">
+              Słuchaj audycji
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"سپاهان میزبان دوچرخه‌سواران لهستانی"</td>
+          <td>Foolad Mobarakeh Sepahan Club, 09.03.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.sepahansc.com/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%BE%D8%A7%D9%87%D8%A7%D9%86-%D9%85%DB%8C%D8%B2%D8%A8%D8%A7%D9%86-%D8%AF%D9%88%DA%86%D8%B1%D8%AE%D9%87%D8%B3%D9%88%D8%A7%D8%B1%D8%A7%D9%86-%D9%84%D9%87%D8%B3%D8%AA%D8%A7%D9%86%DB%8C">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>Rowerowa wyprawa harcerzy</td>
           <td>TVK Macrosat, 01.03.2023</td>
           <td>
