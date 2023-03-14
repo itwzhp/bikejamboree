@@ -5,13 +5,14 @@
         :stops="stops"
         :stages="stages"
         size="small"
-        :current-stage-index="Number(4)"
+        :current-stage-index="Number(5)"
+        :live-coordinates="liveCoordinates"
       />
     </div>
     <BikeCard class="bike-map-legend">
       <div>
         <BikeHeading level="2" no-top-margin size="small">
-          Aktualnie trwa: Etap V
+          Aktualnie trwa: Etap VI
         </BikeHeading>
         <table>
           <tr class="bike-map-legend__table-row">
@@ -21,7 +22,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Start (11.02.2023 ) - {{ $t('places.teheran') }}
+              Start (04.03.2023 ) - {{ $t('places.kermanshah') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">
@@ -31,7 +32,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Meta (03.03.2023) - {{ $t('places.kermanshah') }}
+              Meta (24.03.2023) - {{ $t('places.amman') }}
             </td>
           </tr>
 
@@ -73,15 +74,15 @@ import { stopsData, stagesData } from '@/helpers/stages.js'
 export default {
   name: 'BikeCurrentState',
 
-  // data() {
-  //   return {
-  //     kmlData: ''
-  //   }
-  // },
-  // async fetch() {
-  //   this.kmlData = await fetch('https://frog01-20438.wykr.es')
-  //     .then(response => response.json())
-  // },
+  data() {
+    return {
+      kmlData: ''
+    }
+  },
+  async fetch() {
+    this.kmlData = await fetch('https://frog01-20438.wykr.es')
+      .then(response => response.json())
+  },
   computed: {
     stops() {
       return stopsData
@@ -89,17 +90,17 @@ export default {
     stages() {
       return stagesData
     },
-    // liveCoordinates() {
-    //   return (this.kmlData.lat && this.kmlData.lon) ? [this.kmlData.lat, this.kmlData.lon]: null
-    // },
-    // liveDate() {
-    //   return this.kmlData.time
-    // },
-    // liveDateAndTime() {
-    //   const date = new Date(this.liveDate)
-    //   const result = `${date.toLocaleDateString()}, ${date.toLocaleTimeString([], {timeStyle: 'short'})}`
-    //   return result
-    // }
+    liveCoordinates() {
+      return (this.kmlData.lat && this.kmlData.lon) ? [this.kmlData.lat, this.kmlData.lon]: null
+    },
+    liveDate() {
+      return this.kmlData.time
+    },
+    liveDateAndTime() {
+      const date = new Date(this.liveDate)
+      const result = `${date.toLocaleDateString()}, ${date.toLocaleTimeString([], {timeStyle: 'short'})}`
+      return result
+    }
   },
 }
 </script>

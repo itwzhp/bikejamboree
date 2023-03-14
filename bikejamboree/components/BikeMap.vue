@@ -27,7 +27,7 @@
           :icon="getIcon({type: 'live'})"
         />
         <l-polyline
-          v-for="(stage, i) in stages"
+          v-for="(stage, i) in stagesToMap"
           :key="`stage=${i}`"
           :lat-lngs="getAllPoints(stage)"
           :weight="8"
@@ -88,6 +88,9 @@ export default {
         'bike-map',
         `bike-map--size-${this.size}`
       ]
+    },
+    stagesToMap() {
+      return this.stages.filter(stage => stage.id !== "etap-vii-sea")
     }
   },
   watch: {
