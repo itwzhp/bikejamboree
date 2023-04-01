@@ -751,6 +751,26 @@ export const stagesData = [
     ],
     leader: 'Piotr Wojtaszek',
     previousStages: [10],
+    members: [
+      {
+        name: 'Piotr Wojtaszek',
+        photo: 'piotr-wojtaszek.webp',
+        isLeader: true,
+        bio: 'Cześć, witam, czołem, pytacie skąd się wziąłem? Jestem wesoły Piotrek, mam zawsze pomysłów worek. Na rowerze dużo jeżdżę, na którym głowę wietrzę. Uwielbiam także górskie wędrówki. I nóżką potupać, jak są potańcówki. Podróże to moja największa pasja, Byle gdzie to jedyna racja. Odwiedzam parki, pałace i małe wioski, i wszędzie opowiadam różne ciekawostki. Jak zostaję w domu, to nic nie szkodzi, Gdyż mieszkam w mojej ukochanej Łodzi. Tutaj co dzień pracuje i w ZHP harcuje. Z żoną dzielę życie, a mój pies woli wycie. W Bike Jamboree biorę udział po raz trzeci, ten czas między sztafetami tak szybko leci'
+      },
+      {
+        name: 'Agnieszka Rytel',
+        photo: 'agnieszka-rytel.webp',
+        isLeader: false,
+        bio: 'Historyczka, turystka, harcmistrzyni, podejmująca się wielu zadań w życiu zawodowym. Właśnie kupiła sobie rower i postanowiła się nauczyć na nim jeździć. Kiedyś słyszała, że tego się nie zapomina, więc może i nauka przychodzi łatwo. Stąd pomysł by wziąć udział w Bike Jamboree. Wybrała etap w Europie zachodniej, bo ceni sobie dostęp do internetu. Niestety Brexit pokrzyżował jej plany.'
+      },
+      {
+        name: 'Mateusz Boczkowski',
+        photo: 'mateusz-boczkowski.webp',
+        isLeader: false,
+        bio: 'Dzień dobry, nazywam się Mateusz i uwielbiam jeździć na rowerze, gotować i układać kostki Rubika. Według mnie najważniejsze w życiu jest poznawanie nowych osób i przeżywanie przygód dlatego zdecydowałem się wziąć udział w projekcie „Bike Jamboree JednoŚladami Andersa”. Etap XI wydawał się najfajniejszy i najbardziej przystępny, ze względu na sytuacje polityczne w tych obu regionach. Harcersko jestem przybocznym w Drużynie Wędrowniczej, a zawodowo kelnerem.'
+      }
+    ]
   },
   {
     name: 'stage_x_east',
@@ -760,7 +780,7 @@ export const stagesData = [
     finishPoint: stopsData[13],
     finishDate: new Date(2023, 5, 15),
     distance: '800 km',
-    leader: 'Piotr Sudoł',
+    leader: 'wakat',
     previousStages: [9],
     nextStages: [13],
   },
@@ -795,6 +815,26 @@ export const stagesData = [
       { lat: 50.6092, lon: 18.4797 },
       { lat: 50.6707, lon: 18.6826 },
       { lat: 50.5641, lon: 18.8855 }
+    ],
+    members: [
+      {
+        name: 'Artur Kulesza',
+        photo: 'artur-kulesza.webp',
+        isLeader: true,
+        bio: 'Z wykształcenia ekonomista, na co dzień menedżer w dużej korporacji, więc w tygodniu wsiada na ukochany rower tylko w drodze do i z banku, i to przy sprzyjającej pogodzie. Za to co weekend stara się aktywnie spędzać czas na rowerze, samotnie lub w gronie skołowanych przyjaciół. A śnieżną zimą uwielbia biegówki, dobre uzupełnienie roweru, dzięki którym rozmiłował się ostatnio w okolicach Jeleniej Góry, Karkonoszy i Gór Izerskich. Dodatkowo miłośnik historii, szczególnie tej najnowszej XX wieku, ale także rodzimej Warszawy i Mazowsza. Lubi odkrywać nieznane miejsca i spotykać nowych ludzi. W projekcie JednoŚladami Andersa lider etapu XI East, łączącego Austrię i Polskę przez przepiękne Czechy, które jeszcze nie są dla niego odkryte. Wyczekuje z dużą ochotą na rozpoczęcie nowej przygody w gronie interesujących osób.'
+      },
+      {
+        name: 'Katarzyna Pyrka',
+        photo: 'katarzyna-pyrka.webp',
+        isLeader: false,
+        bio: 'Pochodzi z Zielonej Góry, najlepiej czuje się w Solecznikach na Wileńszczyźnie i na praskim Žižkovie. Z wykształcenia socjolożka i kulturoznawczyni – bywa jej to przydatne w działaniach w ramach Fundacji Pobliża, która zajmuje się współpracą z państwami sąsiadującymi z Polską. Licencję akwanautki zdobyła wcześniej niż prawo jazdy. Nurkuje, pływa (także zwałkowo - kajakiem), morsuje, chodzi po górach, a na rowerze jeździ bez względu na porę roku i pogodę. Sport to dla niej sposób na odkrywanie świata i szukanie przygód, a nie rywalizacja. Do udziału w projekcie skłoniła ją fascynacja nie tyle szlakiem bojowym Armii Andersa, co czysto ludzkim wymiarem tej historii. Cieszy się, że trasa etapu biegnie wdłuż Wełtawy i prowadzi od (niemal) jej źródeł na Szumawie do (niemal) ujścia do Łaby – wszak jak pisała Olga Tokarczuk: “To właśnie rzeki są jednymi z rzadkich niezmiennych zjawisk na świecie, i w czasie, i w przestrzeni. Czuję wyraźnie, że to tę samą rzekę mam w pamięci i w komórkach własnego ciała. Nie czas i przestrzeń rządzą rzeką, ale ona nimi – ustala kojącą ciągłość, utrzymuje cała krainę w stałym bezpiecznym miejscu.”'
+      },
+      {
+        name: 'Jirka Blažek',
+        photo: 'jirka-blazek.webp',
+        isLeader: false,
+        bio: 'Urodzony w Czechach, w pagórkowatym regionie Wysoczyny w Dolinie Sazawy, gdzie od najmłodszych lat uczył się jeździć na rowerze po górach. Obecnie mieszka w historycznym dwumieście Brandýs nad Łabą – Stará Boleslav. (Stará Boleslav jest tradycyjnym miejscem pielgrzymek, związanym z męczeńską śmiercią św. Wacława). Z zawodu jest chemikiem. Poszukiwacz przygód, kolarz, skaut, ekolog, podróżnik… nigdy nie odmówi dobrej zabawy. Dogada się się rękami i nogami, a oprócz tego po angielsku, rosyjsku i w esperanto (stworzonym przez Polaka - Ludwika Zamenhofa). Lubi języki obce, przyrodę, pływanie, nurkowanie, saunowanie i morsowanie. Interesuje się numizmatyką i fotografią. Wolny czas spędza aktywnie na świeżym powietrzu i chętnie podejmuje nowe wyzwania. Stara się być pomocny i uczyć się nowych rzeczy. Entuzjazm do projektu Bike Jamboree zaszczepiło w nim ubiegłoroczne spotkanie w Pradze z Dorotą Limontas. (Generał Anders najwyraźniej rzucił na niego urok!). Marzył o przejechaniu irańskiego odcinka sztafety, ale nie zawahał się, gdy nadeszła propozycja współorganizacji 11. etapu biegnącego przez jego ukochaną ojczyznę. W życiu kieruje się mottem: „Co cię nie zabije, to cię wzmocni”. Wciąż pamięta słowa zmarłego tragicznie oddanego przyjaciela i kolarza, który mawiał: „Tam, gdzie inni kończą, my zaczynamy”.'
+      }
     ]
   },
   {

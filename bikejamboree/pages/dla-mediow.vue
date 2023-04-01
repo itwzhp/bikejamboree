@@ -51,6 +51,15 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>"Amb. @LucjanKarpinski  spotkał się z uczestnikami projektu..."</td>
+          <td>Embassy of Poland in Jordan, 30.03.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://twitter.com/plinjordan/status/1641346470342283264?s=46&t=GHZeXz5QIFPuqFxOft4iZA/">
+              Czytaj post
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"Strefa Młodych – Harcerze śladami Armii Andersa cz.2"</td>
           <td>Radio Zachód, 13.03.2023</td>
           <td>
