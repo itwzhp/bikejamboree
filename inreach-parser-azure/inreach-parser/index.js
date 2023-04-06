@@ -1,13 +1,29 @@
+const got = require('got')
+const HTMLParser = require('node-html-parser')
+
 module.exports = async function (context, req) {
-    context.log('JavaScript HTTP trigger function processed a request.');
+  let time, lat, lon
 
-    const name = (req.query.name || (req.body && req.body.name));
-    const responseMessage = name
-        ? "Hello, " + name + ". This HTTP triggered function executed successfully."
-        : "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
+  const response = await got(
+    'https://share.garmin.com/Feed/Share/JednosladamiAndersa'
+  )
 
-    context.res = {
-        // status: 200, /* Defaults to 200 */
-        body: responseMessage
-    };
+  const kmlData = HTMLParser.parse(response.body)
+  time = kmlData.querySelectorAll('data[name=Time] value')[0].childNodes[0][
+    '_rawText'
+  ]
+  lat = kmlData.querySelectorAll('data[name=Latitude] value')[0].childNodes[0][
+    '_rawText'
+  ]
+  lon = kmlData.querySelectorAll('data[name=Longitude] value')[0].childNodes[0][
+    '_rawText'
+  ]
+
+  context.res = {
+    body: {
+      lat: lat,
+      lon: lon,
+      time: time,
+    },
+  }
 }
