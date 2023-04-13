@@ -111,6 +111,11 @@ export default {
           imageAlt: 'Pajak Sport logo',
         },
         {
+          websiteUrl: 'https://rowerysportowy.pl/',
+          imageFilename: 'rowerysportowy-logo.webp',
+          imageAlt: 'Rowery Sportowy logo',
+        },
+        {
           websiteUrl: 'http://sony.pl',
           imageFilename: 'sony-logo.webp',
           imageAlt: 'Sony logo',

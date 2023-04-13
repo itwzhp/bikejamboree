@@ -608,6 +608,12 @@ export const stagesData = [
         isLeader: false,
         bio: 'Z pochodzenia i w sercu rzeszowianin, z zamieszkania warszawski student UW, który zamiast szlifować magisterkę jedzie do Włoch. Instruktor ZHP - niegdyś wieloletni drużynowy gromady zuchowej, obecnie dumny Karp tj. członek WGKA "Carpe Noctum". W wolnym czasie ceni sobie aktywny wypoczynek, czyli bierze plecak i wyrusza na szlak, czasami bardzo długi.'
       },
+      {
+        name: 'Irmina Jagielska',
+        photo: 'irmina-jagielska.webp',
+        isLeader: false,
+        bio: 'Czasem niebezpiecznie jest wyjść z domu, gdy staniesz na drodze, nigdy nie wiadomo, dokąd cię nogi poniosą.’ J.R.R. Tolkien Na nogach, na dwóch kółkach, nad morzem, w górach, czy w lesie, byle aktywnie i na łonie natury. To moja recepta na najskuteczniejszy reset i poczucie największej satysfakcji.'
+      }
     ]
   },
   {
@@ -780,7 +786,7 @@ export const stagesData = [
     finishPoint: stopsData[13],
     finishDate: new Date(2023, 5, 15),
     distance: '800 km',
-    leader: 'wakat',
+    leader: 'Miłosz Bączkowki',
     previousStages: [9],
     nextStages: [13],
   },
