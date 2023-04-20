@@ -10,7 +10,10 @@ env:
   RESOURCE_GROUP_NAME: zhp-bikejamboree
 
 jobs:
-  build:
+  deploy:
+    name: Deploy to Azure Functions
+    runs-on: ubuntu-latest
+
     - uses: actions/checkout@v3
 
     - name: Login to Azure
