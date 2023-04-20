@@ -13,38 +13,38 @@ jobs:
   deploy:
     name: Deploy to Azure Functions
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
 
-    - uses: actions/checkout@v3
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - name: Login to Azure
-      uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Validate Bicep
+        id: bicep-validate
+        uses: azure/arm-deploy@v1
+        with:
+          subscriptionId: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+          resourceGroupName: ${{ env.RESOURCE_GROUP_NAME }}
+          template: ./inreach-parser/inreach-parser.bicep
+          deploymentMode: Validate
+          parameters: serverfarm_id=${{ secrets.SERVERFARM_ID }} insights_id=${{ secrets.INSIGHTS_ID }}
 
-    - name: Validate Bicep
-      id: bicep-validate
-      uses: azure/arm-deploy@v1
-      with:
-        subscriptionId: ${{ vars.AZURE_SUBSCRIPTION_ID }}
-        resourceGroupName: ${{ env.RESOURCE_GROUP_NAME }}
-        template: ./inreach-parser/inreach-parser.bicep
-        deploymentMode: Validate
-        parameters: serverfarm_id=${{ secrets.SERVERFARM_ID }} insights_id=${{ secrets.INSIGHTS_ID }}
+      - name: Deploy Bicep
+        id: bicep-deploy
+        if: steps.bicep-validate.outcome == 'success'
+        uses: azure/arm-deploy@v1
+        with:
+          subscriptionId: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+          resourceGroupName: ${{ env.RESOURCE_GROUP_NAME }}
+          template: ./inreach-parser/inreach-parser.bicep
+          deploymentMode: Incremental
+          parameters: serverfarm_id=${{ secrets.SERVERFARM_ID }} insights_id=${{ secrets.INSIGHTS_ID }}
 
-    - name: Deploy Bicep
-      id: bicep-deploy
-      if: steps.bicep-validate.outcome == 'success'
-      uses: azure/arm-deploy@v1
-      with:
-        subscriptionId: ${{ vars.AZURE_SUBSCRIPTION_ID }}
-        resourceGroupName: ${{ env.RESOURCE_GROUP_NAME }}
-        template: ./inreach-parser/inreach-parser.bicep
-        deploymentMode: Incremental
-        parameters: serverfarm_id=${{ secrets.SERVERFARM_ID }} insights_id=${{ secrets.INSIGHTS_ID }}
-
-    - name: Deploy function code
-      if: steps.bicep-deploy.outcome == 'success'
-      uses: azure/functions-action@v1
-      with:
-        app-name: ${{ env.FUNCTION_APP_NAME }}
-        package: ${{ env.PACKAGE_PATH }}
+      - name: Deploy function code
+        if: steps.bicep-deploy.outcome == 'success'
+        uses: azure/functions-action@v1
+        with:
+          app-name: ${{ env.FUNCTION_APP_NAME }}
+          package: ${{ env.PACKAGE_PATH }}
