@@ -3,9 +3,10 @@ name: Deploy inreach parser
 on:
   push:
     branches: ['master', 'dev', 'feat/az-function']
-
+    paths: ['inreach-parser/**']
+  
 env:
-  FUNCTION_APP_NAME: inreach-parser  # Name of the function
+  FUNCTION_APP_NAME: bikejamboree-inreach-parser  # Name of the function
   PACKAGE_PATH: ./inreach-parser  # Applciation path in repository
   RESOURCE_GROUP_NAME: zhp-bikejamboree
 
