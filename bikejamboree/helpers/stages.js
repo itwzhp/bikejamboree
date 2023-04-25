@@ -558,21 +558,23 @@ export const stagesData = [
     name: 'stage_viii',
     id: 'etap-viii',
     startPoint: stopsData[8],
-    startDate: new Date(2023, 4, 8),
+    startDate: new Date(2023, 4, 6),
     finishPoint: stopsData[9],
-    finishDate: new Date(2023, 4, 19),
-    distance: '400 km',
+    finishDate: new Date(2023, 4, 18),
+    distance: '500 km',
     points: [
-      { lat: 40.637, lon: 17.026 },
-      { lat: 40.956, lon: 16.911 },
-      { lat: 40.706, lon: 16.082 },
-      { lat: 40.674, lon: 14.751 },
-      { lat: 40.746, lon: 14.473 },
-      { lat: 40.853, lon: 14.160 },
-      { lat: 41.087, lon: 14.314 },
-      { lat: 41.248, lon: 13.705 },
-      { lat: 41.321, lon: 13.652 },
-      { lat: 41.484, lon: 13.806 },
+      { lat: 40.6341, lon: 17.0364 },
+      { lat: 40.9568, lon: 16.9205 },
+      { lat: 40.6655, lon: 16.6100 },
+      { lat: 40.7475, lon: 15.8801 },
+      { lat: 40.6573, lon: 15.4033 },
+      { lat: 40.6791, lon: 14.7601 },
+      { lat: 40.7518, lon: 14.4906 },
+      { lat: 40.8358, lon: 14.2484 },
+      { lat: 41.0823, lon: 14.3348 },
+      { lat: 41.2513, lon: 14.0683 },
+      { lat: 41.4926, lon: 13.8302 },
+      { lat: 41.4983, lon: 13.7529 }
     ],
     leader: 'Dorota Limontas',
     previousStages: [7],
@@ -858,6 +860,32 @@ export const stagesData = [
       { lat: 53.0145, lon: 18.6014 },
     ],
     leader: 'Łukasz Tomala',
+    members: [
+      {
+        name: 'Łukasz Tomala',
+        photo: 'empty.webp',
+        isLeader: true,
+        bio: 'Instruktor harcerski - członek Komendy Hufca ZHP Radom-Miasto. W Bike Jamboree był uczestnikiem etapu 6 Kazachstan - Rosja i liderem  etapu 29 Retro w USA. W projekcie "JesnoŚladami Andersa pełni rolę lidera etapu XII East oraz twórca i administrator strony internetowej www.bikejamboree.pl."'
+      },
+      {
+        name: 'Dorota Teodorczyk',
+        photo: 'dorota-teodorczyk.webp',
+        isLeader: false,
+        bio: 'Z wykształcenia, zawodu i pasji pilot wycieczek, niezależnie ile na torcie ma świeczek. Uwielbia podróże - zarówno małe, jak i duże. Lubi jeździć stopem, nie martwiąc się co będzie potem. Kocha poznawać miejscową kulturę, niezależnie w jaką trafi dziurę. Chętnie integruje się z lokalsami - Dorota i jej rower nigdy nie zostają sami. Jest to jej ulubiony środek lokomocji, choć nie najlepiej zna się na locji. W kartografię potrafi świetnie, nawet w kopalni uranu w Kletnie. Uwielbia kąpiele każdą porą, nawet te zimowe nie są żadną zmorą. Dlatego cieszy się, że jedzie w kierunku morza i ma nadzieję, że etapowi ukaże się zorza!'
+      },
+      {
+        name: 'Krzysztof Batycki',
+        photo: 'krzysztof-batycki.webp',
+        isLeader: false,
+        bio: 'Na co dzień twardo stąpający po ziemi lekarz, wykładowca Uniwersytetu Technologiczno-Humanistycznego w Radomiu, który każdą wolną chwilę wykorzystuje do bujania w obłokach. Potrójny zdobywca morza Bałtyckiego: raz objechał je dookoła na rowerze, drugi raz – przepłynął w poprzek kajakiem, trzeci raz - zdobył najwyższy szczyt położony na wyspie na Bałtyku. W czasie wolnym od wyczynów podróżniczych "kolekcjonuje" wyspy na Bałtyku, objeżdżając je rowerem dookoła (obecnie w swojej kolekcji posiada ich 10). Szczególnie upodobał sobie podróże w czasie – zwłaszcza do średniowiecznych zamków północnej Europy i miejsc związanych z wojnami Rzeczypospolitej o dominium Maris Baltici. Jako wehikuł czasu wykorzystuje swój rower. Radomianin z dziada pradziada, wielki miłośnik swojego rodzinnego miasta.'
+      },
+      {
+        name: 'Cyryl Kurpiel',
+        photo: 'cyryl-kurpiel.webp',
+        isLeader: false,
+        bio: 'Pochodzi z Nowego Sącza,  gdzie w dzieciństwie podejmował pierwsze próby jeżdżenia na rowerze na dłuższe dystanse. Stary, dobry rower górski służył mu przez kilka lat, nawet jeśli w pewnym momencie stał się odrobinę za mały. Następnie po latach typowo siedzącego trybu życia, w większość  poświęconego na studiowanie w Warszawie, na nowo zapałał miłością do różnego rodzaju aktywności sportowej. Najpierw bieganie, potem siłownia, chodzenie po górach, a obecnie powrót do dawnych marzeń - pokonania długiej trasy rowerem. Do tego możliwość połączenia wyprawy z tematyką historyczną - jego kolejną pasją - sprawiła, że decyzja o wzięciu udziału w projekcie stała się oczywista.'
+      }
+    ]
   },
 ]
 

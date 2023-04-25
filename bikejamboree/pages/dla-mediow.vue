@@ -51,6 +51,24 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>ROZMOWY W SZAFIE #4 Dorota Limontas</td>
+          <td>Szafa Nagrań, 25.04.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://youtu.be/hH75XYJH3vM">
+              Oglądaj materiał
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"JednoŚladami Andersa. Harcerska sztafeta rowerowa pojedzie na Monte Cassino"</td>
+          <td>Radio Łódź, 25.04.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://radiolodz.pl/jednosladami-andersa-harcerska-sztafeta-rowerowa-pojedzie-na-monte-cassino,231484/">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"Amb. @LucjanKarpinski  spotkał się z uczestnikami projektu..."</td>
           <td>Embassy of Poland in Jordan, 30.03.2023</td>
           <td>
