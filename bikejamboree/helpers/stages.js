@@ -863,9 +863,9 @@ export const stagesData = [
     members: [
       {
         name: 'Łukasz Tomala',
-        photo: 'empty.webp',
+        photo: 'lukasz-tomala.webp',
         isLeader: true,
-        bio: 'Instruktor harcerski - członek Komendy Hufca ZHP Radom-Miasto. W Bike Jamboree był uczestnikiem etapu 6 Kazachstan - Rosja i liderem  etapu 29 Retro w USA. W projekcie "JesnoŚladami Andersa pełni rolę lidera etapu XII East oraz twórca i administrator strony internetowej www.bikejamboree.pl."'
+        bio: 'Instruktor harcerski - członek Komendy Hufca ZHP Radom-Miasto. W sztafecie Bike Jamboree był uczestnikiem etapu 6. Kazachstan - Rosja i liderem  etapu 29. Retro w USA. W projekcie "JednoŚladami Andersa" pełni rolę lidera etapu XII East. Dodatkowo jest twórcą i administratorem strony internetowej www.bikejamboree.pl.'
       },
       {
         name: 'Dorota Teodorczyk',
