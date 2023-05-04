@@ -35,7 +35,7 @@ resource bikejamboree_site 'Microsoft.Web/sites@2022-09-01' = {
     vnetContentShareEnabled: false
     siteConfig: {
       numberOfWorkers: 1
-      linuxFxVersion: 'Node|16'
+      linuxFxVersion: 'Node|18'
       acrUseManagedIdentityCreds: false
       alwaysOn: false
       http20Enabled: false
