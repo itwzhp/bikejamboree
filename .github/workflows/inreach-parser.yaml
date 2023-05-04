@@ -4,10 +4,11 @@ on:
   push:
     branches: ['master', 'dev', 'feat/az-function']
     paths: ['inreach-parser/**']
-  
+  pull_request:
+
 env:
-  FUNCTION_APP_NAME: bikejamboree-inreach-parser  # Name of the function
-  PACKAGE_PATH: ./inreach-parser  # Applciation path in repository
+  FUNCTION_APP_NAME: bikejamboree-inreach-parser # Name of the function
+  PACKAGE_PATH: ./inreach-parser # Applciation path in repository
   RESOURCE_GROUP_NAME: zhp-bikejamboree
 
 jobs:
@@ -21,29 +22,29 @@ jobs:
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-
+          
       - name: Validate Bicep
         id: bicep-validate
         uses: azure/arm-deploy@v1
         with:
-          subscriptionId: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+          subscriptionId: '35e22786-93ea-47c8-902a-16e9d0f03e17'
           resourceGroupName: ${{ env.RESOURCE_GROUP_NAME }}
           template: ./inreach-parser/inreach-parser.bicep
           deploymentMode: Validate
-          parameters: serverfarm_id=${{ secrets.SERVERFARM_ID }} insights_id=${{ secrets.INSIGHTS_ID }}
 
       - name: Deploy Bicep
         id: bicep-deploy
         uses: azure/arm-deploy@v1
+        if: ${{ success() && github.ref == 'refs/heads/master' }}
         with:
-          subscriptionId: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+          subscriptionId: '35e22786-93ea-47c8-902a-16e9d0f03e17'
           resourceGroupName: ${{ env.RESOURCE_GROUP_NAME }}
           template: ./inreach-parser/inreach-parser.bicep
           deploymentMode: Incremental
-          parameters: serverfarm_id=${{ secrets.SERVERFARM_ID }} insights_id=${{ secrets.INSIGHTS_ID }}
 
       - name: Deploy function code
         uses: azure/functions-action@v1
+        if: ${{ success() && github.ref == 'refs/heads/master' }}
         with:
           app-name: ${{ env.FUNCTION_APP_NAME }}
           package: ${{ env.PACKAGE_PATH }}

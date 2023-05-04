@@ -1,177 +1,107 @@
-param function_name string = 'bikejamboree-inreach-parser'
-// These two should be set in the environment variables
-param serverfarm_id string
-param insights_id string
+@description('The name of the function app that you wish to create.')
+param appName string = 'bikejamboree-inreach-parser'
 
+@description('Storage Account type')
+@allowed([
+  'Standard_LRS'
+  'Standard_GRS'
+  'Standard_RAGRS'
+])
+param storageAccountType string = 'Standard_LRS'
+
+@description('Location for all resources.')
 param location string = resourceGroup().location
 
-resource bikejamboree_site 'Microsoft.Web/sites@2022-09-01' = {
-  name: function_name
+@description('The language worker runtime to load in the function app.')
+@allowed([
+  'node'
+  'dotnet'
+  'java'
+])
+param runtime string = 'node'
+
+var functionAppName = appName
+var hostingPlanName = 'ASP-zhpbikejamboree-8ace'
+var applicationInsightsName = appName
+var storageAccountName = 'zhpbikejamboree891e'
+var functionWorkerRuntime = runtime
+
+resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
+  name: storageAccountName
   location: location
-  tags: {
-    'hidden-link: /app-insights-resource-id': insights_id
+  sku: {
+    name: storageAccountType
   }
-  kind: 'functionapp,linux'
+  kind: 'Storage'
   properties: {
-    enabled: true
-    hostNameSslStates: [
-      {
-        name: '${function_name}.azurewebsites.net'
-        sslState: 'Disabled'
-        hostType: 'Standard'
-      }
-      {
-        name: '${function_name}.scm.azurewebsites.net'
-        sslState: 'Disabled'
-        hostType: 'Repository'
-      }
-    ]
-    serverFarmId: serverfarm_id
-    reserved: true
-    isXenon: false
-    hyperV: false
-    vnetRouteAllEnabled: false
-    vnetImagePullEnabled: false
-    vnetContentShareEnabled: false
+    supportsHttpsTrafficOnly: true
+    defaultToOAuthAuthentication: true
+  }
+}
+
+resource hostingPlan 'Microsoft.Web/serverfarms@2021-03-01' = {
+  name: hostingPlanName
+  location: location
+  sku: {
+    name: 'Y1'
+    tier: 'Dynamic'
+  }
+  properties: {}
+}
+
+resource functionApp 'Microsoft.Web/sites@2021-03-01' = {
+  name: functionAppName
+  location: location
+  kind: 'functionapp'
+  identity: {
+    type: 'SystemAssigned'
+  }
+  properties: {
+    serverFarmId: hostingPlan.id
     siteConfig: {
-      numberOfWorkers: 1
-      linuxFxVersion: 'Node|18'
-      acrUseManagedIdentityCreds: false
-      alwaysOn: false
-      http20Enabled: false
-      functionAppScaleLimit: 200
-      minimumElasticInstanceCount: 0
-    }
-    scmSiteAlsoStopped: false
-    clientAffinityEnabled: false
-    clientCertEnabled: false
-    clientCertMode: 'Required'
-    hostNamesDisabled: false
-    customDomainVerificationId: '01E6941B3330DAACCE5A2B9E079EA3C6343C3AD74B23A3E47E8DD5503EAA2F87'
-    containerSize: 1536
-    dailyMemoryTimeQuota: 0
-    httpsOnly: true
-    redundancyMode: 'None'
-    storageAccountRequired: false
-    keyVaultReferenceIdentity: 'SystemAssigned'
-  }
-}
-
-resource bikejamboree_ftp 'Microsoft.Web/sites/basicPublishingCredentialsPolicies@2022-09-01' = {
-  parent: bikejamboree_site
-  name: 'ftp'
-  location: location
-  tags: {
-    'hidden-link: /app-insights-resource-id': insights_id
-  }
-  properties: {
-    allow: true
-  }
-}
-
-resource bikejamboree_scm 'Microsoft.Web/sites/basicPublishingCredentialsPolicies@2022-09-01' = {
-  parent: bikejamboree_site
-  name: 'scm'
-  location: location
-  tags: {
-    'hidden-link: /app-insights-resource-id': insights_id
-  }
-  properties: {
-    allow: true
-  }
-}
-
-resource bikejamboree_web 'Microsoft.Web/sites/config@2022-09-01' = {
-  parent: bikejamboree_site
-  name: 'web'
-  location: location
-  tags: {
-    'hidden-link: /app-insights-resource-id': insights_id
-  }
-  properties: {
-    numberOfWorkers: 1
-    defaultDocuments: [
-      'Default.htm'
-      'Default.html'
-      'Default.asp'
-      'index.htm'
-      'index.html'
-      'iisstart.htm'
-      'default.aspx'
-      'index.php'
-    ]
-    netFrameworkVersion: 'v4.0'
-    linuxFxVersion: 'Node|16'
-    requestTracingEnabled: false
-    remoteDebuggingEnabled: false
-    httpLoggingEnabled: false
-    acrUseManagedIdentityCreds: false
-    logsDirectorySizeLimit: 35
-    detailedErrorLoggingEnabled: false
-    publishingUsername: '$bikejamboree-inreach-parser'
-    scmType: 'None'
-    use32BitWorkerProcess: false
-    webSocketsEnabled: false
-    alwaysOn: false
-    managedPipelineMode: 'Integrated'
-    virtualApplications: [
-      {
-        virtualPath: '/'
-        physicalPath: 'site\\wwwroot'
-        preloadEnabled: false
-      }
-    ]
-    loadBalancing: 'LeastRequests'
-    experiments: {
-      rampUpRules: []
-    }
-    autoHealEnabled: false
-    vnetRouteAllEnabled: false
-    vnetPrivatePortsCount: 0
-    cors: {
-      allowedOrigins: [
-        'https://portal.azure.com'
+      appSettings: [
+        {
+          name: 'AzureWebJobsStorage'
+          value: 'DefaultEndpointsProtocol=https;AccountName=${storageAccountName};EndpointSuffix=${environment().suffixes.storage};AccountKey=${storageAccount.listKeys().keys[0].value}'
+        }
+        {
+          name: 'WEBSITE_CONTENTAZUREFILECONNECTIONSTRING'
+          value: 'DefaultEndpointsProtocol=https;AccountName=${storageAccountName};EndpointSuffix=${environment().suffixes.storage};AccountKey=${storageAccount.listKeys().keys[0].value}'
+        }
+        {
+          name: 'WEBSITE_CONTENTSHARE'
+          value: toLower(functionAppName)
+        }
+        {
+          name: 'FUNCTIONS_EXTENSION_VERSION'
+          value: '~4'
+        }
+        {
+          name: 'WEBSITE_NODE_DEFAULT_VERSION'
+          value: '~14'
+        }
+        {
+          name: 'APPINSIGHTS_INSTRUMENTATIONKEY'
+          value: applicationInsights.properties.InstrumentationKey
+        }
+        {
+          name: 'FUNCTIONS_WORKER_RUNTIME'
+          value: functionWorkerRuntime
+        }
       ]
-      supportCredentials: false
+      ftpsState: 'FtpsOnly'
+      minTlsVersion: '1.2'
     }
-    localMySqlEnabled: false
-    ipSecurityRestrictions: [
-      {
-        ipAddress: 'Any'
-        action: 'Allow'
-        priority: 2147483647
-        name: 'Allow all'
-        description: 'Allow all access'
-      }
-    ]
-    scmIpSecurityRestrictions: [
-      {
-        ipAddress: 'Any'
-        action: 'Allow'
-        priority: 2147483647
-        name: 'Allow all'
-        description: 'Allow all access'
-      }
-    ]
-    scmIpSecurityRestrictionsUseMain: false
-    http20Enabled: false
-    minTlsVersion: '1.2'
-    scmMinTlsVersion: '1.2'
-    ftpsState: 'FtpsOnly'
-    preWarmedInstanceCount: 0
-    functionAppScaleLimit: 200
-    functionsRuntimeScaleMonitoringEnabled: false
-    minimumElasticInstanceCount: 0
-    azureStorageAccounts: {}
+    httpsOnly: true
   }
 }
 
-resource bikejamboree_domain 'Microsoft.Web/sites/hostNameBindings@2022-09-01' = {
-  parent: bikejamboree_site
-  name: '${function_name}.azurewebsites.net'
+resource applicationInsights 'Microsoft.Insights/components@2020-02-02' = {
+  name: applicationInsightsName
   location: location
+  kind: 'web'
   properties: {
-    siteName: function_name
-    hostNameType: 'Verified'
+    Application_Type: 'web'
+    Request_Source: 'rest'
   }
 }
