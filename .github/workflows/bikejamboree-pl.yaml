@@ -3,6 +3,7 @@ name: Create and publish a Docker image
 on:
   push:
     branches: ['master', 'dev']
+    paths: ['bikejamboree/**', '.github/workflows/bikejamboree-pl.yaml']
 
 env:
   REGISTRY: ghcr.io

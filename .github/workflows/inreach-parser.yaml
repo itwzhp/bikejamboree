@@ -3,7 +3,7 @@ name: Deploy inreach parser
 on:
   push:
     branches: ['master', 'dev', 'feat/az-function']
-    paths: ['inreach-parser/**']
+    paths: ['inreach-parser/**', '.github/workflows/inreach-parser.yaml']
   pull_request:
 
 env:
