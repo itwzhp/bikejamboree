@@ -51,6 +51,24 @@
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
         <tr>
+          <td>Hanno fatto tappa a Potenza gli scout polacchi sulle orme del generale Anders, protagonista della liberazione d’Italia</td>
+          <td>Ufficio Stampa Basilicata, 12.05.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.ufficiostampabasilicata.it/eventi/hanno-fatto-tappa-a-potenza-gli-scout-polacchi-sulle-orme-del-generale-anders-protagonista-della-liberazione-ditalia/">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>Dwa kółka to niezależność</td>
+          <td>Posłaniec Warmiński</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="/poslaniec-warminski.jpg">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>ROZMOWY W SZAFIE #4 Dorota Limontas</td>
           <td>Szafa Nagrań, 25.04.2023</td>
           <td>
@@ -60,10 +78,55 @@
           </td>
         </tr>
         <tr>
+          <td>"Projekt Jednośladami Andersa. Propozycja spotkania z włoską Polonią."</td>
+          <td>Polacy we Włoszech, 25.04.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.polacywewloszech.com/2023/04/25/projekt-jednosladami-andersa-propozycja-spotkania-z-wloska-polonia/">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
           <td>"JednoŚladami Andersa. Harcerska sztafeta rowerowa pojedzie na Monte Cassino"</td>
           <td>Radio Łódź, 25.04.2023</td>
           <td>
             <BikeExternalLink :with-icon="false" to="https://radiolodz.pl/jednosladami-andersa-harcerska-sztafeta-rowerowa-pojedzie-na-monte-cassino,231484/">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"Z „Andersówki” pod Monte Cassino rowerem!"</td>
+          <td>eKutno.pl, 24.04.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://ekutno.pl/pl/11_wiadomosci/53328_z-andersowki-pod-monte-cassino-rowerem.html">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"Z Krośniewic do Włoch pojadą rowerami!"</td>
+          <td>kutno.net.pl, 24.04.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://kutno.net.pl/wydarzenia/z-krosniewic-do-wloch-pojada-rowerami/6a6ktIsmgRwuNrdxJiZg">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"JednoŚladami Andersa"</td>
+          <td>GCKSiR w Krośniewicach, 23.04.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="http://krosniewice.net/index.php/anderswka/2925-jednosladami-andersa">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"Rowerami przez Uzbekistan 2023"</td>
+          <td>MCK Czarnków, 06.04.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://mck.czarnkow.pl/aktualnosci/rowerami-przez-uzbekistan-2023.html">
               Czytaj artykuł
             </BikeExternalLink>
           </td>
@@ -172,6 +235,24 @@
           <td>Serwis Rzeczypospolitej Polskiej, 22.01.2023</td>
           <td>
             <BikeExternalLink :with-icon="false" to="https://www.gov.pl/web/uzbekistan/sztafeta-rowerowa--jednosladami-andersa-dotarla-do-taszkentu/">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"JednoŚladami Andersa – dwójka rudzian bierze udział w wyjątkowej akcji!"</td>
+          <td>RudaSlaska.com.pl, 24.01.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://rudaslaska.com.pl/i,jednosladami-andersa--dwojka-rudzian-bierze-udzial-w-wyjatkowej-akcji,200274,1518094.html">
+              Czytaj artykuł
+            </BikeExternalLink>
+          </td>
+        </tr>
+        <tr>
+          <td>"JednoŚladami Andersa" w Taszkencie (Uzbekistan)</td>
+          <td>Ośrodek Rozwoju Polskiej Edukacji za Granicą, 21.01.2023</td>
+          <td>
+            <BikeExternalLink :with-icon="false" to="https://www.orpeg.pl/jednosladami-andersa-w-taszkencie-uzbekistan/">
               Czytaj artykuł
             </BikeExternalLink>
           </td>

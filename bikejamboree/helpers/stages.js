@@ -794,9 +794,29 @@ export const stagesData = [
     finishPoint: stopsData[13],
     finishDate: new Date(2023, 5, 15),
     distance: '800 km',
-    leader: 'Miłosz Bączkowki',
+    leader: 'Miłosz Bączkowski',
     previousStages: [9],
     nextStages: [13],
+    members: [
+      {
+        name: 'Miłosz Bączkowski',
+        photo: 'milosz-baczkowski.webp',
+        isLeader: true,
+        bio: 'Największą pasją są i zawsze były podróże. Od najmłodszych lat podróżowałem najpierw jako harcerz później jako członek klubu biegów na orientację, a ostatecznie organizując samodzielnie wyjazdy w odległe i nieskomercjalizowane zakątki świata.  Uwielbiam przebywać z naturą i czuję się jej częścią dlatego ekologia jest dla mnie bardzo ważna. Choć nigdy nie uprawiałem wyczynowo żadnej dyscypliny to wiele z nich przez lata zdążyłem poznać, od wspinaczki skałkowej i wysokogórskiej, żeglarstwa, do biegów górskich ultra. Od niedawna rower szosowy i możliwość zwiedzania świata na dwóch kółkach rozpala moją wyobraźnię. Do tego uwielbiam obce smaki, które pozwalają mi realizować się kulinarnie, a także ludzi, stroje i nieznane mi dotąd instrumenty muzyczne. Odwiedzanie ciekawych, mało uczęszczanych miejsc jest moim paliwem, a każda metoda dotarcia tam i przebywania z fajnymi ludźmi dodatkową zachętą. Z zawodu ekonomista, Product Owner aplikacji multichannelcommerce b2b, a także absolwent szkoły fotograficznej przy Polskim Związku Artystów Fotografików. Ojciec trójki dzieci kochających podróżowanie jak nikt inny.'
+      },
+      {
+        name: 'Olga Antczak',
+        photo: 'olga-antczak.webp',
+        isLeader: false,
+        bio: 'Nie może usiedzieć w miejscu” - to zdanie, które idealnie mnie opisuje. Uwielbiam podróże, zwłaszcza te w otoczeniu natury. Obecnie mieszkanka Poznania, w którym pije dużo kawy i uwielbiam miejscowe kawiarnie, biegam ze świetnymi dziewczynami z Kobiety Biegają, jeżdżę na gravelu po okolicy a latem pływam na SUPie na podmiejskich jeziorach. Zawodowo zajmuje się prowadzeniem projektów jako Product Manager. Myśle, ze odwagi do poznawania nowych miejsc, umiejętności planowania oraz łatwosc poznawania nowych ludzi nauczyło mnie harcerstwo, w którym działałam przez 13 lat. Dlatego w projekcie zajmuje się m.in kontaktem ze skautami.'
+      },
+      {
+        name: 'Karol Jędrzejewski',
+        photo: 'karol-jedrzejewski.webp',
+        isLeader: false,
+        bio: 'Karol, mieszkaniec Poznania i były harcerz, to prawdziwy pasjonat podróży i dwóch kółek. Codziennie przemierza miasto rowerem, zarówno w drodze do pracy, jak i w weekendowe wyprawy. Jego dusza odkrywcy nieustannie pragnie przygód, a rower stanowi dla niego jednocześnie środek transportu i wehikuł do wolności. Pełen entuzjazmu i uroku, zaraża innych swoją pasją, inspirując ich do odkrywania piękna świata na dwóch kółkach. Nieustannie pragnie odkrywać nowe miejsca, spotykać ciekawych ludzi i doświadczać przygód.'
+      }
+    ]
   },
   {
     name: 'stage_xi_east',
