@@ -45,6 +45,22 @@
           </td>
         </tr>
         <tr>
+          <td>XI West</td>
+          <td>{{ $t('places.paris') }} - {{ $t('places.edinburgh') }}</td>
+          <td>16.06.2023 - 09.07.2023</td>
+          <td>
+            Piotr Wojtaszek <br>
+            <BikeExternalLink to="mailto:piotr.wojtaszek@zhp.net.pl" :with-icon="false">
+              piotr.wojtaszek@zhp.net.pl
+            </BikeExternalLink>
+          </td>
+          <td v-if="$i18n.locale === 'pl'">
+            <BikeUnorderedList no-margin>
+              <li>Poszukiwana jedna osoba, której niestraszna jazda po lewej stronie jezdni, londyńska mgła, szkocka mrzawka i francuskie sery. Pełnoletnia.</li>
+            </BikeUnorderedList>
+          </td>
+        </tr>
+        <tr>
           <td>XII East</td>
           <td>{{ $t('places.czestochowa') }} - {{ $t('places.gdansk') }}</td>
           <td>27.06.2023 - 08.07.2023</td>
@@ -56,7 +72,7 @@
           </td>
           <td v-if="$i18n.locale === 'pl'">
             <BikeUnorderedList no-margin>
-              <li>członkowie etapu</li>
+              <li>pełnoletnie harcerki i harcerze</li>
             </BikeUnorderedList>
           </td>
         </tr>

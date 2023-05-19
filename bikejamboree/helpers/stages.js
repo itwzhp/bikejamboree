@@ -740,6 +740,12 @@ export const stagesData = [
         photo: 'julia-wozniak.webp',
         isLeader: false,
         bio: 'Od 15 lat niezmiennie w związku… Harcerstwa Polskiego. Instruktorka, jak to często bywa - wielofunkcyjna, ale perełką w jej głowie jest drużyna Wędrownicza, której jest drużynową. Poza harcerstwem studentka grafiki i uczennica szkoły muzycznej. A w międzyczasie? Miłośniczka wędrówek i nocy spędzonych w lesie oraz tradycyjnych sztuk plastycznych. Pozytywna marzycielka, która uwielbia próbować nowych aktywności, ale też usiąść z herbatą (koniecznie z cytryną) przy dobrej książce.'
+      },
+      {
+        name: 'Emilia Maliszak',
+        photo: 'emilia-maliszak.webp',
+        isLeader: false,
+        bio: 'Instruktorka Hufca ZHP Wrocław Północ. Od 19 lat w harcerstwie, od 27 lat na rowerze, od zawsze bez kawy. Całą swoją energię zużywa na wędrówki górskie, jazdę na dwóch kółkach, kształcenie harcerzy i szukanie miejsc, gdzie jeszcze jej nie było, a być by chciała. Uczestniczyła w 21-szym etapie sztafety rowerowej Bike Jamboree i postanowiła, że w kolejnym projekcie również nie może jej zabraknąć.'
       }
     ]
   },
@@ -883,7 +889,7 @@ export const stagesData = [
         name: 'Cyryl Kurpiel',
         photo: 'cyryl-kurpiel.webp',
         isLeader: false,
-        bio: 'Pochodzi z Nowego Sącza,  gdzie w dzieciństwie podejmował pierwsze próby jeżdżenia na rowerze na dłuższe dystanse. Stary, dobry rower górski służył mu przez kilka lat, nawet jeśli w pewnym momencie stał się odrobinę za mały. Następnie po latach typowo siedzącego trybu życia, w większość  poświęconego na studiowanie w Warszawie, na nowo zapałał miłością do różnego rodzaju aktywności sportowej. Najpierw bieganie, potem siłownia, chodzenie po górach, a obecnie powrót do dawnych marzeń - pokonania długiej trasy rowerem. Do tego możliwość połączenia wyprawy z tematyką historyczną - jego kolejną pasją - sprawiła, że decyzja o wzięciu udziału w projekcie stała się oczywista.'
+        bio: 'Pochodzi z Nowego Sącza, gdzie w dzieciństwie podejmował pierwsze próby jeżdżenia na rowerze na dłuższe dystanse. Stary, dobry rower górski służył mu przez kilka lat, nawet jeśli w pewnym momencie stał się odrobinę za mały. Następnie po latach typowo siedzącego trybu życia, w większości poświęconego na studiowanie w Warszawie, na nowo zapałał miłością do różnego rodzaju aktywności sportowej. Najpierw bieganie, potem siłownia, chodzenie po górach, a obecnie powrót do dawnych marzeń - pokonania długiej trasy rowerem. Do tego możliwość połączenia wyprawy z tematyką historyczną - jego kolejną pasją - sprawiła, że decyzja o wzięciu udziału w projekcie stała się oczywista.'
       }
     ]
   },
