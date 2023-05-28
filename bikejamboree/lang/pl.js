@@ -14,7 +14,7 @@ export default {
     paris: 'Paryż',
     edinburgh: 'Edynburg',
     linz: 'Linz',
-    czestochowa: 'Częstochowa',
+    chorzow: 'Chorzów',
     gdansk: 'Gdańsk',
     bojnord: 'Bodżnurd',
     kazakhstan: 'Kazachstan',

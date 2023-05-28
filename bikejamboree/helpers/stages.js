@@ -98,9 +98,9 @@ export const stopsData = [
     type: 'regular',
   },
   {
-    lat: 50.8119,
-    lon: 19.1128,
-    city: 'czestochowa',
+    lat: 50.2986,
+    lon: 18.9545,
+    city: 'chorzow',
     country: 'poland',
     type: 'regular',
   },
