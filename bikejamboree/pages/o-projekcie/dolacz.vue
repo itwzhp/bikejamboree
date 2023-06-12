@@ -28,7 +28,7 @@
         </tr>
         <tr>
           <td>XI East</td>
-          <td>{{ $t('places.linz') }} - {{ $t('places.czestochowa') }}</td>
+          <td>{{ $t('places.linz') }} - {{ $t('places.chorzow') }}</td>
           <td>16.06.2023 - 26.06.2023</td>
           <td>
             Artur Kulesza <br>
@@ -62,7 +62,7 @@
         </tr>
         <tr>
           <td>XII East</td>
-          <td>{{ $t('places.czestochowa') }} - {{ $t('places.gdansk') }}</td>
+          <td>{{ $t('places.chorzow') }} - {{ $t('places.gdansk') }}</td>
           <td>27.06.2023 - 08.07.2023</td>
           <td>
             Łukasz Tomala <br>

@@ -5,14 +5,14 @@
         :stops="stops"
         :stages="stages"
         size="small"
-        :current-stage-index="Number(9)"
+        :current-stage-index="Number(10)"
         :live-coordinates="liveCoordinates"
       />
     </div>
     <BikeCard class="bike-map-legend">
       <div>
         <BikeHeading level="2" no-top-margin size="small">
-          Aktualnie trwa: Etap IX
+          Aktualnie trwa: Etap X West
         </BikeHeading>
         <table>
           <tr class="bike-map-legend__table-row">
@@ -22,7 +22,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Start (20.05.2023 ) - {{ $t('places.monte_cassino') }}
+              Start (03.06.2023) - {{ $t('places.milan') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">
@@ -32,7 +32,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Meta (02.06 .2023) - {{ $t('places.milan') }}
+              Meta (16.06.2023) - {{ $t('places.paris') }}
             </td>
           </tr>
 
@@ -60,11 +60,66 @@
         </table>
       </div>
     </BikeCard>
-    <article class="bike-current__link">
-      <BikeInternalLink :to="localePath('/o-projekcie/trasa')">
-        Zobacz trasę całej wyprawy
-      </BikeInternalLink>
-    </article>
+    <div class="bike-current__map">
+      <BikeMap
+        :stops="stops"
+        :stages="stages"
+        size="small"
+        :current-stage-index="Number(12)"
+        :live-coordinates="liveCoordinates"
+      />
+    </div>
+    <BikeCard class="bike-map-legend">
+      <div>
+        <BikeHeading level="2" no-top-margin size="small">
+          Aktualnie trwa: Etap X East
+        </BikeHeading>
+        <table>
+          <tr class="bike-map-legend__table-row">
+            <td
+              class="bike-map-legend__table-cell bike-map-legend__table-cell--first"
+            >
+              <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
+            </td>
+            <td class="bike-map-legend__table-cell">
+              Start (03.06.2023) - {{ $t('places.milan') }}
+            </td>
+          </tr>
+          <tr class="bike-map-legend__table-row">
+            <td
+              class="bike-map-legend__table-cell bike-map-legend__table-cell--first"
+            >
+              <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
+            </td>
+            <td class="bike-map-legend__table-cell">
+              Meta (15.06.2023) - {{ $t('places.linz') }}
+            </td>
+          </tr>
+
+          <tr class="bike-map-legend__table-row">
+            <td
+              class="bike-map-legend__table-cell bike-map-legend__table-cell--first"
+            >
+              <div class="bike-map-legend__route-icon" />
+            </td>
+            <td class="bike-map-legend__table-cell">
+              {{ $t('route.route_of_the_expedition') }}
+            </td>
+          </tr>
+          <tr v-if="liveDateAndTime" class="bike-map-legend__table-row">
+            <td
+              class="bike-map-legend__table-cell bike-map-legend__table-cell--first"
+            >
+              <BikeIcon class="bike-map-legend__live-icon" icon="disc" />
+            </td>
+            <td class="bike-map-legend__table-cell">
+              Aktualne położenie
+              <small class="bike-map-legend__live-date">({{ liveDateAndTime }})</small>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </BikeCard>
   </BikeSection>
 </template>
 
