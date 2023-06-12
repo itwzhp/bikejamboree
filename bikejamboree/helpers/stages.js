@@ -783,6 +783,24 @@ export const stagesData = [
         photo: 'mateusz-boczkowski.webp',
         isLeader: false,
         bio: 'Dzień dobry, nazywam się Mateusz i uwielbiam jeździć na rowerze, gotować i układać kostki Rubika. Według mnie najważniejsze w życiu jest poznawanie nowych osób i przeżywanie przygód dlatego zdecydowałem się wziąć udział w projekcie „Bike Jamboree JednoŚladami Andersa”. Etap XI wydawał się najfajniejszy i najbardziej przystępny, ze względu na sytuacje polityczne w tych obu regionach. Harcersko jestem przybocznym w Drużynie Wędrowniczej, a zawodowo kelnerem.'
+      },
+      {
+        name: 'Hania Bączkowska',
+        photo: 'hania-baczkowska.webp',
+        isLeader: false,
+        bio: 'Cześć nazywam się Hania Bączkowska. Sztafeta Jednośladami Andersa to już drugi projekt w jakim biorę udział, więc można powiedzieć że pedałowanie jest moją pasją. Dodatkowo uwielbiam zwiedzać świat w niestandardowy sposób, dlatego właśnie wybrałam etap Europejski, by jeszcze raz wytyczyć ścieżki na tych wydeptanych terenach. Na codzień uwielbiam czytać książki oraz rysować, czym mam nadzieje w najbliższej przyszłości będę się mogła zajmować się na studiach. Interesuje się również mitologiami europejskimi, kinematografią i fotografią'
+      },
+      {
+        name: 'Justyna Chada',
+        photo: 'justyna-chada.webp',
+        isLeader: false,
+        bio: 'Nauczycielka z pasji, podharcmistrzyni, włóczykij od zawsze. Od zawsze uwielbiam się włóczyć, a najlepiej to robić na rowerze. Ten etap jest dla mnie, gdyż Wielka Brytania to zdecydowanie moje miejsce na ziemi i lubię tam wracać co roku.'
+      },
+      {
+        name: 'Michał Werner',
+        photo: 'michal-werner.webp',
+        isLeader: false,
+        bio: 'Od 13 lat jest instruktorem Związku Harcerstwa Polskiego w Hufcu Łódź-Polesie. A od zawsze związany ze sportem i aktywnością. Z ochotą podejmuje się wyzwań, lubi kiedy jest intensywnie. W wolnych chwilach biega, wybiegał już trzykrotnie maraton. Rowerem przejechał Polskę wszerz w niecałe 8 dni, uczestniczył w XXX etapie Bike Jamboree Around the World, wspinał się i popularyzował wspinaczkę w założonym przez siebie Harcerskim Klubie Wspinaczkowym. Wspina się z resztą nie tylko sportowo, ale i zawodowo, jako arborysta zajmując się pielęgnacją i wycinką drzew w dostępie linowym.  W życiu podąża za swoimi pasjami, ukończył psychologię, w pracy spełnia chłopięce marzenia biegając po drzewach, a jego najnowszą zajawką jest acroyoga.'
       }
     ]
   },
