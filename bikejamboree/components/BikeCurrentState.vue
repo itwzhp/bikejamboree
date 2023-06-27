@@ -5,14 +5,14 @@
         :stops="stops"
         :stages="stages"
         size="small"
-        :current-stage-index="Number(10)"
+        :current-stage-index="Number(11)"
         :live-coordinates="liveCoordinates"
       />
     </div>
     <BikeCard class="bike-map-legend">
       <div>
         <BikeHeading level="2" no-top-margin size="small">
-          Aktualnie trwa: Etap X West
+          Aktualnie trwa: Etap XI West
         </BikeHeading>
         <table>
           <tr class="bike-map-legend__table-row">
@@ -22,7 +22,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Start (03.06.2023) - {{ $t('places.milan') }}
+              Start (17.06.2023) - {{ $t('places.paris') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">
@@ -32,7 +32,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Meta (16.06.2023) - {{ $t('places.paris') }}
+              Meta (08.07.2023) - {{ $t('places.edinburgh') }}
             </td>
           </tr>
 
@@ -65,14 +65,14 @@
         :stops="stops"
         :stages="stages"
         size="small"
-        :current-stage-index="Number(12)"
+        :current-stage-index="Number(13)"
         :live-coordinates="liveCoordinates"
       />
     </div>
     <BikeCard class="bike-map-legend">
       <div>
         <BikeHeading level="2" no-top-margin size="small">
-          Aktualnie trwa: Etap X East
+          Aktualnie trwa: Etap XII East
         </BikeHeading>
         <table>
           <tr class="bike-map-legend__table-row">
@@ -82,7 +82,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Start (03.06.2023) - {{ $t('places.milan') }}
+              Start (17.06.2023) - {{ $t('places.chorzow') }}
             </td>
           </tr>
           <tr class="bike-map-legend__table-row">
@@ -92,7 +92,7 @@
               <BikeIcon class="bike-map-legend__icon" icon="map-pin" filled />
             </td>
             <td class="bike-map-legend__table-cell">
-              Meta (15.06.2023) - {{ $t('places.linz') }}
+              Meta (08.07.2023) - {{ $t('places.gdansk') }}
             </td>
           </tr>
 
