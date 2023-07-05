@@ -165,7 +165,8 @@ export default {
   &__map {
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    margin-top: 30px;
     min-height: 300px;
   }
   &__link {
@@ -183,7 +184,8 @@ export default {
     grid-gap: 30px;
     &__map {
       flex: 1 0 300px;
-      margin: 0;
+      margin-top: 0;
+      margin-bottom: 0;
     }
     &__link {
       padding: 30px;
