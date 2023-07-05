@@ -896,7 +896,7 @@ export const stagesData = [
     startDate: new Date(2023, 5, 27),
     finishPoint: stopsData[15],
     finishDate: new Date(2023, 6, 8),
-    distance: '550 km',
+    distance: '700 km',
     previousStages: [13],
     points: [
       { lat: 50.8097, lon: 19.1222 },
