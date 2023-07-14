@@ -32,8 +32,26 @@
         </li>
         <li class="contact-list__item">
           <BikeIcon class="contact-list__item-icon" icon="file-text" />
-          <BikeExternalLink :with-icon="false" to="/files/22-11-09_JA start-sztafety-komunikat-prasowy_druk.pdf">
+          <BikeExternalLink :with-icon="false" to="/files/ja-final-sztafety-komunikat-prasowy-11.7.2023.pdf">
             komunikat prasowy o starcie sztafety
+          </BikeExternalLink>
+        </li>
+        <li class="contact-list__item">
+          <BikeIcon class="contact-list__item-icon" icon="file-text" />
+          <BikeExternalLink :with-icon="false" to="/files/ja-final-sztafety-komunikat-prasowy-11.7.2023.pdf">
+            komunikat prasowy o finale sztafety
+          </BikeExternalLink>
+        </li>
+        <li class="contact-list__item">
+          <BikeIcon class="contact-list__item-icon" icon="archive" />
+          <BikeExternalLink :with-icon="false" to="/files/edynburg-final-foto.zip">
+            pakiet zdjęć z finału w Edynburgu
+          </BikeExternalLink>
+        </li>
+        <li class="contact-list__item">
+          <BikeIcon class="contact-list__item-icon" icon="archive" />
+          <BikeExternalLink :with-icon="false" to="/files/gdansk-final-foto.zip">
+            pakiet zdjęć z finału w Gdańsku
           </BikeExternalLink>
         </li>
       </ul>
