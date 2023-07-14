@@ -182,6 +182,13 @@ const articles = [
     cta: 'Słuchaj audycji'
   },
   {
+    title: 'Spotkanie z uczestnikami projektu "JednoŚladami Andersa"',
+    publisher: 'Spotkanie z uczestnikami projektu "JednoŚladami Andersa"',
+    date: '23.03.2023',
+    link: 'https://www.gov.pl/web/jordania/spotkal-sie-zspotkanie-z-uczestnikami-projektu-jednosladami-andersa',
+    cta: 'Czytaj artykuł'
+  },
+  {
     title: 'Amb. @LucjanKarpinski  spotkał się z uczestnikami projektu...',
     publisher: 'Embassy of Poland in Jordan',
     date: '30.03.2023',
@@ -238,6 +245,13 @@ const articles = [
     cta: 'Oglądaj materiał'
   },
   {
+    title: '"JednoŚladami Andersa"',
+    publisher: 'teleexpress',
+    date: '27.04.2023',
+    link: 'https://teleexpress.tvp.pl/69479578/jednosladami-andersa',
+    cta: 'Oglądaj materiał'
+  },
+  {
     title: 'Dwa kółka to niezależność',
     publisher: 'Posłaniec Warmiński',
     date: '',
@@ -249,6 +263,76 @@ const articles = [
     publisher: 'Ufficio Stampa Basilicata',
     date: '12.05.2023',
     link: 'https://www.ufficiostampabasilicata.it/eventi/hanno-fatto-tappa-a-potenza-gli-scout-polacchi-sulle-orme-del-generale-anders-protagonista-della-liberazione-ditalia',
+    cta: 'Czytaj artykuł'
+  },
+  {
+    title: '"JednoŚladami Andersa"',
+    publisher: 'TVP3 Gdańsk',
+    date: '08.07.2023',
+    link: 'https://gdansk.tvp.pl/71161013/jednosladami-andersa',
+    cta: 'Oglądaj materiał'
+  },
+  {
+    title: 'Harcerska sztafeta "JednoŚladami Andersa" ukończona. Rowerzyści pokonali 15 tys. kilometrów',
+    publisher: 'Radio Gdańsk',
+    date: '08.07.2023',
+    link: 'https://radiogdansk.pl/wiadomosci/region/trojmiasto/2023/07/08/harcerska-sztafeta-jednosladami-andersa-ukonczona-rowerzysci-pokonali-15-tys-kilometrow/',
+    cta: 'Czytaj artykuł'
+  },
+  {
+    title: ' Sztafeta Rowerowa "JednoŚladami Andersa" dotarła do Gdańska',
+    publisher: 'wybrzeże24.pl',
+    date: '08.07.2023',
+    link: 'https://wybrzeze24.pl/aktualnosci/sztafeta-rowerowa-jednosladami-andersa-dotarla-do-gdanska',
+    cta: 'Czytaj artykuł'
+  },
+  {
+    title: 'Poprzez łąki, poprzez pola...',
+    publisher: 'ZHP Edynburg',
+    date: '08.07.2023',
+    link: 'https://www.facebook.com/story.php?story_fbid=pfbid0xS7KuqFsD2oBB5yyfpsaCcZ4kCeuwubf8rneDx6K5gUaLXyQYXDuSSmCJCo1sWdUl&id=100064587733881',
+    cta: 'Czytaj post'
+  },
+  {
+    title: '🚵‍♀️8 lipca uczestniczyliśmy w wyjątkowym...',
+    publisher: 'Szkoła bez Granic im. Niedźwiedzia Wojtka',
+    date: '09.07.2023',
+    link: 'https://www.facebook.com/story.php?story_fbid=pfbid0dct8vmwnwaZjRoNVAPUSAy7sQPGLta6eJ2DD4xp6eau4psdS1b1iST9PQBHyuLqml&id=100054229521552',
+    cta: 'Czytaj post'
+  },
+  {
+    title: 'Following the route of General Anders on bikes',
+    publisher: 'Erskine Logan Photography',
+    date: '09.07.2023',
+    link: 'https://www.facebook.com/media/set/?set=a.850155713311495',
+    cta: 'Czytaj post'
+  },
+  {
+    title: 'Szkocja: W Edynburgu zakończyła się Harcerska Sztafeta Rowerowa "JednoŚladami Andersa"',
+    publisher: 'TVP Polonia',
+    date: '10.07.2023',
+    link: 'https://twojapolonia.tvp.pl/71197015/szkocja-w-edynburgu-zakonczyla-sie-harcerska-sztafeta-rowerowa-jednosladami-andersa',
+    cta: 'Czytaj artykuł'
+  },
+  {
+    title: 'Przejechali rowerami szlak armii gen. Andersa 15 000 km!',
+    publisher: 'Polonijna Agencja Informacyjna',
+    date: '10.07.2023',
+    link: 'http://www.pai.media.pl/pai_wiadomosci.php?id=27898',
+    cta: 'Czytaj artykuł'
+  },
+  {
+    title: 'Przejechali rowerami szlak armii gen. Andersa 15 000 km!',
+    publisher: 'Polonijna Agencja Informacyjna',
+    date: '13.07.2023',
+    link: 'https://www.facebook.com/story.php?story_fbid=pfbid02f8UDeGYPFtxuRCWeDmDEoiv78KtmoZWuDPjMTmiv5XbojuVmBdKkg7rPqxj3Afvvl&id=100072381157661',
+    cta: 'Czytaj post'
+  },
+  {
+    title: 'Harcerska Sztafeta Rowerowa "JednoŚladami Andersa" na mecie!',
+    publisher: 'Związek Harcerstwa Polskiego',
+    date: '13.07.2023',
+    link: 'https://zhp.pl/2023/harcerska-sztafeta-rowerowa-jednosladami-andersa-na-mecie',
     cta: 'Czytaj artykuł'
   }
 ]
