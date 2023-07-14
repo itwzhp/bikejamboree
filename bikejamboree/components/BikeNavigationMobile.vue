@@ -65,7 +65,7 @@
           {{ $t('navigation.traces') }}
         </NuxtLink>
       </li>
-      <li
+      <!-- <li
         class="bike-navigation-mobile__list-item bike-navigation-mobile__list-item--secondary"
       >
         <NuxtLink
@@ -74,7 +74,7 @@
         >
           {{ $t('navigation.join_us') }}
         </NuxtLink>
-      </li>
+      </li> -->
       <li class="bike-navigation-mobile__list-item">
         <NuxtLink
           :class="isActive('poprzednie-projekty')"

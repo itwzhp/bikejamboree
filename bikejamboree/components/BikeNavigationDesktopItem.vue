@@ -33,10 +33,10 @@
           label="navigation.traces"
           href="/o-projekcie/130-sladow"
         />
-        <BikeNavigationDesktopItem
+        <!-- <BikeNavigationDesktopItem
           label="navigation.join_us"
           href="/o-projekcie/dolacz"
-        />
+        /> -->
       </ul>
       <BikeCard />
     </BikeCard>
