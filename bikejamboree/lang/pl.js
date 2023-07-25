@@ -75,23 +75,22 @@ export default {
   about_the_project: {
     about_the_project: 'O projekcie',
     travel_project_during_which:
-      '"JednoŚladami Andersa" to projekt podróżniczy polegający na przejechaniu w sztafecie rowerowej szlaku armii gen. Andersa, która formowała się na terenie obwodu orenburskiego w środkowym biegu Wołgi od 1941 roku.',
+      '"JednoŚladami Andersa" to projekt podróżniczy, który polegał na przejechaniu w sztafecie rowerowej szlaku armii gen. Andersa, która formowała się na terenie obwodu orenburskiego w środkowym biegu Wołgi od 1941 roku.',
     the_project_aims_at:
       'Podróż na ma celu głębsze poznanie historii armii gen. Andersa i chcemy to zrobić w formie rowerowej sztafety.',
     formula: 'Formuła',
     the_core_of_the_project:
-      'Trzonem projektu było przejechanie trasy przemarszu wojsk od Tatiszczewa w Rosji aż do Edynburga w Wielkiej Brytanii, jednak sytuacja polityczna zmusiła nas do skorygowania startu sztafety. Planujemy przejechać przez kraje znaczone śladami Armii Andersa. Ruszymy z okolic dolnego biegu rzeki Wołga w zachodniej Syberii, przejedziemy przez Kazachstan do Uzbekistanu, stamtąd przez Turkmenistan do Turkmenbaszy nad Morzem Kaspijskim, skąd przeprawimy się, podobnie jak armia, przez morze do Teheranu, by następnie przejechać przez Iran do Iraku. Z Iraku przez Jordanię i Izrael sztafeta dotrze do Egiptu, skąd przez Morze Śródziemne dotrzemy do południowych Włoch, gdzie uczestnicy projektu wezmą udział w obchodach rocznicy Bitwy pod Monte Casino. Następnie rowerzyści dotrą do Mediolanu, stamtąd uczestnicy etapów się rozdzielą. Część pojedzie do Edynburga, gdzie dotarły wojska Andersa wraz z Niedźwiedziem Wojtkiem oraz do Polski - na Wyspę Sobieszewską, gdzie w 2027 odbędzie się Światowe Jamboree skautowe. Sztafeta skończy się równolegle w dwóch miejscach na świecie - symbolicznie.',
+      'Trzonem projektu miało być przejechanie trasy przemarszu wojsk od Tatiszczewa w Rosji, gdzie formowało się polskie wojsko, aż do Edynburga w Wielkiej Brytanii, gdzie Korpus został rozformowany. Jednak sytuacja polityczna zmusiła nas do skorygowania miejsca startu sztafety. Naszą trasę rozpoczęliśmy ostatecznie 12 listopada 2022r. w kazachstańskiej Astanie. Następnie jechaliśmy przez kolejne kraje znaczone śladami Armii Andersa, czyli Uzbekistan, Iran, Irak, Jordanię i Izrael. Następnie sztafeta wróciła do Polski, by po chwili dotrzeć do Taranto w południowych Włoszech i przebyć trasę w kierunku północy. W połowie maja wzięliśmy udział w obchodach rocznicy Bitwy pod Monte Casino. Po uroczystościach rowerzyści dotarli do Mediolanu. W tym mieście nasza wyprawa rozdzieliła się na trasę wschodnią i zachodnią. Trasa zachodnia powiodła nas do Edynburga [Szkocja], gdzie dotarły wojska Andersa wraz z Niedźwiedziem Wojtkiem. Trasa wschodnia powiodła nas, przez Szwajcarię, Austrię, Czechy do Gdańska [Polska], gdzie w 2027 odbędzie się Światowe Jamboree. Sztafeta zakończyła się 8 lipca 2023 r., równolegle w dwóch miejscach na świecie.',
     the_main_route_covers_over:
-      'Główna trasa liczy ponad 15 tys. km i została podzielona na 14 etapów rowerowych, które będą pokonywane w sześcioosobowych zespołach',
-    relay_is_the_main: 'Sztafeta stanowi kulminacyjny element projektu. Należy zaznaczyć, że już od 11 listopada 2021 realizujemy program, do którego zapraszamy.',
-    until_now_we: 'Do tej pory zrealizowaliśmy już:',
-    activity_one: 'Rowerową Sztafetę Betlejemskiego Światła Pokoju,',
-    activity_two: 'wyKręconą Lilijkę - czyli rowerowy Dzień Myśli Braterskiej,',
+      'Główna trasa liczyła ponad 15 tys. km i została podzielona na 14 etapów rowerowych, które były pokonywane zwykle w sześcioosobowych zespołach. Przez 9 miesięcy 76 osób uczestniczących w projekcie jako członkowie etapów odwiedzili 15 krajów i ponad 150 miejsc pamięci narodowej.',
+    relay_is_the_main: 'Sztafeta stanowiła kulminacyjny element większego projektu, gdyż już od 11 listopada 2021 realizowaliśmy programy pomocnicze w ramach, których zrealizowaliśmy:',
+    activity_one: 'Rowerową Sztafetę Betlejemskiego Światła Pokoju 2021 i 2022,',
+    activity_two: 'wyKręconą Lilijkę - czyli rowerowy Dzień Myśli Braterskiej 2022,',
     activity_three: '130. Urodziny Andersa - przejazd rowerowy do “Andersówki”, który zainaugurował ogólnopolską akcję poszukiwania "130 śladów na 130 urodziny Andersa".',
-    all_activities_are_open: 'Wszystkie działania programowe są otwarte i zapraszamy do nich zarówno harcerzy (od zucha po seniora), jak i wszystkich chętnych do wyzwań rowerowych',
+    all_activities_are_open: 'Wszystkie działania programowe były otwarte i zapraszaliśmy do nich zarówno harcerzy (od zucha po seniora), jak i wszystkich chętnych do wyzwań rowerowych.',
     initiators: 'Inicjatorzy',
     the_expedition_has_been_initiated:
-      'Inicjatorami i organizatorem wyprawy są uczestnicy rowerowej sztafety dookoła świata Bike Jamboree, która odbyła się w latach 2017-2019 przy wsparciu organizacyjnym Fundacji Światowe Jamboree, Związku Harcerstwa Polskiego i Stowarzyszenia Afryka Nowaka.',
+      'Inicjatorami i organizatorem wyprawy są uczestnicy rowerowej sztafety dookoła świata Bike Jamboree, przy wsparciu organizacyjnym Fundacji Światowe Jamboree, Związku Harcerstwa Polskiego i Stowarzyszenia Afryka Nowaka.',
     value_of_the_project: 'Wartość projektu ',
     the_planned_budget_exceeds:
       'Budżet to ponad 2 mln zł, na który składają się m.in. koszty podróży, sprzętu oraz działań programowych w kraju i za granicą. Finansowany jest ze środków własnych fundacji, uczestników sztafety, wsparcia sponsorskiego oraz pozyskanych dotacji.',

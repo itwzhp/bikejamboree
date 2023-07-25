@@ -51,24 +51,6 @@
       <BikeParagraph>
         {{ $t('about_the_project.the_planned_budget_exceeds') }}
       </BikeParagraph>
-
-      <BikeHeading level="2">
-        {{ $t('about_the_project.dates') }}
-      </BikeHeading>
-      <BikeParagraph>
-        {{ $t('about_the_project.although_the_project_itself') }}
-      </BikeParagraph>
-      <BikeParagraph>
-        {{ $t('about_the_project.the_relay_itself_sets') }}
-      </BikeParagraph>
-
-      <BikeParagraph class="mb-75">
-        {{ $t('about_the_project.due_to_the_changing_geopolitical') }}
-      </BikeParagraph>
-      <BikeVideo
-        youtube-url="https://youtu.be/vk0DTlji_lc"
-        :heading="$t('about_the_project.following_anders_footsteps')"
-      />
     </BikeSection>
   </main>
 </template>
