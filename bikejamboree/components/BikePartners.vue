@@ -91,11 +91,6 @@ export default {
           imageAlt: 'CST logo',
         },
         {
-          websiteUrl: 'https://elvelo.pl/',
-          imageFilename: 'elvelo-logo.webp',
-          imageAlt: 'Elvelo logo',
-        },
-        {
           websiteUrl: 'https://namioty.marabut.com/',
           imageFilename: 'marabut-logo.webp',
           imageAlt: 'Marabut logo',
@@ -119,7 +114,12 @@ export default {
           websiteUrl: 'http://sony.pl',
           imageFilename: 'sony-logo.webp',
           imageAlt: 'Sony logo',
-        }
+        },
+        {
+          websiteUrl: 'https://www.facebook.com/profile.php?id=100077403560198',
+          imageFilename: 'wkasz-logo.webp',
+          imageAlt: 'Wkasz Design logo',
+        },
       ],
       patrons: [
         {
