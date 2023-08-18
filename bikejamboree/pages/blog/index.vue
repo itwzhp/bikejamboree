@@ -14,7 +14,7 @@ export default {
   async asyncData({ $axios }) {
     let articles = []
     articles = await $axios
-      .$get('https://work.bikejamboree.pl/wp-json/wp/v2/posts?per_page=9')
+      .$get('https://work.bikejamboree.pl/wp-json/wp/v2/posts?per_page=100')
       .catch((e) => console.error(e))
     return { articles }
   },
