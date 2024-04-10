@@ -334,6 +334,48 @@ const articles = [
     date: '13.07.2023',
     link: 'https://zhp.pl/2023/harcerska-sztafeta-rowerowa-jednosladami-andersa-na-mecie',
     cta: 'Czytaj artykuł'
+  },
+  {
+    title: 'NAGRODZENI I WYRÓŻNIENI NA KOLOSACH (ZA ROK) 2023',
+    publisher: 'kolosy.pl',
+    date: '24.03.2024',
+    link: 'https://kolosy.pl/nagrodzeni-i-wyroznieni-na-kolosach-za-rok-2023',
+    cta: 'Czytaj Artykuł'
+  },
+  {
+    title: '26. Kolosy zakończone. Do zobaczenia za rok!',
+    publisher: 'gdynia.pl',
+    date: '24.03.2024',
+    link: 'https://www.gdynia.pl/mieszkaniec/co-nowego,2774/26-kolosy-zakonczone-do-zobaczenia-za-rok,580603',
+    cta: 'Czytaj Artykuł'
+  },
+  {
+    title: 'Podróżnicze nagrody i Kolosy za 2023 rok przyznane!',
+    publisher: 'zawsze Pomorze',
+    date: '24.03.2024',
+    link: 'https://www.zawszepomorze.pl/artykul/12955,podroznicze-nagrody-i-kolosy-za-2023-rok-przyznane',
+    cta: 'Czytaj Artykuł'
+  },
+  {
+    title: 'Gdynia: Przyznano Kolosy - najważniejsze polskie nagrody podróżnicze',
+    publisher: 'wnp.pl | Portal Gospodarczy',
+    date: '24.03.2024',
+    link: 'https://www.wnp.pl/parlamentarny/wydarzenia/gdynia-przyznano-kolosy-najwazniejsze-polskie-nagrody-podroznicze,817872.html',
+    cta: 'Czytaj Artykuł'
+  },
+  {
+    title: 'Kolosy',
+    publisher: 'gdynia.pl',
+    date: '24.03.2024',
+    link: 'https://www.gdynia.pl/storage/uzytkownicy/galeriagdynia@gmail.com/!2024/FILMY/03%20marzec/2024-03-24%20Kolosy%20zako%C5%84czenie/kolosy%20zakonczenie.mp4',
+    cta: 'Oglądaj materiał'
+  },
+  {
+    title: 'Łódzkie Wiadomości Dnia [16:45]',
+    publisher: 'TVP Łódź',
+    date: '10.04.2024',
+    link: 'https://lodz.tvp.pl/787149/lwd',
+    cta: 'Oglądaj materiał'
   }
 ]
 

@@ -66,7 +66,7 @@ export default {
     travel_project_during_which:
       '"JednoŚladami Andersa" is a travel project during which riders take part in a bike relay following the route of General Anders’ army starting from the lower course of the Volga river in western Siberia up to Edinburgh, the UK and Gdańsk, Poland.',
     the_project_has_been:
-      'The project has been initiated and is organized by participants of the Bike Jamboree, i.e. a world bike relay that took place from 2017 to 2019 with the organizational support of the World Jamboree Foundation, the Polish Scouting and Guiding Association and the Afryka Nowaka Association.',
+      'The project has been initiated and is organized by participants of the Bike Jamboree, i.e. a world bike relay that took place from 2017 to 2019 with the organizational support of the World Jamboree Foundation and the Polish Scouting and Guiding Association.',
     why_am_i_a_part: 'Why am I a part of this project?',
     we_are_supported_by: 'We are supported by',
   },
@@ -83,7 +83,7 @@ export default {
       'The main route covers over 15.000km and is divided into 14 stages, each with 6 riders.',
     initiators: 'Initiators',
     the_expedition_has_been_initiated:
-      'The expedition has been initiated and organized by participats of the Bike Jamboree, i.e. a world bike relay that took place from 2017 to 2019 with the organizational support of the World Jamboree Foundation, the Polish Scouting and Guiding Association and the Afryka Nowaka Association.',
+      'The expedition has been initiated and organized by participats of the Bike Jamboree, i.e. a world bike relay that took place from 2017 to 2019 with the organizational support of the World Jamboree Foundation and the Polish Scouting and Guiding Association.',
     value_of_the_project: 'Value of the project',
     the_planned_budget_exceeds:
       'The planned budget exceeds PLN 2 million, which comprises among others the cost of travelling, equipment and programme both domestically and abroad. The project is financed by the foundation, relay riders, sponsors, as well as with the help of subsidies.',

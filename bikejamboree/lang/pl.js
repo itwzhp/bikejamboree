@@ -68,7 +68,7 @@ export default {
     travel_project_during_which:
       '"JednoŚladami Andersa" to projekt podróżniczy polegający na przejechaniu w sztafecie rowerowej szlaku armii gen. Andersa - z okolic dolnego biegu rzeki Wołga w zachodniej Syberii aż do Edynburga w Wielkiej Brytanii oraz Gdańska.',
     the_project_has_been:
-      'Inicjatorami i organizatorem wyprawy są uczestnicy rowerowej sztafety dookoła świata Bike Jamboree, która odbyła się w latach 2017-2019 przy wsparciu organizacyjnym Fundacji Światowe Jamboree, Związku Harcerstwa Polskiego i Stowarzyszenia Afryka Nowaka.',
+      'Inicjatorami i organizatorem wyprawy są uczestnicy rowerowej sztafety dookoła świata Bike Jamboree, która odbyła się w latach 2017-2019 przy wsparciu organizacyjnym Fundacji Światowe Jamboree i Związku Harcerstwa Polskiego.',
     why_am_i_a_part: 'Dlaczego jadę JednoŚladami Andersa?',
     we_are_supported_by: 'Wspierają nas',
   },
@@ -90,7 +90,7 @@ export default {
     all_activities_are_open: 'Wszystkie działania programowe były otwarte i zapraszaliśmy do nich zarówno harcerzy (od zucha po seniora), jak i wszystkich chętnych do wyzwań rowerowych.',
     initiators: 'Inicjatorzy',
     the_expedition_has_been_initiated:
-      'Inicjatorami i organizatorem wyprawy są uczestnicy rowerowej sztafety dookoła świata Bike Jamboree, przy wsparciu organizacyjnym Fundacji Światowe Jamboree, Związku Harcerstwa Polskiego i Stowarzyszenia Afryka Nowaka.',
+      'Inicjatorami i organizatorem wyprawy są uczestnicy rowerowej sztafety dookoła świata Bike Jamboree, przy wsparciu organizacyjnym Fundacji Światowe Jamboree iZwiązku Harcerstwa Polskiego.',
     value_of_the_project: 'Wartość projektu ',
     the_planned_budget_exceeds:
       'Budżet to ponad 2 mln zł, na który składają się m.in. koszty podróży, sprzętu oraz działań programowych w kraju i za granicą. Finansowany jest ze środków własnych fundacji, uczestników sztafety, wsparcia sponsorskiego oraz pozyskanych dotacji.',
