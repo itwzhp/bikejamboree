@@ -68,7 +68,7 @@
         Media o nas
       </BikeHeading>
       <BikeTable no-header vertical-on-mobile>
-        <tr v-for="(article, i) in articles.reverse()" :key="`article-${i}`">
+        <tr v-for="(article, i) in reversedArticles" :key="`article-${i}`">
           <td>{{ article.title }}</td>
           <td>{{ article.publisher }}, {{ article.date }}</td>
           <td>
@@ -91,6 +91,12 @@ export default {
   data() {
     return {
       articles
+    }
+  },
+
+  computed: {
+    reversedArticles() {
+      return articles.reverse()
     }
   }
 }
