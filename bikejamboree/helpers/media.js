@@ -371,6 +371,13 @@ const articles = [
     cta: 'Oglądaj materiał'
   },
   {
+    title: 'Harcerska Sztafeta Rowerowa otrzymała nagrodę specjalną Kolosów! ',
+    publisher: 'zhp.pl',
+    date: '29.03.2024',
+    link: 'https://zhp.pl/harcerska-sztafeta-rowerowa-otrzymala-nagrode-specjalna-kolosow/',
+    cta: 'Czytaj artykuł'
+  },
+  {
     title: 'Łódzkie Wiadomości Dnia [16:45]',
     publisher: 'TVP Łódź',
     date: '10.04.2024',
